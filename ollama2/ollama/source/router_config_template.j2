@@ -1,0 +1,83 @@
+!
+version 17.5
+service timestamps debug datetime msec
+service timestamps log datetime msec
+service call-home
+service unsupported-transceiver
+platform punt-keepalive disable-kernel-core
+!
+hostname {{ hostname }}
+!
+vrf definition Mgmt-vrf
+ !
+ address-family ipv4
+ exit-address-family
+ !
+ address-family ipv6
+ exit-address-family
+!
+no aaa new-model
+!
+{% for vlan in vlans %}
+vlan {{ vlan.id }}
+ name {{ vlan.name }}
+{% endfor %}
+!
+interface port-channel 1
+ description {{ port_channel_description }}
+ switchport mode trunk
+ switchport trunk native vlan {{ vlan_native_id }}
+ switchport trunk allowed vlan {{ allowed_vlans }}
+!
+ip routing
+!
+interface GigabitEthernet0/0
+ vrf forwarding Mgmt-vrf
+ no ip address
+ shutdown
+ negotiation auto
+!
+
+{% for interface in interfaces %}
+interface {{ interface.name }}
+ description {{ interface.description }}
+{% if interface.type == 'routed' %}
+ no switchport
+ ip address {{ interface.ip_address }} {{ interface.subnet }}
+{% elif interface.type == 'access' %}
+ switchport access vlan {{ interface.vlan_id }}
+ switchport mode access
+{% elif interface.type == 'trunk' %}
+ switchport mode trunk
+ switchport trunk allowed vlan {{ interface.allowed_vlans }}
+{% endif %}
+{% endfor %}
+!
+interface Vlan1
+ no ip address
+ shutdown
+!
+
+{% for vlan_interface in vlan_interfaces %}
+interface Vlan{{ vlan_interface.id }}
+ ip address {{ vlan_interface.ip_address }} {{ vlan_interface.subnet_mask }}
+{% endfor %}
+!
+ip forward-protocol nd
+ip http server
+ip http authentication local
+ip http secure-server
+!
+control-plane
+ service-policy input system-cpp-policy
+!
+line con 0
+ stopbits 1
+line aux 0
+line vty 0 4
+ login
+ transport input ssh
+line vty 5 15
+ login
+ transport input ssh
+!

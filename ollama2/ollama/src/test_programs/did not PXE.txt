@@ -1,0 +1,215 @@
+Build Logs:
+Attaching to build_202405240547_ee6bcf57-96b9-4657-bbe0-133f1c34840c_mantle_build_1, build_202405240547_ee6bcf57-96b9-4657-bbe0-133f1c34840c_mantle_dhcp_1, build_202405240547_ee6bcf57-96b9-4657-bbe0-133f1c34840c_mantle_pxe_1, build_202405240547_ee6bcf57-96b9-4657-bbe0-133f1c34840c_mantle_bios_1
+mantle_dhcp_1   | 2024-05-24T05:48:05.457888554Z Internet Systems Consortium DHCP Server 4.4.3-P1
+mantle_dhcp_1   | 2024-05-24T05:48:05.457943804Z Copyright 2004-2022 Internet Systems Consortium.
+mantle_dhcp_1   | 2024-05-24T05:48:05.457949878Z All rights reserved.
+mantle_dhcp_1   | 2024-05-24T05:48:05.457953821Z For info, please visit https://www.isc.org/software/dhcp/
+mantle_dhcp_1   | 2024-05-24T05:48:05.468152710Z Config file: /etc/dhcp/dhcpd.conf
+mantle_dhcp_1   | 2024-05-24T05:48:05.468323009Z Database file: /var/lib/dhcp/dhcpd.leases
+mantle_dhcp_1   | 2024-05-24T05:48:05.468328325Z PID file: /run/dhcp/dhcpd.pid
+mantle_dhcp_1   | 2024-05-24T05:48:05.496787374Z Wrote 0 class decls to leases file.
+mantle_dhcp_1   | 2024-05-24T05:48:05.496984686Z Wrote 0 leases to leases file.
+mantle_dhcp_1   | 2024-05-24T05:48:05.521854827Z Listening on LPF/eth0/00:0c:29:0a:4f:e1/192.168.101.0/26
+mantle_dhcp_1   | 2024-05-24T05:48:05.521894568Z Sending on   LPF/eth0/00:0c:29:0a:4f:e1/192.168.101.0/26
+mantle_dhcp_1   | 2024-05-24T05:48:05.522755086Z Sending on   Socket/fallback/fallback-net
+mantle_dhcp_1   | 2024-05-24T05:48:05.522861440Z Can't create PID file /run/dhcp/dhcpd.pid: No such file or directory.
+mantle_dhcp_1   | 2024-05-24T05:48:06.058581690Z Hosts detected: ['192.168.101.4', '192.168.101.5', '192.168.101.6', '192.168.101.7']
+mantle_dhcp_1   | 2024-05-24T05:48:06.058630253Z Starting hosts:  ['192.168.101.4', '192.168.101.5', '192.168.101.6', '192.168.101.7']
+mantle_dhcp_1   | 2024-05-24T05:48:06.058635558Z No current leases, 4 remaining.
+mantle_bios_1   | 2024-05-24T05:48:07.883900447Z /dev/ttyUSB0: Connecting to Chassis Manager CLI..
+mantle_bios_1   | 2024-05-24T05:48:07.884115155Z /dev/ttyUSB0: Looking for CLI login prompt..
+mantle_bios_1   | 2024-05-24T05:48:07.918599853Z /dev/ttyUSB0: 	Found login prompt.
+mantle_bios_1   | 2024-05-24T05:48:07.918638389Z /dev/ttyUSB0: 	Logging in as Administrator..
+mantle_build_1  | 2024-05-24T05:48:08.593217849Z DEMO_MODE: False
+mantle_build_1  | 2024-05-24T05:48:08.746033889Z Version 7.0 Detected
+mantle_build_1  | 2024-05-24T05:48:08.746133027Z VCSA System Name is FQDN. Adding temporary hosts file config.
+mantle_build_1  | 2024-05-24T05:48:08.746142505Z Added: 192.168.101.9 T162UEVXVCENX01.local
+mantle_build_1  | 2024-05-24T05:48:08.746150055Z Added: 192.168.101.9 T162UEVXVCENX01.TACLAN.MIL
+mantle_build_1  | 2024-05-24T05:48:08.746157381Z Running Pre Checks
+mantle_build_1  | 2024-05-24T05:48:08.754994899Z Everything looks good for PXE
+mantle_build_1  | 2024-05-24T05:48:08.763175340Z Everything looks good for VCSA Deploy
+mantle_build_1  | 2024-05-24T05:48:08.768946305Z Checking host connectivity
+mantle_build_1  | 2024-05-24T05:48:08.768982052Z Attempting to connect to (192.168.101.4)
+mantle_bios_1   | 2024-05-24T05:48:08.818578863Z /dev/ttyUSB0: 	Logged in.
+mantle_bios_1   | 2024-05-24T05:48:11.172555254Z -----------------------------------------------------
+mantle_bios_1   | 2024-05-24T05:48:11.173084484Z Firmware Versions: 
+mantle_bios_1   | 2024-05-24T05:48:11.173432986Z Chassis Manager: 
+mantle_bios_1   | 2024-05-24T05:48:11.173682696Z HPE Edgeline EL8000 Chassis Manager: 2.2-b11
+mantle_bios_1   | 2024-05-24T05:48:11.173887767Z HPE Edgeline EL8000 Chassis Manager Base Image: 2.2.0
+mantle_bios_1   | 2024-05-24T05:48:11.174142492Z Programmable Logic Device: 01.00.05
+mantle_bios_1   | 2024-05-24T05:48:11.174444641Z PCA Revision ID: 3
+mantle_bios_1   | 2024-05-24T05:48:11.174684296Z -----------------------------------------------------
+mantle_bios_1   | 2024-05-24T05:48:11.174871860Z Blade b1: iLO 5 v2.97
+mantle_bios_1   | 2024-05-24T05:48:11.175071044Z Blade b3: iLO 5 v2.97
+mantle_bios_1   | 2024-05-24T05:48:11.175318888Z Blade b5: iLO 5 v2.97
+mantle_bios_1   | 2024-05-24T05:48:11.175636841Z Blade b7: iLO 5 v2.97
+mantle_bios_1   | 2024-05-24T05:48:11.175863639Z -----------------------------------------------------
+mantle_bios_1   | 2024-05-24T05:48:11.176051804Z Switch 1: 27
+mantle_bios_1   | 2024-05-24T05:48:11.176230591Z Switch 2: 27
+mantle_bios_1   | 2024-05-24T05:48:11.176464864Z -----------------------------------------------------
+mantle_bios_1   | 2024-05-24T05:48:11.176722769Z EL8000 CM Version 2.2.0 meets the minimum requirement.
+mantle_bios_1   | 2024-05-24T05:48:11.176935769Z /dev/ttyUSB0: Configuring CM network..
+mantle_bios_1   | 2024-05-24T05:48:12.228203776Z /dev/ttyUSB0: Powering off blades..
+mantle_build_1  | 2024-05-24T05:48:26.921726806Z 192.168.101.4 not ready for API calls yet
+mantle_build_1  | 2024-05-24T05:48:45.030296273Z 192.168.101.4 not ready for API calls yet
+mantle_bios_1   | 2024-05-24T05:48:47.453462644Z /dev/ttyUSB0: 	Blades ['b1', 'b3', 'b5', 'b7'] powered OFF.
+mantle_bios_1   | 2024-05-24T05:48:57.706059419Z /dev/ttyUSB0: Configuring Blade network..
+mantle_bios_1   | 2024-05-24T05:48:57.706634885Z /dev/ttyUSB0: 	Setting b1 to 192.168.101.14 255.255.255.192
+mantle_bios_1   | 2024-05-24T05:48:57.918229775Z /dev/ttyUSB0: 	Setting b3 to 192.168.101.15 255.255.255.192
+mantle_bios_1   | 2024-05-24T05:48:58.138919147Z /dev/ttyUSB0: 	Setting b5 to 192.168.101.16 255.255.255.192
+mantle_bios_1   | 2024-05-24T05:48:58.582130188Z /dev/ttyUSB0: 	Setting b7 to 192.168.101.17 255.255.255.192
+mantle_bios_1   | 2024-05-24T05:48:58.866863728Z /dev/ttyUSB0: Attempt #1 - Setting blades for onetime PXE boot..
+mantle_build_1  | 2024-05-24T05:49:03.142457875Z 192.168.101.4 not ready for API calls yet
+mantle_bios_1   | 2024-05-24T05:49:14.058868463Z /dev/ttyUSB0: All blades set to onetime PXE boot..
+mantle_build_1  | 2024-05-24T05:49:21.254052426Z 192.168.101.4 not ready for API calls yet
+mantle_bios_1   | 2024-05-24T05:49:24.286322444Z /dev/ttyUSB0: Attempt 1: Sending power ON command to b1..
+mantle_bios_1   | 2024-05-24T05:49:35.556292863Z /dev/ttyUSB0: 	b1 powered ON. Sleeping 150 seconds..
+mantle_build_1  | 2024-05-24T05:49:39.365798695Z 192.168.101.4 not ready for API calls yet
+mantle_build_1  | 2024-05-24T05:49:57.542007242Z 192.168.101.4 not ready for API calls yet
+mantle_build_1  | 2024-05-24T05:50:15.653769378Z 192.168.101.4 not ready for API calls yet
+mantle_build_1  | 2024-05-24T05:50:33.769054708Z 192.168.101.4 not ready for API calls yet
+mantle_build_1  | 2024-05-24T05:50:51.878044905Z 192.168.101.4 not ready for API calls yet
+mantle_build_1  | 2024-05-24T05:51:09.990531985Z 192.168.101.4 not ready for API calls yet
+mantle_build_1  | 2024-05-24T05:51:28.102552353Z 192.168.101.4 not ready for API calls yet
+mantle_build_1  | 2024-05-24T05:51:46.213923359Z 192.168.101.4 not ready for API calls yet
+mantle_build_1  | 2024-05-24T05:52:04.328332982Z 192.168.101.4 not ready for API calls yet
+mantle_bios_1   | 2024-05-24T05:52:05.637118162Z /dev/ttyUSB0: Attempt 1: Sending power ON command to b3..
+mantle_bios_1   | 2024-05-24T05:52:16.288761315Z /dev/ttyUSB0: 	b3 powered ON. Sleeping 150 seconds..
+mantle_dhcp_1   | 2024-05-24T05:52:17.730791278Z Moved UEFI config for 01-5c-ba-2c-25-ef-73
+mantle_dhcp_1   | 2024-05-24T05:52:17.730818186Z Found lease for: 192.168.101.4 at 5c:ba:2c:25:ef:73
+mantle_build_1  | 2024-05-24T05:54:30.053713610Z 192.168.101.4 not ready for API calls yet
+mantle_build_1  | 2024-05-24T05:54:45.112519194Z 192.168.101.4 not ready for API calls yet
+mantle_bios_1   | 2024-05-24T05:54:46.388826863Z /dev/ttyUSB0: Attempt 1: Sending power ON command to b5..
+mantle_bios_1   | 2024-05-24T05:54:57.082606415Z /dev/ttyUSB0: 	b5 powered ON. Sleeping 150 seconds..
+mantle_build_1  | 2024-05-24T05:55:00.236975688Z 192.168.101.4 not ready for API calls yet
+mantle_build_1  | 2024-05-24T05:55:15.284995244Z 192.168.101.4 not ready for API calls yet
+mantle_build_1  | 2024-05-24T05:55:30.341810315Z 192.168.101.4 not ready for API calls yet
+mantle_build_1  | 2024-05-24T05:55:45.395603179Z 192.168.101.4 not ready for API calls yet
+mantle_build_1  | 2024-05-24T05:56:00.436007150Z 192.168.101.4 not ready for API calls yet
+mantle_build_1  | 2024-05-24T05:56:15.485335520Z 192.168.101.4 not ready for API calls yet
+mantle_build_1  | 2024-05-24T05:56:30.525598335Z 192.168.101.4 not ready for API calls yet
+mantle_build_1  | 2024-05-24T05:56:45.601906589Z 192.168.101.4 not ready for API calls yet
+mantle_build_1  | 2024-05-24T05:57:00.648123119Z 192.168.101.4 not ready for API calls yet
+mantle_dhcp_1   | 2024-05-24T05:57:03.076631367Z Moved UEFI config for 01-5c-ba-2c-25-f0-f9
+mantle_dhcp_1   | 2024-05-24T05:57:03.076684681Z Found lease for: 192.168.101.5 at 5c:ba:2c:25:f0:f9
+mantle_build_1  | 2024-05-24T05:57:15.702553473Z 192.168.101.4 not ready for API calls yet
+mantle_bios_1   | 2024-05-24T05:57:27.172510055Z /dev/ttyUSB0: Attempt 1: Sending power ON command to b7..
+mantle_build_1  | 2024-05-24T05:57:30.771278524Z 192.168.101.4 not ready for API calls yet
+mantle_bios_1   | 2024-05-24T05:57:37.890002457Z /dev/ttyUSB0: 	b7 powered ON. Sleeping 150 seconds..
+mantle_build_1  | 2024-05-24T05:57:45.844283658Z 192.168.101.4 not ready for API calls yet
+mantle_dhcp_1   | 2024-05-24T05:57:53.688613882Z Moved UEFI config for 01-5c-ed-8c-65-1d-65
+mantle_dhcp_1   | 2024-05-24T05:57:53.688683241Z Found lease for: 192.168.101.6 at 5c:ed:8c:65:1d:65
+mantle_build_1  | 2024-05-24T05:58:00.908672631Z 192.168.101.4 not ready for API calls yet
+mantle_build_1  | 2024-05-24T05:58:15.980198757Z 192.168.101.4 not ready for API calls yet
+mantle_build_1  | 2024-05-24T05:58:31.067368836Z 192.168.101.4 not ready for API calls yet
+mantle_build_1  | 2024-05-24T05:58:46.137641556Z 192.168.101.4 not ready for API calls yet
+mantle_build_1  | 2024-05-24T05:59:01.211423514Z 192.168.101.4 not ready for API calls yet
+mantle_build_1  | 2024-05-24T05:59:16.299885511Z 192.168.101.4 not ready for API calls yet
+mantle_build_1  | 2024-05-24T05:59:50.053848744Z 192.168.101.4 not ready for API calls yet
+mantle_build_1  | 2024-05-24T06:00:08.166831568Z 192.168.101.4 not ready for API calls yet
+mantle_bios_1   | 2024-05-24T06:00:09.994292320Z Serial port /dev/ttyUSB0 Closed Successfully.
+mantle_bios_1   | 2024-05-24T06:00:09.999077372Z /dev/ttyUSB0: Exiting..
+mantle_build_1  | 2024-05-24T06:00:26.279343866Z 192.168.101.4 not ready for API calls yet
+mantle_build_1  | 2024-05-24T06:00:44.390093743Z 192.168.101.4 not ready for API calls yet
+mantle_build_1  | 2024-05-24T06:01:02.501978341Z 192.168.101.4 not ready for API calls yet
+mantle_build_1  | 2024-05-24T06:01:20.615592603Z 192.168.101.4 not ready for API calls yet
+mantle_build_1  | 2024-05-24T06:01:38.726270721Z 192.168.101.4 not ready for API calls yet
+mantle_build_1  | 2024-05-24T06:01:56.838446886Z 192.168.101.4 not ready for API calls yet
+mantle_build_1  | 2024-05-24T06:02:14.949971204Z 192.168.101.4 not ready for API calls yet
+mantle_build_1  | 2024-05-24T06:02:33.062749051Z 192.168.101.4 not ready for API calls yet
+mantle_dhcp_1   | 2024-05-24T06:02:38.001414046Z mv: can't rename '/app/uefi/host-3': No such file or directory
+mantle_dhcp_1   | 2024-05-24T06:02:38.002231855Z Traceback (most recent call last):
+mantle_dhcp_1   | 2024-05-24T06:02:38.002250473Z   File "/app/scripts/range.py", line 48, in <module>
+mantle_dhcp_1   | 2024-05-24T06:02:38.002253979Z     subprocess.run(
+mantle_dhcp_1   | 2024-05-24T06:02:38.005977427Z   File "/usr/lib/python3.12/subprocess.py", line 571, in run
+mantle_dhcp_1   | 2024-05-24T06:02:38.006771033Z     raise CalledProcessError(retcode, process.args,
+mantle_dhcp_1   | 2024-05-24T06:02:38.007259151Z subprocess.CalledProcessError: Command 'mv /app/uefi/host-3 /app/uefi/01-5c-ed-8c-65-1b-4f' returned non-zero exit status 1.
+mantle_build_1  | 2024-05-24T06:02:51.173313446Z 192.168.101.4 not ready for API calls yet
+mantle_build_1  | 2024-05-24T06:03:09.286026188Z 192.168.101.4 not ready for API calls yet
+mantle_build_1  | 2024-05-24T06:03:27.400029653Z 192.168.101.4 not ready for API calls yet
+mantle_build_1  | 2024-05-24T06:03:45.509455931Z 192.168.101.4 not ready for API calls yet
+mantle_build_1  | 2024-05-24T06:04:03.623013461Z 192.168.101.4 not ready for API calls yet
+mantle_build_1  | 2024-05-24T06:04:18.675325235Z 192.168.101.4 not ready for API calls yet
+mantle_build_1  | 2024-05-24T06:04:33.770599831Z 192.168.101.4 not ready for API calls yet
+mantle_build_1  | 2024-05-24T06:04:48.974874848Z Connection to host 192.168.101.4 successful
+mantle_build_1  | 2024-05-24T06:04:48.974911122Z Attempting to connect to (192.168.101.5)
+mantle_build_1  | 2024-05-24T06:05:07.109921339Z 192.168.101.5 not ready for API calls yet
+mantle_build_1  | 2024-05-24T06:05:25.222085159Z 192.168.101.5 not ready for API calls yet
+mantle_build_1  | 2024-05-24T06:05:43.336328583Z 192.168.101.5 not ready for API calls yet
+mantle_build_1  | 2024-05-24T06:06:01.448395970Z 192.168.101.5 not ready for API calls yet
+mantle_build_1  | 2024-05-24T06:06:19.559176702Z 192.168.101.5 not ready for API calls yet
+mantle_build_1  | 2024-05-24T06:06:37.733852052Z 192.168.101.5 not ready for API calls yet
+mantle_build_1  | 2024-05-24T06:06:55.847779736Z 192.168.101.5 not ready for API calls yet
+mantle_build_1  | 2024-05-24T06:07:13.958790796Z 192.168.101.5 not ready for API calls yet
+mantle_build_1  | 2024-05-24T06:07:32.069871823Z 192.168.101.5 not ready for API calls yet
+mantle_build_1  | 2024-05-24T06:07:48.085665287Z 192.168.101.5 not ready for API calls yet
+mantle_build_1  | 2024-05-24T06:08:03.194257204Z 192.168.101.5 not ready for API calls yet
+mantle_build_1  | 2024-05-24T06:08:18.381791281Z Connection to host 192.168.101.5 successful
+mantle_build_1  | 2024-05-24T06:08:18.381894046Z Attempting to connect to (192.168.101.6)
+mantle_build_1  | 2024-05-24T06:08:33.565871046Z Connection to host 192.168.101.6 successful
+mantle_build_1  | 2024-05-24T06:08:33.565915210Z Attempting to connect to (192.168.101.7)
+mantle_build_1  | 2024-05-24T06:08:51.686809434Z 192.168.101.7 not ready for API calls yet
+mantle_build_1  | 2024-05-24T06:09:10.022167113Z 192.168.101.7 not ready for API calls yet
+mantle_build_1  | 2024-05-24T06:09:27.910255529Z 192.168.101.7 not ready for API calls yet
+mantle_build_1  | 2024-05-24T06:09:46.021974569Z 192.168.101.7 not ready for API calls yet
+mantle_build_1  | 2024-05-24T06:10:04.134465791Z 192.168.101.7 not ready for API calls yet
+mantle_build_1  | 2024-05-24T06:10:22.247661933Z 192.168.101.7 not ready for API calls yet
+mantle_build_1  | 2024-05-24T06:10:40.360290940Z 192.168.101.7 not ready for API calls yet
+mantle_build_1  | 2024-05-24T06:10:58.471117733Z 192.168.101.7 not ready for API calls yet
+mantle_build_1  | 2024-05-24T06:11:16.583822059Z 192.168.101.7 not ready for API calls yet
+mantle_build_1  | 2024-05-24T06:11:34.758880742Z 192.168.101.7 not ready for API calls yet
+mantle_build_1  | 2024-05-24T06:11:52.870983215Z 192.168.101.7 not ready for API calls yet
+mantle_build_1  | 2024-05-24T06:12:10.983136888Z 192.168.101.7 not ready for API calls yet
+mantle_build_1  | 2024-05-24T06:12:29.095210310Z 192.168.101.7 not ready for API calls yet
+mantle_build_1  | 2024-05-24T06:12:47.206997596Z 192.168.101.7 not ready for API calls yet
+mantle_build_1  | 2024-05-24T06:13:05.318697446Z 192.168.101.7 not ready for API calls yet
+mantle_build_1  | 2024-05-24T06:13:23.431931937Z 192.168.101.7 not ready for API calls yet
+mantle_build_1  | 2024-05-24T06:13:41.543018505Z 192.168.101.7 not ready for API calls yet
+mantle_build_1  | 2024-05-24T06:13:59.655915342Z 192.168.101.7 not ready for API calls yet
+mantle_build_1  | 2024-05-24T06:14:17.767791992Z 192.168.101.7 not ready for API calls yet
+mantle_build_1  | 2024-05-24T06:14:35.880283890Z 192.168.101.7 not ready for API calls yet
+mantle_build_1  | 2024-05-24T06:14:54.054139267Z 192.168.101.7 not ready for API calls yet
+mantle_build_1  | 2024-05-24T06:15:12.167167989Z 192.168.101.7 not ready for API calls yet
+mantle_build_1  | 2024-05-24T06:15:30.279864775Z 192.168.101.7 not ready for API calls yet
+mantle_build_1  | 2024-05-24T06:15:48.455357813Z 192.168.101.7 not ready for API calls yet
+mantle_build_1  | 2024-05-24T06:16:06.567161000Z 192.168.101.7 not ready for API calls yet
+mantle_build_1  | 2024-05-24T06:16:24.681410381Z 192.168.101.7 not ready for API calls yet
+mantle_build_1  | 2024-05-24T06:16:42.791341548Z 192.168.101.7 not ready for API calls yet
+mantle_build_1  | 2024-05-24T06:17:00.903211016Z 192.168.101.7 not ready for API calls yet
+mantle_build_1  | 2024-05-24T06:17:19.014310986Z 192.168.101.7 not ready for API calls yet
+mantle_build_1  | 2024-05-24T06:17:37.126963166Z 192.168.101.7 not ready for API calls yet
+mantle_build_1  | 2024-05-24T06:17:55.238566395Z 192.168.101.7 not ready for API calls yet
+mantle_build_1  | 2024-05-24T06:18:13.350601006Z 192.168.101.7 not ready for API calls yet
+mantle_build_1  | 2024-05-24T06:18:31.464896123Z 192.168.101.7 not ready for API calls yet
+mantle_build_1  | 2024-05-24T06:18:49.574090767Z 192.168.101.7 not ready for API calls yet
+mantle_build_1  | 2024-05-24T06:19:07.686143226Z 192.168.101.7 not ready for API calls yet
+mantle_build_1  | 2024-05-24T06:19:25.798883100Z 192.168.101.7 not ready for API calls yet
+mantle_build_1  | 2024-05-24T06:19:43.911423030Z 192.168.101.7 not ready for API calls yet
+mantle_build_1  | 2024-05-24T06:20:02.022677249Z 192.168.101.7 not ready for API calls yet
+mantle_build_1  | 2024-05-24T06:20:20.136006539Z 192.168.101.7 not ready for API calls yet
+mantle_build_1  | 2024-05-24T06:20:38.248789415Z 192.168.101.7 not ready for API calls yet
+mantle_build_1  | 2024-05-24T06:20:56.359059643Z 192.168.101.7 not ready for API calls yet
+mantle_build_1  | 2024-05-24T06:21:14.471394370Z 192.168.101.7 not ready for API calls yet
+mantle_build_1  | 2024-05-24T06:21:32.582368138Z 192.168.101.7 not ready for API calls yet
+mantle_build_1  | 2024-05-24T06:21:50.695882322Z 192.168.101.7 not ready for API calls yet
+mantle_build_1  | 2024-05-24T06:22:08.808194610Z 192.168.101.7 not ready for API calls yet
+mantle_build_1  | 2024-05-24T06:22:26.918943989Z 192.168.101.7 not ready for API calls yet
+mantle_build_1  | 2024-05-24T06:22:45.030249477Z 192.168.101.7 not ready for API calls yet
+mantle_build_1  | 2024-05-24T06:23:03.143133055Z 192.168.101.7 not ready for API calls yet
+mantle_build_1  | 2024-05-24T06:23:21.254071390Z 192.168.101.7 not ready for API calls yet
+mantle_build_1  | 2024-05-24T06:23:39.366905391Z 192.168.101.7 not ready for API calls yet
+mantle_build_1  | 2024-05-24T06:23:57.543121886Z 192.168.101.7 not ready for API calls yet
+mantle_build_1  | 2024-05-24T06:24:15.654033073Z 192.168.101.7 not ready for API calls yet
+mantle_build_1  | 2024-05-24T06:24:33.766603044Z 192.168.101.7 not ready for API calls yet
+mantle_build_1  | 2024-05-24T06:24:51.942534284Z 192.168.101.7 not ready for API calls yet
+mantle_build_1  | 2024-05-24T06:25:10.054369286Z 192.168.101.7 not ready for API calls yet
+mantle_build_1  | 2024-05-24T06:25:28.167056580Z 192.168.101.7 not ready for API calls yet
+mantle_build_1  | 2024-05-24T06:25:46.280695019Z 192.168.101.7 not ready for API calls yet
+mantle_build_1  | 2024-05-24T06:26:04.453785368Z 192.168.101.7 not ready for API calls yet
+mantle_build_1  | 2024-05-24T06:26:22.566014407Z 192.168.101.7 not ready for API calls yet
+mantle_build_1  | 2024-05-24T06:26:40.679969766Z 192.168.101.7 not ready for API calls yet
+mantle_build_1  | 2024-05-24T06:26:58.789784179Z 192.168.101.7 not ready for API calls yet
+mantle_build_1  | 2024-05-24T06:27:16.903035525Z 192.168.101.7 not ready for API calls yet
+mantle_build_1  | 2024-05-24T06:27:35.014621910Z 192.168.101.7 not ready for API calls yet
+VM Logs:
+undefined

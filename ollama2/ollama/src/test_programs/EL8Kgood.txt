@@ -1,0 +1,240 @@
+Build Logs:
+Attaching to build_202406110301_e14e9fc0-6ca8-431e-8c9b-812aa2a7a530_mantle_bios_1, build_202406110301_e14e9fc0-6ca8-431e-8c9b-812aa2a7a530_mantle_dhcp_1, build_202406110301_e14e9fc0-6ca8-431e-8c9b-812aa2a7a530_mantle_build_1, build_202406110301_e14e9fc0-6ca8-431e-8c9b-812aa2a7a530_mantle_pxe_1
+mantle_dhcp_1   | 2024-06-11T03:01:55.112447317Z Internet Systems Consortium DHCP Server 4.4.3-P1
+mantle_dhcp_1   | 2024-06-11T03:01:55.112485043Z Copyright 2004-2022 Internet Systems Consortium.
+mantle_dhcp_1   | 2024-06-11T03:01:55.112488631Z All rights reserved.
+mantle_dhcp_1   | 2024-06-11T03:01:55.112491280Z For info, please visit https://www.isc.org/software/dhcp/
+mantle_dhcp_1   | 2024-06-11T03:01:55.119618001Z Config file: /etc/dhcp/dhcpd.conf
+mantle_dhcp_1   | 2024-06-11T03:01:55.119676640Z Database file: /var/lib/dhcp/dhcpd.leases
+mantle_dhcp_1   | 2024-06-11T03:01:55.119680135Z PID file: /run/dhcp/dhcpd.pid
+mantle_dhcp_1   | 2024-06-11T03:01:55.119682995Z Wrote 0 class decls to leases file.
+mantle_dhcp_1   | 2024-06-11T03:01:55.119685690Z Wrote 0 leases to leases file.
+mantle_dhcp_1   | 2024-06-11T03:01:55.126589664Z Listening on LPF/eth0/00:0c:29:a3:c7:60/192.168.101.0/26
+mantle_dhcp_1   | 2024-06-11T03:01:55.126606578Z Sending on   LPF/eth0/00:0c:29:a3:c7:60/192.168.101.0/26
+mantle_dhcp_1   | 2024-06-11T03:01:55.127724258Z Sending on   Socket/fallback/fallback-net
+mantle_dhcp_1   | 2024-06-11T03:01:55.127737711Z Can't create PID file /run/dhcp/dhcpd.pid: No such file or directory.
+mantle_dhcp_1   | 2024-06-11T03:01:55.355382888Z Hosts detected: ['192.168.101.4']
+mantle_dhcp_1   | 2024-06-11T03:01:55.355424646Z Starting hosts:  ['192.168.101.4']
+mantle_dhcp_1   | 2024-06-11T03:01:55.355582640Z No current leases, 1 remaining.
+mantle_bios_1   | 2024-06-11T03:01:56.093705121Z /dev/ttyUSB0: Power On KLAS VM4 using toggle switch..
+mantle_bios_1   | 2024-06-11T03:01:56.093799298Z /dev/ttyUSB0: Sending <DEL> key to enter Setup Utility..
+mantle_build_1  | 2024-06-11T03:01:58.896705805Z DEMO_MODE: False
+mantle_build_1  | 2024-06-11T03:01:59.026993193Z VCSA System Name is FQDN. Adding temporary hosts file config.
+mantle_build_1  | 2024-06-11T03:01:59.027015034Z Added: 192.168.101.9 T162UEVXVCENX01.local
+mantle_build_1  | 2024-06-11T03:01:59.027017962Z Added: 192.168.101.9 T162UEVXVCENX01.TACLAN.MIL
+mantle_build_1  | 2024-06-11T03:01:59.027020654Z Running Pre Checks
+mantle_build_1  | 2024-06-11T03:01:59.034530887Z Everything looks good for PXE
+mantle_build_1  | 2024-06-11T03:01:59.042228778Z Checking containers for lite...
+mantle_build_1  | 2024-06-11T03:02:00.111692115Z MANTLE DHCP is running...
+mantle_bios_1   | 2024-06-11T03:04:18.901480458Z /dev/ttyUSB0: Entered Aptio Setup Utility
+mantle_bios_1   | 2024-06-11T03:04:18.902296684Z /dev/ttyUSB0: Restoring BIOS to default configuration.
+mantle_bios_1   | 2024-06-11T03:04:18.902325327Z /dev/ttyUSB0: Looking for 47mSave Options
+mantle_bios_1   | 2024-06-11T03:04:19.152971049Z /dev/ttyUSB0: Pressing Left Arrow (attempt 1)
+mantle_bios_1   | 2024-06-11T03:04:19.789289288Z /dev/ttyUSB0: Found '47mSave Options'.
+mantle_bios_1   | 2024-06-11T03:04:20.039959940Z /dev/ttyUSB0: Looking for Restore/Load
+mantle_bios_1   | 2024-06-11T03:04:20.290278548Z /dev/ttyUSB0: Pressing Down Arrow (attempt 1)
+mantle_bios_1   | 2024-06-11T03:04:20.794539498Z /dev/ttyUSB0: Pressing Down Arrow (attempt 2)
+mantle_bios_1   | 2024-06-11T03:04:21.301099764Z /dev/ttyUSB0: Pressing Down Arrow (attempt 3)
+mantle_bios_1   | 2024-06-11T03:04:21.804164746Z /dev/ttyUSB0: Pressing Down Arrow (attempt 4)
+mantle_bios_1   | 2024-06-11T03:04:22.312486653Z /dev/ttyUSB0: Pressing Down Arrow (attempt 5)
+mantle_bios_1   | 2024-06-11T03:04:22.818075032Z /dev/ttyUSB0: Pressing Down Arrow (attempt 6)
+mantle_bios_1   | 2024-06-11T03:04:23.323229969Z /dev/ttyUSB0: Found 'Restore/Load'.
+mantle_bios_1   | 2024-06-11T03:04:25.116817304Z /dev/ttyUSB0: Loaded defaults. Saving Changes and Resetting..
+mantle_bios_1   | 2024-06-11T03:04:25.116859290Z /dev/ttyUSB0: Looking for 47m  Save Changes and Reset
+mantle_bios_1   | 2024-06-11T03:04:25.367990042Z /dev/ttyUSB0: Pressing Down Arrow (attempt 1)
+mantle_bios_1   | 2024-06-11T03:04:25.872409623Z /dev/ttyUSB0: Pressing Down Arrow (attempt 2)
+mantle_bios_1   | 2024-06-11T03:04:26.379479396Z /dev/ttyUSB0: Pressing Down Arrow (attempt 3)
+mantle_bios_1   | 2024-06-11T03:04:26.886751921Z /dev/ttyUSB0: Pressing Down Arrow (attempt 4)
+mantle_bios_1   | 2024-06-11T03:04:27.392312798Z /dev/ttyUSB0: Pressing Down Arrow (attempt 5)
+mantle_bios_1   | 2024-06-11T03:04:27.897801884Z /dev/ttyUSB0: Pressing Down Arrow (attempt 6)
+mantle_bios_1   | 2024-06-11T03:04:28.403695236Z /dev/ttyUSB0: Found '47m  Save Changes and Reset'.
+mantle_bios_1   | 2024-06-11T03:04:30.155971959Z /dev/ttyUSB0: Sending <DEL> key to enter Setup Utility..
+mantle_bios_1   | 2024-06-11T03:05:43.952532873Z /dev/ttyUSB0: Entered Aptio Setup Utility
+mantle_bios_1   | 2024-06-11T03:05:43.952578647Z /dev/ttyUSB0: Enabling UEFI Network Stack
+mantle_bios_1   | 2024-06-11T03:05:43.952582445Z /dev/ttyUSB0: Looking for 47m Advanced
+mantle_bios_1   | 2024-06-11T03:05:44.953680742Z /dev/ttyUSB0: Pressing Right Arrow (attempt 1)
+mantle_bios_1   | 2024-06-11T03:05:46.346301697Z /dev/ttyUSB0: Found '47m Advanced'.
+mantle_bios_1   | 2024-06-11T03:05:47.346938295Z /dev/ttyUSB0: Looking for UEFI Network Stack
+mantle_bios_1   | 2024-06-11T03:05:48.348466928Z /dev/ttyUSB0: Pressing Down Arrow (attempt 1)
+mantle_bios_1   | 2024-06-11T03:05:49.601399916Z /dev/ttyUSB0: Pressing Down Arrow (attempt 2)
+mantle_bios_1   | 2024-06-11T03:05:50.855355883Z /dev/ttyUSB0: Pressing Down Arrow (attempt 3)
+mantle_bios_1   | 2024-06-11T03:05:52.109377685Z /dev/ttyUSB0: Pressing Down Arrow (attempt 4)
+mantle_bios_1   | 2024-06-11T03:05:53.365525792Z /dev/ttyUSB0: Pressing Down Arrow (attempt 5)
+mantle_bios_1   | 2024-06-11T03:05:54.621125847Z /dev/ttyUSB0: Pressing Down Arrow (attempt 6)
+mantle_bios_1   | 2024-06-11T03:05:55.876953538Z /dev/ttyUSB0: Pressing Down Arrow (attempt 7)
+mantle_bios_1   | 2024-06-11T03:05:57.132653414Z /dev/ttyUSB0: Pressing Down Arrow (attempt 8)
+mantle_bios_1   | 2024-06-11T03:05:58.387668130Z /dev/ttyUSB0: Pressing Down Arrow (attempt 9)
+mantle_bios_1   | 2024-06-11T03:05:59.644341208Z /dev/ttyUSB0: Pressing Down Arrow (attempt 10)
+mantle_bios_1   | 2024-06-11T03:06:00.900953173Z /dev/ttyUSB0: Pressing Down Arrow (attempt 11)
+mantle_bios_1   | 2024-06-11T03:06:02.155379399Z /dev/ttyUSB0: Pressing Down Arrow (attempt 12)
+mantle_bios_1   | 2024-06-11T03:06:03.410437902Z /dev/ttyUSB0: Pressing Down Arrow (attempt 13)
+mantle_bios_1   | 2024-06-11T03:06:04.665650568Z /dev/ttyUSB0: Pressing Down Arrow (attempt 14)
+mantle_bios_1   | 2024-06-11T03:06:05.920127349Z /dev/ttyUSB0: Pressing Down Arrow (attempt 15)
+mantle_bios_1   | 2024-06-11T03:06:07.174586659Z /dev/ttyUSB0: Found 'UEFI Network Stack'.
+mantle_bios_1   | 2024-06-11T03:06:09.677034923Z /dev/ttyUSB0: Looking for 40mEnabled
+mantle_bios_1   | 2024-06-11T03:06:10.678728725Z /dev/ttyUSB0: Pressing Down Arrow (attempt 1)
+mantle_bios_1   | 2024-06-11T03:06:11.933486941Z /dev/ttyUSB0: Found '40mEnabled'.
+mantle_bios_1   | 2024-06-11T03:06:13.685977828Z /dev/ttyUSB0: Looking for 47mIPv4 PXE Support
+mantle_bios_1   | 2024-06-11T03:06:14.687747371Z /dev/ttyUSB0: Pressing Down Arrow (attempt 1)
+mantle_bios_1   | 2024-06-11T03:06:15.946285068Z /dev/ttyUSB0: Found '47mIPv4 PXE Support'.
+mantle_bios_1   | 2024-06-11T03:06:17.700271555Z /dev/ttyUSB0: Looking for 40mEnabled
+mantle_bios_1   | 2024-06-11T03:06:18.702277678Z /dev/ttyUSB0: Pressing Down Arrow (attempt 1)
+mantle_bios_1   | 2024-06-11T03:06:19.956961452Z /dev/ttyUSB0: Found '40mEnabled'.
+mantle_bios_1   | 2024-06-11T03:06:23.164540128Z /dev/ttyUSB0: Enabling Legacy Option ROM
+mantle_bios_1   | 2024-06-11T03:06:23.165334122Z /dev/ttyUSB0: Looking for 47m Platform Configuration
+mantle_bios_1   | 2024-06-11T03:06:24.166461885Z /dev/ttyUSB0: Pressing Right Arrow (attempt 1)
+mantle_bios_1   | 2024-06-11T03:06:25.562571974Z /dev/ttyUSB0: Found '47m Platform Configuration'.
+mantle_bios_1   | 2024-06-11T03:06:26.563628900Z /dev/ttyUSB0: Looking for Network Configuration
+mantle_bios_1   | 2024-06-11T03:06:27.564876963Z /dev/ttyUSB0: Pressing Down Arrow (attempt 1)
+mantle_bios_1   | 2024-06-11T03:06:28.817983133Z /dev/ttyUSB0: Pressing Down Arrow (attempt 2)
+mantle_bios_1   | 2024-06-11T03:06:30.072260017Z /dev/ttyUSB0: Found 'Network Configuration'.
+mantle_bios_1   | 2024-06-11T03:06:32.575785236Z /dev/ttyUSB0: Looking for 40mEnabled
+mantle_bios_1   | 2024-06-11T03:06:33.576589718Z /dev/ttyUSB0: Pressing Down Arrow (attempt 1)
+mantle_bios_1   | 2024-06-11T03:06:34.831432208Z /dev/ttyUSB0: Found '40mEnabled'.
+mantle_bios_1   | 2024-06-11T03:06:38.034198000Z /dev/ttyUSB0: Configuring BMC network..
+mantle_bios_1   | 2024-06-11T03:06:38.034342600Z /dev/ttyUSB0: Looking for 47m Server Mgmt
+mantle_bios_1   | 2024-06-11T03:06:39.035879881Z /dev/ttyUSB0: Pressing Right Arrow (attempt 1)
+mantle_bios_1   | 2024-06-11T03:06:40.385837069Z /dev/ttyUSB0: Pressing Right Arrow (attempt 2)
+mantle_bios_1   | 2024-06-11T03:06:41.900824316Z /dev/ttyUSB0: Found '47m Server Mgmt'.
+mantle_bios_1   | 2024-06-11T03:06:42.901466127Z /dev/ttyUSB0: Looking for Configure BMC network
+mantle_bios_1   | 2024-06-11T03:06:43.902403599Z /dev/ttyUSB0: Pressing Down Arrow (attempt 1)
+mantle_bios_1   | 2024-06-11T03:06:45.165751118Z /dev/ttyUSB0: Pressing Down Arrow (attempt 2)
+mantle_bios_1   | 2024-06-11T03:06:46.430489881Z /dev/ttyUSB0: Pressing Down Arrow (attempt 3)
+mantle_bios_1   | 2024-06-11T03:06:47.687258316Z /dev/ttyUSB0: Pressing Down Arrow (attempt 4)
+mantle_bios_1   | 2024-06-11T03:06:48.947699369Z /dev/ttyUSB0: Pressing Down Arrow (attempt 5)
+mantle_bios_1   | 2024-06-11T03:06:50.211363114Z /dev/ttyUSB0: Pressing Down Arrow (attempt 6)
+mantle_bios_1   | 2024-06-11T03:06:51.476224680Z /dev/ttyUSB0: Pressing Down Arrow (attempt 7)
+mantle_bios_1   | 2024-06-11T03:06:52.734478212Z /dev/ttyUSB0: Pressing Down Arrow (attempt 8)
+mantle_bios_1   | 2024-06-11T03:06:53.989466810Z /dev/ttyUSB0: Pressing Down Arrow (attempt 9)
+mantle_bios_1   | 2024-06-11T03:06:55.246295821Z /dev/ttyUSB0: Found 'Configure BMC network'.
+mantle_bios_1   | 2024-06-11T03:06:57.750467909Z /dev/ttyUSB0: Looking for 40mStatic
+mantle_bios_1   | 2024-06-11T03:06:58.751876905Z /dev/ttyUSB0: Pressing Down Arrow (attempt 1)
+mantle_bios_1   | 2024-06-11T03:07:00.006398333Z /dev/ttyUSB0: Found '40mStatic'.
+mantle_bios_1   | 2024-06-11T03:07:01.776525223Z /dev/ttyUSB0: Looking for 47mStation IP address
+mantle_bios_1   | 2024-06-11T03:07:02.777586594Z /dev/ttyUSB0: Pressing Down Arrow (attempt 1)
+mantle_bios_1   | 2024-06-11T03:07:04.039112645Z /dev/ttyUSB0: Found '47mStation IP address'.
+mantle_bios_1   | 2024-06-11T03:07:05.790368338Z /dev/ttyUSB0: Setting BMC Station IP: 192.168.101.18
+mantle_bios_1   | 2024-06-11T03:07:14.108829667Z /dev/ttyUSB0: Setting BMC Subnet Mask: 255.255.255.192
+mantle_bios_1   | 2024-06-11T03:07:22.626920307Z /dev/ttyUSB0: Setting BMC Gateway: 192.168.101.1
+mantle_bios_1   | 2024-06-11T03:07:29.742543323Z /dev/ttyUSB0: Saving Changes and Resetting..
+mantle_bios_1   | 2024-06-11T03:07:29.742614018Z /dev/ttyUSB0: Looking for 47mSave Options
+mantle_bios_1   | 2024-06-11T03:07:30.833432313Z /dev/ttyUSB0: Pressing Left Arrow (attempt 1)
+mantle_bios_1   | 2024-06-11T03:07:32.311126915Z /dev/ttyUSB0: Pressing Left Arrow (attempt 2)
+mantle_bios_1   | 2024-06-11T03:07:33.663744559Z /dev/ttyUSB0: Pressing Left Arrow (attempt 3)
+mantle_bios_1   | 2024-06-11T03:07:35.040431635Z /dev/ttyUSB0: Pressing Left Arrow (attempt 4)
+mantle_bios_1   | 2024-06-11T03:07:36.434941679Z /dev/ttyUSB0: Pressing Left Arrow (attempt 5)
+mantle_bios_1   | 2024-06-11T03:07:37.855306832Z /dev/ttyUSB0: Pressing Left Arrow (attempt 6)
+mantle_bios_1   | 2024-06-11T03:07:39.216968761Z /dev/ttyUSB0: Found '47mSave Options'.
+mantle_bios_1   | 2024-06-11T03:07:40.218530870Z /dev/ttyUSB0: Looking for 47m  Save Changes and Reset
+mantle_bios_1   | 2024-06-11T03:07:41.218784373Z /dev/ttyUSB0: Pressing Down Arrow (attempt 1)
+mantle_bios_1   | 2024-06-11T03:07:42.472104256Z /dev/ttyUSB0: Pressing Down Arrow (attempt 2)
+mantle_bios_1   | 2024-06-11T03:07:43.728550266Z /dev/ttyUSB0: Found '47m  Save Changes and Reset'.
+mantle_bios_1   | 2024-06-11T03:07:46.239236965Z Serial port /dev/ttyUSB0 Closed Successfully.
+mantle_bios_1   | 2024-06-11T03:07:46.501441792Z /dev/ttyUSB0: Restarting System for Network Boot
+mantle_bios_1   | 2024-06-11T03:07:46.502232318Z /dev/ttyUSB0: Entering One time boot menu..
+mantle_bios_1   | 2024-06-11T03:09:01.047409464Z /dev/ttyUSB0: Looking for 40mUEFI: PXE IPv4 Intel(R) Ethernet Controller I226-IT
+mantle_bios_1   | 2024-06-11T03:09:01.298748444Z /dev/ttyUSB0: Pressing Down Arrow (attempt 1)
+mantle_bios_1   | 2024-06-11T03:09:01.802446545Z /dev/ttyUSB0: Pressing Down Arrow (attempt 2)
+mantle_bios_1   | 2024-06-11T03:09:02.306808339Z /dev/ttyUSB0: Found '40mUEFI: PXE IPv4 Intel(R) Ethernet Controller I226-IT'.
+mantle_bios_1   | 2024-06-11T03:09:03.684778383Z /dev/ttyUSB0: Exiting..
+mantle_dhcp_1   | 2024-06-11T03:09:14.636417459Z Moved UEFI config for 01-00-13-f2-27-05-50
+mantle_dhcp_1   | 2024-06-11T03:09:14.636442783Z Found lease for: 192.168.101.4 at 00:13:f2:27:05:50
+mantle_dhcp_1   | 2024-06-11T03:09:14.647071259Z All hosts given leases. Sleeping for 15 seconds...
+mantle_dhcp_1   | 2024-06-11T03:09:29.647575435Z Stopping DHCP...
+mantle_build_1  | 2024-06-11T03:09:46.835978435Z MANTLE DHCP is no longer running...
+mantle_build_1  | 2024-06-11T03:09:46.836023153Z Sleeping for 15 minutes to allow ESXi to PXE...
+mantle_build_1  | 2024-06-11T03:24:46.920805780Z Reconfiguring switch
+mantle_build_1  | 2024-06-11T03:24:46.920987807Z Connecting to Switch 1 (192.168.101.1)
+mantle_build_1  | 2024-06-11T03:24:55.048374680Z b'\r\n\r\n\r\nTACLANSW1#enable\r\nTACLANSW1#cisco\r\n% Bad IP address or host name% Unknown command or computer name, or unable to find computer address\r\nTACLANSW1#config t\r\nEnter configuration commands, one per line.  End with CNTL/Z.\r\nTACLANSW1(config)#int te1/4\r\nTACLANSW1(config-if)#switchport mode trunk\r\nTACLANSW1(config-if)#switchport trunk allowed vlan 500\r\nTACLANSW1(config-if)#switchport trunk native vlan 3\r\nTACLANSW1(config-if)#switchport nonegotiate\r\nTACLANSW1(config-if)#do wr mem\r\nBuilding configuration...\r\n'
+mantle_build_1  | 2024-06-11T03:24:55.049473946Z Checking host connectivity
+mantle_build_1  | 2024-06-11T03:24:55.049570094Z Attempting to connect to (192.168.101.4)
+mantle_build_1  | 2024-06-11T03:25:10.270670053Z Connection to host 192.168.101.4 successful
+mantle_build_1  | 2024-06-11T03:25:10.270715831Z WARNING: Detected hosts early. Reducing wait time...
+mantle_build_1  | 2024-06-11T03:25:10.270719949Z Waiting to allow ESXi to complete installation...
+mantle_build_1  | 2024-06-11T03:25:40.307381093Z Adding DCUI welcome message on host : 192.168.101.4
+mantle_build_1  | 2024-06-11T03:25:40.469801861Z Updating Annotations.WelcomeMessage on ESXi host t162uepvesxha01.TACLAN.MIL
+mantle_build_1  | 2024-06-11T03:25:40.583117338Z Assigning License to 192.168.101.4
+mantle_build_1  | 2024-06-11T03:25:40.796528459Z Fetching disks for 192.168.101.4
+mantle_build_1  | 2024-06-11T03:25:44.263929022Z Standalone drive: t10.NVMe____INTEL_SSDPFUKX076T1O____________________0006A1ADBCE4D25C
+mantle_build_1  | 2024-06-11T03:25:44.263996969Z Preparing to create Standalone Datastore...
+mantle_build_1  | 2024-06-11T03:25:54.388598314Z Operation successfully completed
+mantle_build_1  | 2024-06-11T03:25:54.912593203Z Extending datastore capacity using:
+mantle_build_1  | 2024-06-11T03:25:54.912656015Z Disk: t10.NVMe____INTEL_SSDPFUKX076T1O____________________00069E20EAE4D25C
+mantle_build_1  | 2024-06-11T03:25:54.912660725Z Capacity: 7153.955406188965 GB
+mantle_build_1  | 2024-06-11T03:26:11.383833045Z Datastore 'VMs' has been successfully extended.
+mantle_build_1  | 2024-06-11T03:26:11.497008199Z Connected to 192.168.101.4
+mantle_build_1  | 2024-06-11T03:26:11.535532871Z Successfully created directory "iso" in VMs
+mantle_build_1  | 2024-06-11T03:26:11.548810827Z Successfully created directory "log" in VMs
+mantle_build_1  | 2024-06-11T03:26:11.549720223Z Setting Logging Directory to VMs...
+mantle_build_1  | 2024-06-11T03:26:11.647105751Z Connected to 192.168.101.4
+mantle_build_1  | 2024-06-11T03:26:11.682703516Z Updating Syslog.global.logDir on ESXi host t162uepvesxha01.TACLAN.MIL with [VMs] /log
+mantle_build_1  | 2024-06-11T03:26:13.838522576Z Setting teaming and failover for vmnics: vmnic0, vmnic1
+mantle_build_1  | 2024-06-11T03:26:13.842043508Z Enabling SSH on Host: (t162uepvesxha01.TACLAN.MIL)
+mantle_build_1  | 2024-06-11T03:26:19.420213852Z Disabling SSH
+mantle_build_1  | 2024-06-11T03:26:24.466434081Z Reconfiguring port group: (Management Network)
+mantle_build_1  | 2024-06-11T03:26:24.720860955Z Exporting E.21.02-Windows-Server-2019-M12-Q4.iso to VMs
+mantle_build_1  | 2024-06-11T03:31:19.590072147Z Success ISO files exported successfully!
+mantle_build_1  | 2024-06-11T03:31:19.590220713Z E.21.02-Windows-Server-2019-M12-Q4.iso
+mantle_build_1  | 2024-06-11T03:31:19.805499265Z Attempting to add new VM: T162UEVXSFDCX50
+mantle_build_1  | 2024-06-11T03:31:19.821076879Z Attempting to add new VM: T162UEVXSFDCX51
+mantle_build_1  | 2024-06-11T03:31:19.833714399Z Attempting to add new VM: T162UEVXSADRX01
+mantle_build_1  | 2024-06-11T03:31:19.852242649Z Attempting to add new VM: T162UEVXACNSX01
+mantle_build_1  | 2024-06-11T03:31:19.867926319Z Attempting to add new VM: T162UEVXCMDPX01
+mantle_build_1  | 2024-06-11T03:31:19.887663905Z Attempting to add new VM: T162UEVXINFSX01
+mantle_build_1  | 2024-06-11T03:31:21.831603846Z Attempting to add SCSI Controller..
+mantle_build_1  | 2024-06-11T03:31:21.853651589Z Attempting to add SCSI Controller..
+mantle_build_1  | 2024-06-11T03:31:21.865522600Z Attempting to add SCSI Controller..
+mantle_build_1  | 2024-06-11T03:31:21.885392723Z Attempting to add SCSI Controller..
+mantle_build_1  | 2024-06-11T03:31:21.900183959Z Attempting to add SCSI Controller..
+mantle_build_1  | 2024-06-11T03:31:21.916086296Z Attempting to add SCSI Controller..
+mantle_build_1  | 2024-06-11T03:31:23.865970879Z Attempting to add SCSI Controller..
+mantle_build_1  | 2024-06-11T03:31:23.881775772Z Attempting to add SCSI Controller..
+mantle_build_1  | 2024-06-11T03:31:23.886256063Z Attempting to add SCSI Controller..
+mantle_build_1  | 2024-06-11T03:31:23.899788246Z Attempting to add SCSI Controller..
+mantle_build_1  | 2024-06-11T03:31:23.916082215Z Attempting to add SCSI Controller..
+mantle_build_1  | 2024-06-11T03:31:23.930381990Z Attempting to add SCSI Controller..
+mantle_build_1  | 2024-06-11T03:31:25.913979726Z Attempting to add 200GB Hard Disk to T162UEVXSFDCX50Attempting to add 100GB Hard Disk to T162UEVXSADRX01
+mantle_build_1  | 2024-06-11T03:31:25.917113693Z 
+mantle_build_1  | 2024-06-11T03:31:25.926423934Z Attempting to add 200GB Hard Disk to T162UEVXSFDCX51
+mantle_build_1  | 2024-06-11T03:31:25.931169984Z Attempting to add 100GB Hard Disk to T162UEVXACNSX01
+mantle_build_1  | 2024-06-11T03:31:25.944211127Z Attempting to add SCSI Controller..
+mantle_build_1  | 2024-06-11T03:31:25.949840123Z Attempting to add 100GB Hard Disk to T162UEVXINFSX01
+mantle_build_1  | 2024-06-11T03:31:27.973014222Z Attempting to add 100GB Hard Disk to T162UEVXSADRX01Attempting to add 100GB Hard Disk to T162UEVXCMDPX01
+mantle_build_1  | 2024-06-11T03:31:27.973634275Z 
+mantle_build_1  | 2024-06-11T03:31:27.984541859Z Attempting to add 200GB Hard Disk to T162UEVXSFDCX50Attempting to add 200GB Hard Disk to T162UEVXSFDCX51
+mantle_build_1  | 2024-06-11T03:31:27.986436647Z Attempting to add 100GB Hard Disk to T162UEVXACNSX01
+mantle_build_1  | 2024-06-11T03:31:27.987908642Z 
+mantle_build_1  | 2024-06-11T03:31:27.994208227Z Attempting to add 2048GB Hard Disk to T162UEVXINFSX01
+mantle_build_1  | 2024-06-11T03:31:30.017022835Z Attempting to add 100GB Hard Disk to T162UEVXCMDPX01
+mantle_build_1  | 2024-06-11T03:31:32.088083342Z Attempting to add 1024GB Hard Disk to T162UEVXCMDPX01
+mantle_build_1  | 2024-06-11T03:31:32.116546009Z Successfully changed boot order priority and attached iso to the CD drive of T162UEVXACNSX01
+mantle_build_1  | 2024-06-11T03:31:32.119182462Z Successfully changed boot order priority and attached iso to the CD drive of T162UEVXSFDCX50
+mantle_build_1  | 2024-06-11T03:31:32.120976073Z Attempting to add extra vm config specs...Attempting to add extra vm config specs...
+mantle_build_1  | 2024-06-11T03:31:32.122269404Z 
+mantle_build_1  | 2024-06-11T03:31:32.124818947Z Successfully changed boot order priority and attached iso to the CD drive of T162UEVXSADRX01
+mantle_build_1  | 2024-06-11T03:31:32.124905471Z Attempting to add extra vm config specs...
+mantle_build_1  | 2024-06-11T03:31:32.129421928Z Successfully changed boot order priority and attached iso to the CD drive of T162UEVXSFDCX51
+mantle_build_1  | 2024-06-11T03:31:32.133833654Z Attempting to add extra vm config specs...
+mantle_build_1  | 2024-06-11T03:31:34.084425484Z Successfully changed boot order priority and attached iso to the CD drive of T162UEVXINFSX01
+mantle_build_1  | 2024-06-11T03:31:34.085195838Z Attempting to add extra vm config specs...
+mantle_build_1  | 2024-06-11T03:31:34.182336681Z Starting T162UEVXACNSX01...
+mantle_build_1  | 2024-06-11T03:31:34.185458575Z Starting T162UEVXSFDCX50...
+mantle_build_1  | 2024-06-11T03:31:34.191022815Z Starting T162UEVXSFDCX51...
+mantle_build_1  | 2024-06-11T03:31:34.192797296Z Starting T162UEVXSADRX01...
+mantle_build_1  | 2024-06-11T03:31:36.110934211Z Starting T162UEVXINFSX01...
+mantle_build_1  | 2024-06-11T03:31:36.151281745Z Successfully changed boot order priority and attached iso to the CD drive of T162UEVXCMDPX01
+mantle_build_1  | 2024-06-11T03:31:36.151381194Z Attempting to add extra vm config specs...
+mantle_build_1  | 2024-06-11T03:31:36.350856543Z T162UEVXACNSX01 created successfully
+mantle_build_1  | 2024-06-11T03:31:36.352115769Z T162UEVXSADRX01 created successfully
+mantle_build_1  | 2024-06-11T03:31:36.353329831Z T162UEVXSFDCX51 created successfully
+mantle_build_1  | 2024-06-11T03:31:36.369940989Z T162UEVXSFDCX50 created successfully
+mantle_build_1  | 2024-06-11T03:31:38.145036775Z T162UEVXINFSX01 created successfully
+mantle_build_1  | 2024-06-11T03:31:38.176777511Z Starting T162UEVXCMDPX01...
+mantle_build_1  | 2024-06-11T03:31:40.214071549Z T162UEVXCMDPX01 created successfully
+mantle_build_1  | 2024-06-11T03:31:40.223328157Z Starting Post-Build Scan...
+mantle_build_1  | 2024-06-11T03:31:40.314098931Z Gathering host data...
+mantle_build_1  | 2024-06-11T03:31:41.520830817Z Gathering networking data...
+mantle_build_1  | 2024-06-11T03:31:42.020137628Z Gathering Virtual Machine data...
+mantle_build_1  | 2024-06-11T03:31:42.336667082Z Storing Scan Data in Database
+VM Logs:
+undefined

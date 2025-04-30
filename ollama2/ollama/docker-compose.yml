@@ -1,0 +1,28 @@
+services:
+  ollama:
+    image: ollama/ollama
+    container_name: ollama
+    ports:
+      - "11434:11434"
+    environment:
+      - ENV_VAR1=value1
+      - ENV_VAR2=value2
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    volumes:
+      - ollama_data:/data
+
+  open-webui:
+    image: ghcr.io/open-webui/open-webui:main
+    container_name: open-webui
+    ports:
+      - "3000:8080"
+    environment:
+      - ENV_VAR3=value3
+      - ENV_VAR4=value4
+    volumes:
+      - open_webui_data:/data
+
+volumes:
+  ollama_data:
+  open_webui_data:

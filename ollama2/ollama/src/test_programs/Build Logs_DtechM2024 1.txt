@@ -1,0 +1,1313 @@
+Build Logs:
+Attaching to build_202402291911_cbbb6ffd-9303-49f6-9ef5-2c2f641cf55e_mantle_dhcp_1, build_202402291911_cbbb6ffd-9303-49f6-9ef5-2c2f641cf55e_mantle_build_1, build_202402291911_cbbb6ffd-9303-49f6-9ef5-2c2f641cf55e_mantle_bios_1, build_202402291911_cbbb6ffd-9303-49f6-9ef5-2c2f641cf55e_mantle_pxe_1
+mantle_dhcp_1   | 2024-02-29T19:11:25.994232304Z Internet Systems Consortium DHCP Server 4.4.3-P1
+mantle_dhcp_1   | 2024-02-29T19:11:25.994345707Z Copyright 2004-2022 Internet Systems Consortium.
+mantle_dhcp_1   | 2024-02-29T19:11:25.994369807Z All rights reserved.
+mantle_dhcp_1   | 2024-02-29T19:11:25.994392507Z For info, please visit https://www.isc.org/software/dhcp/
+mantle_dhcp_1   | 2024-02-29T19:11:26.005726628Z Config file: /etc/dhcp/dhcpd.conf
+mantle_dhcp_1   | 2024-02-29T19:11:26.005854030Z Database file: /var/lib/dhcp/dhcpd.leases
+mantle_dhcp_1   | 2024-02-29T19:11:26.005876831Z PID file: /run/dhcp/dhcpd.pid
+mantle_dhcp_1   | 2024-02-29T19:11:26.023296170Z Wrote 0 class decls to leases file.
+mantle_dhcp_1   | 2024-02-29T19:11:26.023337870Z Wrote 0 leases to leases file.
+mantle_dhcp_1   | 2024-02-29T19:11:26.051971428Z Listening on LPF/eth0/00:0c:29:e0:d3:45/192.168.101.0/26
+mantle_dhcp_1   | 2024-02-29T19:11:26.052044429Z Sending on   LPF/eth0/00:0c:29:e0:d3:45/192.168.101.0/26
+mantle_dhcp_1   | 2024-02-29T19:11:26.052091629Z Sending on   Socket/fallback/fallback-net
+mantle_dhcp_1   | 2024-02-29T19:11:26.054008867Z Can't create PID file /run/dhcp/dhcpd.pid: No such file or directory.
+mantle_dhcp_1   | 2024-02-29T19:11:26.421835921Z Hosts detected: ['192.168.101.4', '192.168.101.5', '192.168.101.6']
+mantle_dhcp_1   | 2024-02-29T19:11:26.422070726Z Starting hosts:  ['192.168.101.4', '192.168.101.5', '192.168.101.6']
+mantle_dhcp_1   | 2024-02-29T19:11:26.422090726Z No current leases, 3 remaining.
+mantle_bios_1   | 2024-02-29T19:11:26.866710874Z /dev/ttyUSB2: Turn device on
+mantle_bios_1   | 2024-02-29T19:11:26.866810676Z /dev/ttyUSB2: Attempting to enter bios...
+mantle_bios_1   | 2024-02-29T19:11:26.866828376Z /dev/ttyUSB4: Turn device on
+mantle_bios_1   | 2024-02-29T19:11:26.866843076Z /dev/ttyUSB4: Attempting to enter bios...
+mantle_bios_1   | 2024-02-29T19:11:26.916959751Z /dev/ttyUSB5: Turn device on
+mantle_bios_1   | 2024-02-29T19:11:26.917003152Z /dev/ttyUSB5: Attempting to enter bios...
+mantle_build_1  | 2024-02-29T19:11:30.956174914Z DEMO_MODE: False
+mantle_build_1  | 2024-02-29T19:11:31.118978379Z Version 7.0 Detected
+mantle_build_1  | 2024-02-29T19:11:31.123598069Z VCSA System Name is FQDN. Adding temporary hosts file config.
+mantle_build_1  | 2024-02-29T19:11:31.128607567Z Added: 192.168.101.9 T162UEVXVCENX01.local
+mantle_build_1  | 2024-02-29T19:11:31.128765370Z Added: 192.168.101.9 T162UEVXVCENX01.TACLAN.MIL
+mantle_build_1  | 2024-02-29T19:11:31.128786171Z Running Pre Checks
+mantle_build_1  | 2024-02-29T19:11:31.148023244Z Everything looks good for PXE
+mantle_build_1  | 2024-02-29T19:11:31.161351504Z Everything looks good for VCSA Deploy
+mantle_build_1  | 2024-02-29T19:11:31.178714642Z Checking host connectivity
+mantle_build_1  | 2024-02-29T19:11:31.181306992Z Attempting to connect to (192.168.101.4)
+mantle_build_1  | 2024-02-29T19:11:49.266448344Z 192.168.101.4 not ready for API calls yet
+mantle_build_1  | 2024-02-29T19:12:07.378383812Z 192.168.101.4 not ready for API calls yet
+mantle_build_1  | 2024-02-29T19:12:25.490668303Z 192.168.101.4 not ready for API calls yet
+mantle_build_1  | 2024-02-29T19:12:43.602214373Z 192.168.101.4 not ready for API calls yet
+mantle_bios_1   | 2024-02-29T19:12:48.211074316Z /dev/ttyUSB5: Restoring BIOS to default configuration.
+mantle_bios_1   | 2024-02-29T19:12:48.211129517Z /dev/ttyUSB5: Looking for Save Options
+mantle_bios_1   | 2024-02-29T19:12:48.461897994Z /dev/ttyUSB5: Pressing Left Arrow (attempt 1)
+mantle_bios_1   | 2024-02-29T19:12:48.536117037Z /dev/ttyUSB4: Restoring BIOS to default configuration.
+mantle_bios_1   | 2024-02-29T19:12:48.536176339Z /dev/ttyUSB4: Looking for Save Options
+mantle_bios_1   | 2024-02-29T19:12:48.786234602Z /dev/ttyUSB4: Pressing Left Arrow (attempt 1)
+mantle_bios_1   | 2024-02-29T19:12:49.180468570Z /dev/ttyUSB5: Found 'Save Options'.
+mantle_bios_1   | 2024-02-29T19:12:49.431063645Z /dev/ttyUSB5: Looking for Restore/Load Default
+mantle_bios_1   | 2024-02-29T19:12:49.479577888Z /dev/ttyUSB4: Found 'Save Options'.
+mantle_bios_1   | 2024-02-29T19:12:49.681232010Z /dev/ttyUSB5: Pressing Down Arrow (attempt 1)
+mantle_bios_1   | 2024-02-29T19:12:49.730176062Z /dev/ttyUSB4: Looking for Restore/Load Default
+mantle_bios_1   | 2024-02-29T19:12:49.980534031Z /dev/ttyUSB4: Pressing Down Arrow (attempt 1)
+mantle_bios_1   | 2024-02-29T19:12:50.243718151Z /dev/ttyUSB5: Pressing Down Arrow (attempt 2)
+mantle_bios_1   | 2024-02-29T19:12:50.504911630Z /dev/ttyUSB4: Pressing Down Arrow (attempt 2)
+mantle_bios_1   | 2024-02-29T19:12:50.776502613Z /dev/ttyUSB5: Pressing Down Arrow (attempt 3)
+mantle_bios_1   | 2024-02-29T19:12:51.044892333Z /dev/ttyUSB4: Pressing Down Arrow (attempt 3)
+mantle_bios_1   | 2024-02-29T19:12:51.321356911Z /dev/ttyUSB5: Pressing Down Arrow (attempt 4)
+mantle_bios_1   | 2024-02-29T19:12:51.588946115Z /dev/ttyUSB4: Pressing Down Arrow (attempt 4)
+mantle_bios_1   | 2024-02-29T19:12:51.851692725Z /dev/ttyUSB5: Pressing Down Arrow (attempt 5)
+mantle_bios_1   | 2024-02-29T19:12:52.136664268Z /dev/ttyUSB4: Pressing Down Arrow (attempt 5)
+mantle_bios_1   | 2024-02-29T19:12:52.377124745Z /dev/ttyUSB5: Pressing Down Arrow (attempt 6)
+mantle_bios_1   | 2024-02-29T19:12:52.666031464Z /dev/ttyUSB4: Pressing Down Arrow (attempt 6)
+mantle_bios_1   | 2024-02-29T19:12:52.909067691Z /dev/ttyUSB5: Found 'Restore/Load Default'.
+mantle_bios_1   | 2024-02-29T19:12:53.203859125Z /dev/ttyUSB4: Found 'Restore/Load Default'.
+mantle_bios_1   | 2024-02-29T19:12:54.945542200Z /dev/ttyUSB5: Loaded defaults. Rebooting System..
+mantle_bios_1   | 2024-02-29T19:12:54.945685303Z /dev/ttyUSB5: Looking for Reset the system
+mantle_bios_1   | 2024-02-29T19:12:55.140256988Z /dev/ttyUSB4: Loaded defaults. Rebooting System..
+mantle_bios_1   | 2024-02-29T19:12:55.140425891Z /dev/ttyUSB4: Looking for Reset the system
+mantle_bios_1   | 2024-02-29T19:12:55.196657685Z /dev/ttyUSB5: Pressing Down Arrow (attempt 1)
+mantle_bios_1   | 2024-02-29T19:12:55.390913863Z /dev/ttyUSB4: Pressing Down Arrow (attempt 1)
+mantle_bios_1   | 2024-02-29T19:12:55.730064459Z /dev/ttyUSB5: Pressing Down Arrow (attempt 2)
+mantle_bios_1   | 2024-02-29T19:12:55.928153012Z /dev/ttyUSB4: Pressing Down Arrow (attempt 2)
+mantle_bios_1   | 2024-02-29T19:12:55.951856473Z /dev/ttyUSB2: Restoring BIOS to default configuration.
+mantle_bios_1   | 2024-02-29T19:12:55.951896174Z /dev/ttyUSB2: Looking for Save Options
+mantle_bios_1   | 2024-02-29T19:12:56.203975377Z /dev/ttyUSB2: Pressing Left Arrow (attempt 1)
+mantle_bios_1   | 2024-02-29T19:12:56.276326384Z /dev/ttyUSB5: Pressing Down Arrow (attempt 3)
+mantle_bios_1   | 2024-02-29T19:12:56.468473621Z /dev/ttyUSB4: Pressing Down Arrow (attempt 3)
+mantle_bios_1   | 2024-02-29T19:12:56.869336018Z /dev/ttyUSB5: Pressing Down Arrow (attempt 4)
+mantle_bios_1   | 2024-02-29T19:12:56.951314712Z /dev/ttyUSB2: Found 'Save Options'.
+mantle_bios_1   | 2024-02-29T19:12:56.994699356Z /dev/ttyUSB4: Pressing Down Arrow (attempt 4)
+mantle_bios_1   | 2024-02-29T19:12:57.206236770Z /dev/ttyUSB2: Looking for Restore/Load Default
+mantle_bios_1   | 2024-02-29T19:12:57.394608634Z /dev/ttyUSB5: Pressing Down Arrow (attempt 5)
+mantle_bios_1   | 2024-02-29T19:12:57.457707561Z /dev/ttyUSB2: Pressing Down Arrow (attempt 1)
+mantle_bios_1   | 2024-02-29T19:12:57.527394617Z /dev/ttyUSB4: Pressing Down Arrow (attempt 5)
+mantle_bios_1   | 2024-02-29T19:12:57.939969042Z /dev/ttyUSB5: Found 'Reset the system'.
+mantle_bios_1   | 2024-02-29T19:12:57.990131118Z /dev/ttyUSB2: Pressing Down Arrow (attempt 2)
+mantle_bios_1   | 2024-02-29T19:12:58.070359377Z /dev/ttyUSB4: Found 'Reset the system'.
+mantle_bios_1   | 2024-02-29T19:12:58.530047219Z /dev/ttyUSB2: Pressing Down Arrow (attempt 3)
+mantle_bios_1   | 2024-02-29T19:12:59.055304835Z /dev/ttyUSB2: Pressing Down Arrow (attempt 4)
+mantle_bios_1   | 2024-02-29T19:12:59.587348383Z /dev/ttyUSB2: Pressing Down Arrow (attempt 5)
+mantle_bios_1   | 2024-02-29T19:12:59.706826606Z /dev/ttyUSB5: Attempting to enter bios...
+mantle_bios_1   | 2024-02-29T19:12:59.828509373Z /dev/ttyUSB4: Attempting to enter bios...
+mantle_bios_1   | 2024-02-29T19:13:00.117167388Z /dev/ttyUSB2: Pressing Down Arrow (attempt 6)
+mantle_bios_1   | 2024-02-29T19:13:00.643878532Z /dev/ttyUSB2: Found 'Restore/Load Default'.
+mantle_build_1  | 2024-02-29T19:13:01.713908844Z 192.168.101.4 not ready for API calls yet
+mantle_bios_1   | 2024-02-29T19:13:02.606297300Z /dev/ttyUSB2: Loaded defaults. Rebooting System..
+mantle_bios_1   | 2024-02-29T19:13:02.606404202Z /dev/ttyUSB2: Looking for Reset the system
+mantle_bios_1   | 2024-02-29T19:13:02.860936453Z /dev/ttyUSB2: Pressing Down Arrow (attempt 1)
+mantle_bios_1   | 2024-02-29T19:13:03.410962352Z /dev/ttyUSB2: Pressing Down Arrow (attempt 2)
+mantle_bios_1   | 2024-02-29T19:13:03.949539527Z /dev/ttyUSB2: Pressing Down Arrow (attempt 3)
+mantle_bios_1   | 2024-02-29T19:13:04.469994550Z /dev/ttyUSB2: Pressing Down Arrow (attempt 4)
+mantle_bios_1   | 2024-02-29T19:13:04.989512454Z /dev/ttyUSB2: Pressing Down Arrow (attempt 5)
+mantle_bios_1   | 2024-02-29T19:13:05.528732541Z /dev/ttyUSB2: Found 'Reset the system'.
+mantle_bios_1   | 2024-02-29T19:13:07.282173945Z /dev/ttyUSB2: Attempting to enter bios...
+mantle_build_1  | 2024-02-29T19:13:19.840349498Z 192.168.101.4 not ready for API calls yet
+mantle_build_1  | 2024-02-29T19:13:37.937737389Z 192.168.101.4 not ready for API calls yet
+mantle_build_1  | 2024-02-29T19:13:56.049934178Z 192.168.101.4 not ready for API calls yet
+mantle_build_1  | 2024-02-29T19:14:14.162567065Z 192.168.101.4 not ready for API calls yet
+mantle_bios_1   | 2024-02-29T19:14:31.761741765Z /dev/ttyUSB2: Detecting device variant..
+mantle_bios_1   | 2024-02-29T19:14:31.762144272Z /dev/ttyUSB2: Looking for iSCSI Configuration
+mantle_bios_1   | 2024-02-29T19:14:32.073098921Z /dev/ttyUSB2: Pressing Right Arrow (attempt 1)
+mantle_build_1  | 2024-02-29T19:14:32.273668221Z 192.168.101.4 not ready for API calls yet
+mantle_bios_1   | 2024-02-29T19:14:32.748566058Z /dev/ttyUSB2: Found 'iSCSI Configuration'.
+mantle_bios_1   | 2024-02-29T19:14:33.299079966Z /dev/ttyUSB2: DTECH CF3 Detected
+mantle_bios_1   | 2024-02-29T19:14:33.299123167Z /dev/ttyUSB2: Running Medium/Heavy Modular CF3 Configuration
+mantle_bios_1   | 2024-02-29T19:14:33.299138467Z /dev/ttyUSB2: Enabling BMC Support
+mantle_bios_1   | 2024-02-29T19:14:33.299153268Z /dev/ttyUSB2: Looking for BMC
+mantle_bios_1   | 2024-02-29T19:14:33.550070647Z /dev/ttyUSB2: Pressing Right Arrow (attempt 1)
+mantle_bios_1   | 2024-02-29T19:14:34.222299022Z /dev/ttyUSB2: Pressing Right Arrow (attempt 2)
+mantle_bios_1   | 2024-02-29T19:14:34.967684420Z /dev/ttyUSB2: Found 'BMC'.
+mantle_bios_1   | 2024-02-29T19:14:37.472509837Z /dev/ttyUSB2: Saving Changes and Rebooting System..
+mantle_bios_1   | 2024-02-29T19:14:37.473442756Z /dev/ttyUSB2: Looking for Save Options
+mantle_bios_1   | 2024-02-29T19:14:37.725174152Z /dev/ttyUSB2: Pressing Left Arrow (attempt 1)
+mantle_bios_1   | 2024-02-29T19:14:38.410007172Z /dev/ttyUSB2: Pressing Left Arrow (attempt 2)
+mantle_bios_1   | 2024-02-29T19:14:39.168388323Z /dev/ttyUSB2: Pressing Left Arrow (attempt 3)
+mantle_bios_1   | 2024-02-29T19:14:39.940677344Z /dev/ttyUSB2: Pressing Left Arrow (attempt 4)
+mantle_bios_1   | 2024-02-29T19:14:40.234457458Z /dev/ttyUSB4: Detecting device variant..
+mantle_bios_1   | 2024-02-29T19:14:40.234566960Z /dev/ttyUSB4: Looking for iSCSI Configuration
+mantle_bios_1   | 2024-02-29T19:14:40.485049232Z /dev/ttyUSB4: Pressing Right Arrow (attempt 1)
+mantle_bios_1   | 2024-02-29T19:14:40.729297982Z /dev/ttyUSB2: Found 'Save Options'.
+mantle_bios_1   | 2024-02-29T19:14:40.980065960Z /dev/ttyUSB2: Looking for Reset the system
+mantle_bios_1   | 2024-02-29T19:14:40.995838366Z /dev/ttyUSB5: Detecting device variant..
+mantle_bios_1   | 2024-02-29T19:14:40.995899668Z /dev/ttyUSB5: Looking for iSCSI Configuration
+mantle_bios_1   | 2024-02-29T19:14:41.199036918Z /dev/ttyUSB4: Found 'iSCSI Configuration'.
+mantle_bios_1   | 2024-02-29T19:14:41.230802536Z /dev/ttyUSB2: Pressing Down Arrow (attempt 1)
+mantle_bios_1   | 2024-02-29T19:14:41.247295857Z /dev/ttyUSB5: Pressing Right Arrow (attempt 1)
+mantle_bios_1   | 2024-02-29T19:14:41.781517648Z /dev/ttyUSB4: DTECH CF2 Detected
+mantle_bios_1   | 2024-02-29T19:14:41.781609049Z /dev/ttyUSB4: Running Medium/Heavy Modular CF2 Configuration..
+mantle_bios_1   | 2024-02-29T19:14:41.781631050Z /dev/ttyUSB4: Setting Storage OpROM execution to UEFI
+mantle_bios_1   | 2024-02-29T19:14:41.781655150Z /dev/ttyUSB4: Looking for iSCSI Configuration
+mantle_bios_1   | 2024-02-29T19:14:41.804077586Z /dev/ttyUSB2: Pressing Down Arrow (attempt 2)
+mantle_bios_1   | 2024-02-29T19:14:41.963091679Z /dev/ttyUSB5: Found 'iSCSI Configuration'.
+mantle_bios_1   | 2024-02-29T19:14:42.032858936Z /dev/ttyUSB4: Pressing Right Arrow (attempt 1)
+mantle_bios_1   | 2024-02-29T19:14:42.325653431Z /dev/ttyUSB2: Found 'Reset the system'.
+mantle_bios_1   | 2024-02-29T19:14:42.524326795Z /dev/ttyUSB5: DTECH CF2 Detected
+mantle_bios_1   | 2024-02-29T19:14:42.524439097Z /dev/ttyUSB5: Running Medium/Heavy Modular CF2 Configuration..
+mantle_bios_1   | 2024-02-29T19:14:42.524489399Z /dev/ttyUSB5: Setting Storage OpROM execution to UEFI
+mantle_bios_1   | 2024-02-29T19:14:42.524538299Z /dev/ttyUSB5: Looking for iSCSI Configuration
+mantle_bios_1   | 2024-02-29T19:14:42.751715818Z /dev/ttyUSB4: Pressing Right Arrow (attempt 2)
+mantle_bios_1   | 2024-02-29T19:14:42.774603363Z /dev/ttyUSB5: Pressing Right Arrow (attempt 1)
+mantle_bios_1   | 2024-02-29T19:14:43.771477052Z /dev/ttyUSB4: Pressing Right Arrow (attempt 3)
+mantle_bios_1   | 2024-02-29T19:14:43.824069975Z /dev/ttyUSB5: Pressing Right Arrow (attempt 2)
+mantle_bios_1   | 2024-02-29T19:14:44.080191257Z /dev/ttyUSB2: Attempting to enter bios...
+mantle_bios_1   | 2024-02-29T19:14:44.829670534Z /dev/ttyUSB4: Pressing Right Arrow (attempt 4)
+mantle_bios_1   | 2024-02-29T19:14:44.848504400Z /dev/ttyUSB5: Pressing Right Arrow (attempt 3)
+mantle_bios_1   | 2024-02-29T19:14:45.900343159Z /dev/ttyUSB5: Pressing Right Arrow (attempt 4)
+mantle_bios_1   | 2024-02-29T19:14:45.982122848Z /dev/ttyUSB4: Pressing Right Arrow (attempt 5)
+mantle_bios_1   | 2024-02-29T19:14:46.943559749Z /dev/ttyUSB4: Pressing Right Arrow (attempt 6)
+mantle_bios_1   | 2024-02-29T19:14:47.017422986Z /dev/ttyUSB5: Pressing Right Arrow (attempt 5)
+mantle_bios_1   | 2024-02-29T19:14:48.033297145Z /dev/ttyUSB4: Pressing Right Arrow (attempt 7)
+mantle_bios_1   | 2024-02-29T19:14:48.140137223Z /dev/ttyUSB5: Pressing Right Arrow (attempt 6)
+mantle_bios_1   | 2024-02-29T19:14:49.177581301Z /dev/ttyUSB4: Pressing Right Arrow (attempt 8)
+mantle_bios_1   | 2024-02-29T19:14:49.299473672Z /dev/ttyUSB5: Pressing Right Arrow (attempt 7)
+mantle_bios_1   | 2024-02-29T19:14:50.382153130Z /dev/ttyUSB4: Found 'iSCSI Configuration'.
+mantle_build_1  | 2024-02-29T19:14:50.386683717Z 192.168.101.4 not ready for API calls yet
+mantle_bios_1   | 2024-02-29T19:14:50.491162649Z /dev/ttyUSB5: Pressing Right Arrow (attempt 8)
+mantle_bios_1   | 2024-02-29T19:14:50.634627239Z /dev/ttyUSB4: Looking for CSM Configuration
+mantle_bios_1   | 2024-02-29T19:14:50.884363097Z /dev/ttyUSB4: Pressing Down Arrow (attempt 1)
+mantle_bios_1   | 2024-02-29T19:14:51.259545395Z /dev/ttyUSB5: Found 'iSCSI Configuration'.
+mantle_bios_1   | 2024-02-29T19:14:51.413487689Z /dev/ttyUSB4: Pressing Down Arrow (attempt 2)
+mantle_bios_1   | 2024-02-29T19:14:51.514130246Z /dev/ttyUSB5: Looking for CSM Configuration
+mantle_bios_1   | 2024-02-29T19:14:51.764605618Z /dev/ttyUSB5: Pressing Down Arrow (attempt 1)
+mantle_bios_1   | 2024-02-29T19:14:51.945159529Z /dev/ttyUSB4: Pressing Down Arrow (attempt 3)
+mantle_bios_1   | 2024-02-29T19:14:52.289962936Z /dev/ttyUSB5: Pressing Down Arrow (attempt 2)
+mantle_bios_1   | 2024-02-29T19:14:52.487000968Z /dev/ttyUSB4: Pressing Down Arrow (attempt 4)
+mantle_bios_1   | 2024-02-29T19:14:52.813301715Z /dev/ttyUSB5: Pressing Down Arrow (attempt 3)
+mantle_bios_1   | 2024-02-29T19:14:53.030123632Z /dev/ttyUSB4: Pressing Down Arrow (attempt 5)
+mantle_bios_1   | 2024-02-29T19:14:53.356315977Z /dev/ttyUSB5: Pressing Down Arrow (attempt 4)
+mantle_bios_1   | 2024-02-29T19:14:53.573950610Z /dev/ttyUSB4: Pressing Down Arrow (attempt 6)
+mantle_bios_1   | 2024-02-29T19:14:53.919128524Z /dev/ttyUSB5: Pressing Down Arrow (attempt 5)
+mantle_bios_1   | 2024-02-29T19:14:54.119568622Z /dev/ttyUSB4: Found 'CSM Configuration'.
+mantle_bios_1   | 2024-02-29T19:14:54.471485466Z /dev/ttyUSB5: Pressing Down Arrow (attempt 6)
+mantle_bios_1   | 2024-02-29T19:14:54.994413137Z /dev/ttyUSB5: Found 'CSM Configuration'.
+mantle_bios_1   | 2024-02-29T19:14:55.122958937Z /dev/ttyUSB4: Looking for Storage OpROM
+mantle_bios_1   | 2024-02-29T19:14:55.373389309Z /dev/ttyUSB4: Pressing Down Arrow (attempt 1)
+mantle_bios_1   | 2024-02-29T19:14:55.930933853Z /dev/ttyUSB4: Pressing Down Arrow (attempt 2)
+mantle_bios_1   | 2024-02-29T19:14:55.997608950Z /dev/ttyUSB5: Looking for Storage OpROM
+mantle_bios_1   | 2024-02-29T19:14:56.249513049Z /dev/ttyUSB5: Pressing Down Arrow (attempt 1)
+mantle_bios_1   | 2024-02-29T19:14:56.490454435Z /dev/ttyUSB4: Pressing Down Arrow (attempt 3)
+mantle_bios_1   | 2024-02-29T19:14:56.802194999Z /dev/ttyUSB5: Pressing Down Arrow (attempt 2)
+mantle_bios_1   | 2024-02-29T19:14:57.081537132Z /dev/ttyUSB4: Pressing Down Arrow (attempt 4)
+mantle_bios_1   | 2024-02-29T19:14:57.405542234Z /dev/ttyUSB5: Pressing Down Arrow (attempt 3)
+mantle_bios_1   | 2024-02-29T19:14:57.752063572Z /dev/ttyUSB4: Pressing Down Arrow (attempt 5)
+mantle_bios_1   | 2024-02-29T19:14:58.031226404Z /dev/ttyUSB5: Pressing Down Arrow (attempt 4)
+mantle_bios_1   | 2024-02-29T19:14:58.281637276Z /dev/ttyUSB4: Pressing Down Arrow (attempt 6)
+mantle_bios_1   | 2024-02-29T19:14:58.651257363Z /dev/ttyUSB5: Pressing Down Arrow (attempt 5)
+mantle_bios_1   | 2024-02-29T19:14:58.773033632Z /dev/ttyUSB4: Found 'Storage OpROM'.
+mantle_bios_1   | 2024-02-29T19:14:59.201365163Z /dev/ttyUSB5: Pressing Down Arrow (attempt 6)
+mantle_bios_1   | 2024-02-29T19:14:59.734483432Z /dev/ttyUSB5: Found 'Storage OpROM'.
+mantle_bios_1   | 2024-02-29T19:14:59.776305646Z /dev/ttyUSB4: Looking for 40mUEFI
+mantle_bios_1   | 2024-02-29T19:15:00.041146598Z /dev/ttyUSB4: Pressing Down Arrow (attempt 1)
+mantle_bios_1   | 2024-02-29T19:15:00.562125932Z /dev/ttyUSB4: Pressing Down Arrow (attempt 2)
+mantle_bios_1   | 2024-02-29T19:15:00.736615025Z /dev/ttyUSB5: Looking for 40mUEFI
+mantle_bios_1   | 2024-02-29T19:15:00.988589727Z /dev/ttyUSB5: Pressing Down Arrow (attempt 1)
+mantle_bios_1   | 2024-02-29T19:15:01.083024763Z /dev/ttyUSB4: Found '40mUEFI'.
+mantle_bios_1   | 2024-02-29T19:15:01.517570016Z /dev/ttyUSB5: Pressing Down Arrow (attempt 2)
+mantle_bios_1   | 2024-02-29T19:15:02.048583644Z /dev/ttyUSB5: Found '40mUEFI'.
+mantle_bios_1   | 2024-02-29T19:15:02.586558307Z /dev/ttyUSB4: Disabling CPU C State
+mantle_bios_1   | 2024-02-29T19:15:02.588024535Z /dev/ttyUSB4: Looking for Processor Configuration
+mantle_bios_1   | 2024-02-29T19:15:02.837019879Z /dev/ttyUSB4: Pressing Right Arrow (attempt 1)
+mantle_bios_1   | 2024-02-29T19:15:03.556739277Z /dev/ttyUSB5: Disabling CPU C State
+mantle_bios_1   | 2024-02-29T19:15:03.560972259Z /dev/ttyUSB5: Looking for Processor Configuration
+mantle_bios_1   | 2024-02-29T19:15:03.817375647Z /dev/ttyUSB5: Pressing Right Arrow (attempt 1)
+mantle_bios_1   | 2024-02-29T19:15:03.831697225Z /dev/ttyUSB4: Found 'Processor Configuration'.
+mantle_bios_1   | 2024-02-29T19:15:04.085590663Z /dev/ttyUSB4: Looking for Advanced Power Management
+mantle_bios_1   | 2024-02-29T19:15:04.337357060Z /dev/ttyUSB4: Pressing Down Arrow (attempt 1)
+mantle_bios_1   | 2024-02-29T19:15:04.866160946Z /dev/ttyUSB5: Found 'Processor Configuration'.
+mantle_bios_1   | 2024-02-29T19:15:04.874726212Z /dev/ttyUSB4: Found 'Advanced Power Management'.
+mantle_bios_1   | 2024-02-29T19:15:05.116154407Z /dev/ttyUSB5: Looking for Advanced Power Management
+mantle_bios_1   | 2024-02-29T19:15:05.368369914Z /dev/ttyUSB5: Pressing Down Arrow (attempt 1)
+mantle_bios_1   | 2024-02-29T19:15:05.878065027Z /dev/ttyUSB4: Looking for Control CPU idle states
+mantle_bios_1   | 2024-02-29T19:15:05.913891224Z /dev/ttyUSB5: Found 'Advanced Power Management'.
+mantle_bios_1   | 2024-02-29T19:15:06.129076810Z /dev/ttyUSB4: Pressing Down Arrow (attempt 1)
+mantle_bios_1   | 2024-02-29T19:15:06.653551911Z /dev/ttyUSB4: Pressing Down Arrow (attempt 2)
+mantle_bios_1   | 2024-02-29T19:15:06.920524904Z /dev/ttyUSB5: Looking for Control CPU idle states
+mantle_bios_1   | 2024-02-29T19:15:07.176011573Z /dev/ttyUSB5: Pressing Down Arrow (attempt 1)
+mantle_bios_1   | 2024-02-29T19:15:07.219748924Z /dev/ttyUSB4: Pressing Down Arrow (attempt 3)
+mantle_bios_1   | 2024-02-29T19:15:07.741372370Z /dev/ttyUSB5: Pressing Down Arrow (attempt 2)
+mantle_bios_1   | 2024-02-29T19:15:07.781500450Z /dev/ttyUSB4: Pressing Down Arrow (attempt 4)
+mantle_bios_1   | 2024-02-29T19:15:08.299438524Z /dev/ttyUSB5: Pressing Down Arrow (attempt 3)
+mantle_bios_1   | 2024-02-29T19:15:08.348876885Z /dev/ttyUSB4: Pressing Down Arrow (attempt 5)
+mantle_build_1  | 2024-02-29T19:15:08.498436294Z 192.168.101.4 not ready for API calls yet
+mantle_bios_1   | 2024-02-29T19:15:08.845382743Z /dev/ttyUSB5: Pressing Down Arrow (attempt 4)
+mantle_bios_1   | 2024-02-29T19:15:08.883358881Z /dev/ttyUSB4: Pressing Down Arrow (attempt 6)
+mantle_bios_1   | 2024-02-29T19:15:09.439551998Z /dev/ttyUSB5: Pressing Down Arrow (attempt 5)
+mantle_bios_1   | 2024-02-29T19:15:09.454205284Z /dev/ttyUSB4: Pressing Down Arrow (attempt 7)
+mantle_bios_1   | 2024-02-29T19:15:10.027704638Z /dev/ttyUSB5: Pressing Down Arrow (attempt 6)
+mantle_bios_1   | 2024-02-29T19:15:10.034904079Z /dev/ttyUSB4: Pressing Down Arrow (attempt 8)
+mantle_bios_1   | 2024-02-29T19:15:10.642452894Z /dev/ttyUSB5: Pressing Down Arrow (attempt 7)
+mantle_bios_1   | 2024-02-29T19:15:10.649672035Z /dev/ttyUSB4: Pressing Down Arrow (attempt 9)
+mantle_bios_1   | 2024-02-29T19:15:11.261079527Z /dev/ttyUSB5: Pressing Down Arrow (attempt 8)
+mantle_bios_1   | 2024-02-29T19:15:11.273363366Z /dev/ttyUSB4: Found 'Control CPU idle states'.
+mantle_bios_1   | 2024-02-29T19:15:11.812149745Z /dev/ttyUSB5: Pressing Down Arrow (attempt 9)
+mantle_bios_1   | 2024-02-29T19:15:12.274939546Z /dev/ttyUSB4: Looking for Enhanced Cx
+mantle_bios_1   | 2024-02-29T19:15:12.351071126Z /dev/ttyUSB5: Found 'Control CPU idle states'.
+mantle_bios_1   | 2024-02-29T19:15:12.526086131Z /dev/ttyUSB4: Pressing Down Arrow (attempt 1)
+mantle_bios_1   | 2024-02-29T19:15:13.080907722Z /dev/ttyUSB4: Found 'Enhanced Cx'.
+mantle_bios_1   | 2024-02-29T19:15:13.352881412Z /dev/ttyUSB5: Looking for Enhanced Cx
+mantle_bios_1   | 2024-02-29T19:15:13.603466386Z /dev/ttyUSB5: Pressing Down Arrow (attempt 1)
+mantle_bios_1   | 2024-02-29T19:15:14.082480503Z /dev/ttyUSB4: Looking for 40mDisable
+mantle_bios_1   | 2024-02-29T19:15:14.149960715Z /dev/ttyUSB5: Found 'Enhanced Cx'.
+mantle_bios_1   | 2024-02-29T19:15:14.332959975Z /dev/ttyUSB4: Pressing Down Arrow (attempt 1)
+mantle_bios_1   | 2024-02-29T19:15:14.847053775Z /dev/ttyUSB4: Found '40mDisable'.
+mantle_bios_1   | 2024-02-29T19:15:15.151730501Z /dev/ttyUSB5: Looking for 40mDisable
+mantle_bios_1   | 2024-02-29T19:15:15.401945968Z /dev/ttyUSB5: Pressing Down Arrow (attempt 1)
+mantle_bios_1   | 2024-02-29T19:15:15.848391751Z /dev/ttyUSB4: Looking for Advanced Power Management
+mantle_bios_1   | 2024-02-29T19:15:15.917617697Z /dev/ttyUSB5: Found '40mDisable'.
+mantle_bios_1   | 2024-02-29T19:15:16.099268230Z /dev/ttyUSB4: Pressing Escape (attempt 1)
+mantle_bios_1   | 2024-02-29T19:15:16.600223274Z /dev/ttyUSB4: Pressing Escape (attempt 2)
+mantle_bios_1   | 2024-02-29T19:15:16.919434782Z /dev/ttyUSB5: Looking for Advanced Power Management
+mantle_bios_1   | 2024-02-29T19:15:17.171975494Z /dev/ttyUSB5: Pressing Escape (attempt 1)
+mantle_bios_1   | 2024-02-29T19:15:17.404633319Z /dev/ttyUSB4: Found 'Advanced Power Management'.
+mantle_bios_1   | 2024-02-29T19:15:17.670728095Z /dev/ttyUSB5: Pressing Escape (attempt 2)
+mantle_bios_1   | 2024-02-29T19:15:18.094713141Z /dev/ttyUSB4: Saving Changes and Rebooting System..
+mantle_bios_1   | 2024-02-29T19:15:18.094840143Z /dev/ttyUSB4: Looking for Save Options
+mantle_bios_1   | 2024-02-29T19:15:18.346438337Z /dev/ttyUSB4: Pressing Left Arrow (attempt 1)
+mantle_bios_1   | 2024-02-29T19:15:18.355366411Z /dev/ttyUSB5: Found 'Advanced Power Management'.
+mantle_bios_1   | 2024-02-29T19:15:18.608311131Z /dev/ttyUSB5: Saving Changes and Rebooting System..
+mantle_bios_1   | 2024-02-29T19:15:18.612366210Z /dev/ttyUSB5: Looking for Save Options
+mantle_bios_1   | 2024-02-29T19:15:19.169250042Z /dev/ttyUSB4: Pressing Left Arrow (attempt 2)
+mantle_bios_1   | 2024-02-29T19:15:19.277354744Z /dev/ttyUSB5: Pressing Left Arrow (attempt 1)
+mantle_bios_1   | 2024-02-29T19:15:19.944852527Z /dev/ttyUSB4: Pressing Left Arrow (attempt 3)
+mantle_bios_1   | 2024-02-29T19:15:20.036152903Z /dev/ttyUSB5: Pressing Left Arrow (attempt 2)
+mantle_bios_1   | 2024-02-29T19:15:20.801526889Z /dev/ttyUSB4: Found 'Save Options'.
+mantle_bios_1   | 2024-02-29T19:15:20.918508565Z /dev/ttyUSB5: Pressing Left Arrow (attempt 3)
+mantle_bios_1   | 2024-02-29T19:15:21.051932360Z /dev/ttyUSB4: Looking for Reset the system
+mantle_bios_1   | 2024-02-29T19:15:21.303218247Z /dev/ttyUSB4: Pressing Down Arrow (attempt 1)
+mantle_bios_1   | 2024-02-29T19:15:21.660112189Z /dev/ttyUSB5: Found 'Save Options'.
+mantle_bios_1   | 2024-02-29T19:15:21.834150574Z /dev/ttyUSB4: Pressing Down Arrow (attempt 2)
+mantle_bios_1   | 2024-02-29T19:15:21.913495218Z /dev/ttyUSB5: Looking for Reset the system
+mantle_bios_1   | 2024-02-29T19:15:22.165202713Z /dev/ttyUSB5: Pressing Down Arrow (attempt 1)
+mantle_bios_1   | 2024-02-29T19:15:22.368508368Z /dev/ttyUSB4: Found 'Reset the system'.
+mantle_bios_1   | 2024-02-29T19:15:22.690831637Z /dev/ttyUSB5: Pressing Down Arrow (attempt 2)
+mantle_bios_1   | 2024-02-29T19:15:23.213586205Z /dev/ttyUSB5: Found 'Reset the system'.
+mantle_bios_1   | 2024-02-29T19:15:24.365865217Z /dev/ttyUSB4: Attempting to enter bios...
+mantle_bios_1   | 2024-02-29T19:15:25.221981968Z /dev/ttyUSB5: Attempting to enter bios...
+mantle_build_1  | 2024-02-29T19:15:26.610115966Z 192.168.101.4 not ready for API calls yet
+mantle_build_1  | 2024-02-29T19:15:44.721907839Z 192.168.101.4 not ready for API calls yet
+mantle_build_1  | 2024-02-29T19:16:02.833659807Z 192.168.101.4 not ready for API calls yet
+mantle_build_1  | 2024-02-29T19:16:20.946252492Z 192.168.101.4 not ready for API calls yet
+mantle_build_1  | 2024-02-29T19:16:39.059190994Z 192.168.101.4 not ready for API calls yet
+mantle_bios_1   | 2024-02-29T19:16:53.896034369Z /dev/ttyUSB5: Looking for ;47mSystem Date
+mantle_bios_1   | 2024-02-29T19:16:54.146593041Z /dev/ttyUSB5: Pressing Down Arrow (attempt 1)
+mantle_bios_1   | 2024-02-29T19:16:54.302348271Z /dev/ttyUSB4: Looking for ;47mSystem Date
+mantle_bios_1   | 2024-02-29T19:16:54.553156149Z /dev/ttyUSB4: Pressing Down Arrow (attempt 1)
+mantle_bios_1   | 2024-02-29T19:16:54.947514120Z /dev/ttyUSB5: Pressing Down Arrow (attempt 2)
+mantle_bios_1   | 2024-02-29T19:16:55.076058620Z /dev/ttyUSB4: Pressing Down Arrow (attempt 2)
+mantle_bios_1   | 2024-02-29T19:16:55.476835715Z /dev/ttyUSB5: Found ';47mSystem Date'.
+mantle_bios_1   | 2024-02-29T19:16:55.837379527Z /dev/ttyUSB4: Found ';47mSystem Date'.
+mantle_bios_1   | 2024-02-29T19:16:55.921571965Z /dev/ttyUSB5: Setting System Date: 02/29/2024
+mantle_bios_1   | 2024-02-29T19:16:56.088116204Z /dev/ttyUSB4: Setting System Date: 02/29/2024
+mantle_build_1  | 2024-02-29T19:16:57.170186950Z 192.168.101.4 not ready for API calls yet
+mantle_bios_1   | 2024-02-29T19:16:57.830516893Z /dev/ttyUSB2: Enabling BMC Support
+mantle_bios_1   | 2024-02-29T19:16:57.830585295Z /dev/ttyUSB2: Looking for BMC
+mantle_bios_1   | 2024-02-29T19:16:58.080732160Z /dev/ttyUSB2: Pressing Right Arrow (attempt 1)
+mantle_bios_1   | 2024-02-29T19:16:58.815963461Z /dev/ttyUSB2: Pressing Right Arrow (attempt 2)
+mantle_bios_1   | 2024-02-29T19:16:59.563640903Z /dev/ttyUSB2: Pressing Right Arrow (attempt 3)
+mantle_bios_1   | 2024-02-29T19:16:59.678526338Z /dev/ttyUSB5: Setting System Time: 19:16:53
+mantle_bios_1   | 2024-02-29T19:16:59.844283061Z /dev/ttyUSB4: Setting System Time: 19:16:54
+mantle_bios_1   | 2024-02-29T19:17:00.348118761Z /dev/ttyUSB2: Found 'BMC'.
+mantle_bios_1   | 2024-02-29T19:17:00.599517650Z /dev/ttyUSB2: Looking for BMC network configuration
+mantle_bios_1   | 2024-02-29T19:17:00.850176226Z /dev/ttyUSB2: Pressing Down Arrow (attempt 1)
+mantle_bios_1   | 2024-02-29T19:17:01.185051939Z /dev/ttyUSB5: Disabling Security Device Support
+mantle_bios_1   | 2024-02-29T19:17:01.185154741Z /dev/ttyUSB5: Looking for iSCSI Configuration
+mantle_bios_1   | 2024-02-29T19:17:01.350954066Z /dev/ttyUSB4: Disabling Security Device Support
+mantle_bios_1   | 2024-02-29T19:17:01.350998666Z /dev/ttyUSB4: Looking for iSCSI Configuration
+mantle_bios_1   | 2024-02-29T19:17:01.470640893Z /dev/ttyUSB2: Pressing Down Arrow (attempt 2)
+mantle_bios_1   | 2024-02-29T19:17:01.621154421Z /dev/ttyUSB5: Pressing Right Arrow (attempt 1)
+mantle_bios_1   | 2024-02-29T19:17:01.765644631Z /dev/ttyUSB4: Pressing Right Arrow (attempt 1)
+mantle_bios_1   | 2024-02-29T19:17:02.048991443Z /dev/ttyUSB2: Pressing Down Arrow (attempt 3)
+mantle_bios_1   | 2024-02-29T19:17:02.435617163Z /dev/ttyUSB5: Found 'iSCSI Configuration'.
+mantle_bios_1   | 2024-02-29T19:17:02.563423948Z /dev/ttyUSB4: Found 'iSCSI Configuration'.
+mantle_bios_1   | 2024-02-29T19:17:02.586915405Z /dev/ttyUSB2: Pressing Down Arrow (attempt 4)
+mantle_bios_1   | 2024-02-29T19:17:02.686257737Z /dev/ttyUSB5: Looking for Trusted Computing
+mantle_bios_1   | 2024-02-29T19:17:02.815071942Z /dev/ttyUSB4: Looking for Trusted Computing
+mantle_bios_1   | 2024-02-29T19:17:02.936813211Z /dev/ttyUSB5: Pressing Down Arrow (attempt 1)
+mantle_bios_1   | 2024-02-29T19:17:03.065866821Z /dev/ttyUSB4: Pressing Down Arrow (attempt 1)
+mantle_bios_1   | 2024-02-29T19:17:03.165437057Z /dev/ttyUSB2: Pressing Down Arrow (attempt 5)
+mantle_bios_1   | 2024-02-29T19:17:03.461125508Z /dev/ttyUSB5: Pressing Down Arrow (attempt 2)
+mantle_bios_1   | 2024-02-29T19:17:03.590010515Z /dev/ttyUSB4: Pressing Down Arrow (attempt 2)
+mantle_bios_1   | 2024-02-29T19:17:03.745002230Z /dev/ttyUSB2: Pressing Down Arrow (attempt 6)
+mantle_bios_1   | 2024-02-29T19:17:03.991307520Z /dev/ttyUSB5: Found 'Trusted Computing'.
+mantle_bios_1   | 2024-02-29T19:17:04.124360608Z /dev/ttyUSB4: Found 'Trusted Computing'.
+mantle_bios_1   | 2024-02-29T19:17:04.366365315Z /dev/ttyUSB2: Pressing Down Arrow (attempt 7)
+mantle_bios_1   | 2024-02-29T19:17:04.909111771Z /dev/ttyUSB2: Pressing Down Arrow (attempt 8)
+mantle_bios_1   | 2024-02-29T19:17:05.451365018Z /dev/ttyUSB2: Found 'BMC network configuration'.
+mantle_bios_1   | 2024-02-29T19:17:05.745209733Z /dev/ttyUSB5: Looking for 40mDisable
+mantle_bios_1   | 2024-02-29T19:17:05.876839594Z /dev/ttyUSB4: Looking for 40mDisable
+mantle_bios_1   | 2024-02-29T19:17:05.999637782Z /dev/ttyUSB5: Pressing Down Arrow (attempt 1)
+mantle_bios_1   | 2024-02-29T19:17:06.130466826Z /dev/ttyUSB4: Pressing Down Arrow (attempt 1)
+mantle_bios_1   | 2024-02-29T19:17:06.535731709Z /dev/ttyUSB5: Pressing Down Arrow (attempt 2)
+mantle_bios_1   | 2024-02-29T19:17:06.650559042Z /dev/ttyUSB4: Pressing Down Arrow (attempt 2)
+mantle_bios_1   | 2024-02-29T19:17:07.062188949Z /dev/ttyUSB5: Found '40mDisable'.
+mantle_bios_1   | 2024-02-29T19:17:07.182537389Z /dev/ttyUSB4: Found '40mDisable'.
+mantle_bios_1   | 2024-02-29T19:17:07.207435873Z /dev/ttyUSB2: Looking for Static
+mantle_bios_1   | 2024-02-29T19:17:07.457586739Z /dev/ttyUSB2: Pressing Down Arrow (attempt 1)
+mantle_bios_1   | 2024-02-29T19:17:08.007632637Z /dev/ttyUSB2: Found 'Static'.
+mantle_bios_1   | 2024-02-29T19:17:08.066944491Z /dev/ttyUSB5: Security Device Sup Disabled
+mantle_bios_1   | 2024-02-29T19:17:08.184816583Z /dev/ttyUSB4: Security Device Sup Disabled
+mantle_bios_1   | 2024-02-29T19:17:08.318001274Z /dev/ttyUSB5: Checking Secure Boot is Disabled
+mantle_bios_1   | 2024-02-29T19:17:08.319173896Z /dev/ttyUSB5: Looking for Password Description
+mantle_bios_1   | 2024-02-29T19:17:08.437154491Z /dev/ttyUSB4: Checking Secure Boot is Disabled
+mantle_bios_1   | 2024-02-29T19:17:08.437262894Z /dev/ttyUSB4: Looking for Password Description
+mantle_bios_1   | 2024-02-29T19:17:08.570675889Z /dev/ttyUSB5: Pressing Right Arrow (attempt 1)
+mantle_bios_1   | 2024-02-29T19:17:08.687715464Z /dev/ttyUSB4: Pressing Right Arrow (attempt 1)
+mantle_bios_1   | 2024-02-29T19:17:09.015937648Z /dev/ttyUSB2: Looking for Station IP address
+mantle_bios_1   | 2024-02-29T19:17:09.274324174Z /dev/ttyUSB2: Pressing Down Arrow (attempt 1)
+mantle_bios_1   | 2024-02-29T19:17:10.042180609Z /dev/ttyUSB2: Found 'Station IP address'.
+mantle_bios_1   | 2024-02-29T19:17:10.464608625Z /dev/ttyUSB5: Pressing Right Arrow (attempt 2)
+mantle_bios_1   | 2024-02-29T19:17:10.519498292Z /dev/ttyUSB4: Pressing Right Arrow (attempt 2)
+mantle_bios_1   | 2024-02-29T19:17:11.357966901Z /dev/ttyUSB5: Pressing Right Arrow (attempt 3)
+mantle_bios_1   | 2024-02-29T19:17:11.416248734Z /dev/ttyUSB4: Pressing Right Arrow (attempt 3)
+mantle_bios_1   | 2024-02-29T19:17:12.377016321Z /dev/ttyUSB5: Found 'Password Description'.
+mantle_bios_1   | 2024-02-29T19:17:12.395557381Z /dev/ttyUSB4: Found 'Password Description'.
+mantle_bios_1   | 2024-02-29T19:17:12.628482612Z /dev/ttyUSB5: Looking for Secure Boot menu
+mantle_bios_1   | 2024-02-29T19:17:12.646333659Z /dev/ttyUSB4: Looking for Secure Boot menu
+mantle_bios_1   | 2024-02-29T19:17:12.879119286Z /dev/ttyUSB5: Pressing Down Arrow (attempt 1)
+mantle_bios_1   | 2024-02-29T19:17:12.898633366Z /dev/ttyUSB4: Pressing Down Arrow (attempt 1)
+mantle_bios_1   | 2024-02-29T19:17:13.416589740Z /dev/ttyUSB5: Pressing Down Arrow (attempt 2)
+mantle_bios_1   | 2024-02-29T19:17:13.429628293Z /dev/ttyUSB4: Pressing Down Arrow (attempt 2)
+mantle_bios_1   | 2024-02-29T19:17:13.958011770Z /dev/ttyUSB5: Found 'Secure Boot menu'.
+mantle_bios_1   | 2024-02-29T19:17:13.970583515Z /dev/ttyUSB4: Found 'Secure Boot menu'.
+mantle_build_1  | 2024-02-29T19:17:15.284065761Z 192.168.101.4 not ready for API calls yet
+mantle_bios_1   | 2024-02-29T19:17:15.711576276Z /dev/ttyUSB5: Looking for 40mDisabled
+mantle_bios_1   | 2024-02-29T19:17:15.721025260Z /dev/ttyUSB4: Looking for 40mDisabled
+mantle_bios_1   | 2024-02-29T19:17:15.962713661Z /dev/ttyUSB5: Pressing Down Arrow (attempt 1)
+mantle_bios_1   | 2024-02-29T19:17:15.971461731Z /dev/ttyUSB4: Pressing Down Arrow (attempt 1)
+mantle_bios_1   | 2024-02-29T19:17:16.496050134Z /dev/ttyUSB5: Pressing Down Arrow (attempt 2)
+mantle_bios_1   | 2024-02-29T19:17:16.502502960Z /dev/ttyUSB4: Pressing Down Arrow (attempt 2)
+mantle_bios_1   | 2024-02-29T19:17:17.049650301Z /dev/ttyUSB5: Found '40mDisabled'./dev/ttyUSB4: Found '40mDisabled'.
+mantle_bios_1   | 2024-02-29T19:17:17.051294433Z 
+mantle_bios_1   | 2024-02-29T19:17:18.052699910Z /dev/ttyUSB4: Secure Boot is Disabled
+mantle_bios_1   | 2024-02-29T19:17:18.053980535Z /dev/ttyUSB5: Secure Boot is Disabled
+mantle_bios_1   | 2024-02-29T19:17:18.303442688Z /dev/ttyUSB4: Setting BROADCOM MegaRAID configuration
+mantle_bios_1   | 2024-02-29T19:17:18.303495489Z /dev/ttyUSB4: Looking for iSCSI Configuration
+mantle_bios_1   | 2024-02-29T19:17:18.304422007Z /dev/ttyUSB5: Setting BROADCOM MegaRAID configuration
+mantle_bios_1   | 2024-02-29T19:17:18.304444607Z /dev/ttyUSB5: Looking for iSCSI Configuration
+mantle_bios_1   | 2024-02-29T19:17:18.554396469Z /dev/ttyUSB4: Pressing Right Arrow (attempt 1)
+mantle_bios_1   | 2024-02-29T19:17:18.555351587Z /dev/ttyUSB5: Pressing Right Arrow (attempt 1)
+mantle_bios_1   | 2024-02-29T19:17:20.471304951Z /dev/ttyUSB4: Pressing Right Arrow (attempt 2)
+mantle_bios_1   | 2024-02-29T19:17:20.488623089Z /dev/ttyUSB5: Pressing Right Arrow (attempt 2)
+mantle_bios_1   | 2024-02-29T19:17:20.812976997Z /dev/ttyUSB2: Looking for Subnet mask
+mantle_bios_1   | 2024-02-29T19:17:21.066322424Z /dev/ttyUSB2: Pressing Down Arrow (attempt 1)
+mantle_bios_1   | 2024-02-29T19:17:21.506229380Z /dev/ttyUSB4: Pressing Right Arrow (attempt 3)
+mantle_bios_1   | 2024-02-29T19:17:21.508420023Z /dev/ttyUSB5: Pressing Right Arrow (attempt 3)
+mantle_bios_1   | 2024-02-29T19:17:21.597175249Z /dev/ttyUSB2: Found 'Subnet mask'.
+mantle_bios_1   | 2024-02-29T19:17:22.511541033Z /dev/ttyUSB4: Pressing Right Arrow (attempt 4)
+mantle_bios_1   | 2024-02-29T19:17:22.522542047Z /dev/ttyUSB5: Pressing Right Arrow (attempt 4)
+mantle_bios_1   | 2024-02-29T19:17:23.721236362Z /dev/ttyUSB5: Pressing Right Arrow (attempt 5)
+mantle_bios_1   | 2024-02-29T19:17:23.741928864Z /dev/ttyUSB4: Pressing Right Arrow (attempt 5)
+mantle_bios_1   | 2024-02-29T19:17:24.666755352Z /dev/ttyUSB5: Found 'iSCSI Configuration'.
+mantle_bios_1   | 2024-02-29T19:17:24.693336468Z /dev/ttyUSB4: Found 'iSCSI Configuration'.
+mantle_bios_1   | 2024-02-29T19:17:24.917481228Z /dev/ttyUSB5: Looking for BROADCOM
+mantle_bios_1   | 2024-02-29T19:17:24.943660637Z /dev/ttyUSB4: Looking for BROADCOM
+mantle_bios_1   | 2024-02-29T19:17:25.168494210Z /dev/ttyUSB5: Pressing Down Arrow (attempt 1)
+mantle_bios_1   | 2024-02-29T19:17:25.195331032Z /dev/ttyUSB4: Pressing Down Arrow (attempt 1)
+mantle_bios_1   | 2024-02-29T19:17:25.725089936Z /dev/ttyUSB5: Pressing Down Arrow (attempt 2)
+mantle_bios_1   | 2024-02-29T19:17:25.741288251Z /dev/ttyUSB4: Pressing Down Arrow (attempt 2)
+mantle_bios_1   | 2024-02-29T19:17:26.280919247Z /dev/ttyUSB5: Pressing Down Arrow (attempt 3)
+mantle_bios_1   | 2024-02-29T19:17:26.301019138Z /dev/ttyUSB4: Pressing Down Arrow (attempt 3)
+mantle_bios_1   | 2024-02-29T19:17:26.834412012Z /dev/ttyUSB5: Pressing Down Arrow (attempt 4)
+mantle_bios_1   | 2024-02-29T19:17:26.859310996Z /dev/ttyUSB4: Pressing Down Arrow (attempt 4)
+mantle_bios_1   | 2024-02-29T19:17:27.380272428Z /dev/ttyUSB5: Pressing Down Arrow (attempt 5)
+mantle_bios_1   | 2024-02-29T19:17:27.403102473Z /dev/ttyUSB4: Pressing Down Arrow (attempt 5)
+mantle_bios_1   | 2024-02-29T19:17:27.911178155Z /dev/ttyUSB5: Pressing Down Arrow (attempt 6)
+mantle_bios_1   | 2024-02-29T19:17:27.933274984Z /dev/ttyUSB4: Pressing Down Arrow (attempt 6)
+mantle_bios_1   | 2024-02-29T19:17:28.455456841Z /dev/ttyUSB5: Pressing Down Arrow (attempt 7)
+mantle_bios_1   | 2024-02-29T19:17:28.472656975Z /dev/ttyUSB4: Pressing Down Arrow (attempt 7)
+mantle_bios_1   | 2024-02-29T19:17:29.018300689Z /dev/ttyUSB5: Pressing Down Arrow (attempt 8)
+mantle_bios_1   | 2024-02-29T19:17:29.029526907Z /dev/ttyUSB4: Pressing Down Arrow (attempt 8)
+mantle_bios_1   | 2024-02-29T19:17:29.568137683Z /dev/ttyUSB5: Pressing Down Arrow (attempt 9)
+mantle_bios_1   | 2024-02-29T19:17:29.581252738Z /dev/ttyUSB4: Pressing Down Arrow (attempt 9)
+mantle_bios_1   | 2024-02-29T19:17:30.125100815Z /dev/ttyUSB5: Pressing Down Arrow (attempt 10)
+mantle_bios_1   | 2024-02-29T19:17:30.138477976Z /dev/ttyUSB4: Pressing Down Arrow (attempt 10)
+mantle_bios_1   | 2024-02-29T19:17:30.658851496Z /dev/ttyUSB5: Found 'BROADCOM'.
+mantle_bios_1   | 2024-02-29T19:17:30.669452503Z /dev/ttyUSB4: Found 'BROADCOM'.
+mantle_bios_1   | 2024-02-29T19:17:31.911455459Z /dev/ttyUSB5: Looking for NVDATA
+mantle_bios_1   | 2024-02-29T19:17:31.922388372Z /dev/ttyUSB4: Looking for NVDATA
+mantle_bios_1   | 2024-02-29T19:17:32.677387456Z /dev/ttyUSB4: Pressing Down Arrow (attempt 1)
+mantle_bios_1   | 2024-02-29T19:17:32.749191753Z /dev/ttyUSB5: Pressing Down Arrow (attempt 1)
+mantle_bios_1   | 2024-02-29T19:17:33.171234262Z /dev/ttyUSB2: Looking for Router IP address
+mantle_bios_1   | 2024-02-29T19:17:33.221561340Z /dev/ttyUSB4: Found 'NVDATA'.
+mantle_bios_1   | 2024-02-29T19:17:33.321815990Z /dev/ttyUSB5: Found 'NVDATA'.
+mantle_build_1  | 2024-02-29T19:17:33.393658588Z 192.168.101.4 not ready for API calls yet
+mantle_bios_1   | 2024-02-29T19:17:33.422534450Z /dev/ttyUSB2: Pressing Down Arrow (attempt 1)
+mantle_bios_1   | 2024-02-29T19:17:33.956707738Z /dev/ttyUSB2: Found 'Router IP address'.
+mantle_bios_1   | 2024-02-29T19:17:34.526537822Z /dev/ttyUSB4: Looking for various controller
+mantle_bios_1   | 2024-02-29T19:17:34.549744374Z /dev/ttyUSB5: Looking for various controller
+mantle_bios_1   | 2024-02-29T19:17:34.777580705Z /dev/ttyUSB4: Pressing Up Arrow (attempt 1)
+mantle_bios_1   | 2024-02-29T19:17:34.800693255Z /dev/ttyUSB5: Pressing Up Arrow (attempt 1)
+mantle_bios_1   | 2024-02-29T19:17:35.590351313Z /dev/ttyUSB4: Pressing Up Arrow (attempt 2)
+mantle_bios_1   | 2024-02-29T19:17:35.606451026Z /dev/ttyUSB5: Pressing Up Arrow (attempt 2)
+mantle_bios_1   | 2024-02-29T19:17:36.217837119Z /dev/ttyUSB4: Found 'various controller'.
+mantle_bios_1   | 2024-02-29T19:17:36.225152462Z /dev/ttyUSB5: Found 'various controller'.
+mantle_bios_1   | 2024-02-29T19:17:37.219655705Z /dev/ttyUSB4: Looking for Manage Personality Mode
+mantle_bios_1   | 2024-02-29T19:17:37.226726943Z /dev/ttyUSB5: Looking for Manage Personality Mode
+mantle_bios_1   | 2024-02-29T19:17:37.470193279Z /dev/ttyUSB4: Pressing Up Arrow (attempt 1)
+mantle_bios_1   | 2024-02-29T19:17:37.477503821Z /dev/ttyUSB5: Pressing Up Arrow (attempt 1)
+mantle_bios_1   | 2024-02-29T19:17:38.036385291Z /dev/ttyUSB4: Pressing Up Arrow (attempt 2)
+mantle_bios_1   | 2024-02-29T19:17:38.037305609Z /dev/ttyUSB5: Pressing Up Arrow (attempt 2)
+mantle_bios_1   | 2024-02-29T19:17:38.663285984Z /dev/ttyUSB4: Found 'Manage Personality Mode'.
+mantle_bios_1   | 2024-02-29T19:17:38.668113779Z /dev/ttyUSB5: Found 'Manage Personality Mode'.
+mantle_bios_1   | 2024-02-29T19:17:40.253152508Z /dev/ttyUSB4: Personality Mode is set to JBOD
+mantle_bios_1   | 2024-02-29T19:17:40.255974063Z /dev/ttyUSB4: Looking for Main Menu
+mantle_bios_1   | 2024-02-29T19:17:40.261690673Z /dev/ttyUSB5: Personality Mode is set to JBOD
+mantle_bios_1   | 2024-02-29T19:17:40.264515429Z /dev/ttyUSB5: Looking for Main Menu
+mantle_bios_1   | 2024-02-29T19:17:40.509414793Z /dev/ttyUSB4: Pressing Escape (attempt 1)
+mantle_bios_1   | 2024-02-29T19:17:40.515022101Z /dev/ttyUSB5: Pressing Escape (attempt 1)
+mantle_bios_1   | 2024-02-29T19:17:41.012591879Z /dev/ttyUSB4: Pressing Escape (attempt 2)
+mantle_bios_1   | 2024-02-29T19:17:41.017175169Z /dev/ttyUSB5: Pressing Escape (attempt 2)
+mantle_bios_1   | 2024-02-29T19:17:41.963611477Z /dev/ttyUSB4: Pressing Escape (attempt 3)
+mantle_bios_1   | 2024-02-29T19:17:41.971763235Z /dev/ttyUSB5: Pressing Escape (attempt 3)
+mantle_bios_1   | 2024-02-29T19:17:43.766690447Z /dev/ttyUSB4: Pressing Escape (attempt 4)
+mantle_bios_1   | 2024-02-29T19:17:43.783978184Z /dev/ttyUSB5: Pressing Escape (attempt 4)
+mantle_bios_1   | 2024-02-29T19:17:44.268197503Z /dev/ttyUSB4: Pressing Escape (attempt 5)
+mantle_bios_1   | 2024-02-29T19:17:44.286395156Z /dev/ttyUSB5: Pressing Escape (attempt 5)
+mantle_bios_1   | 2024-02-29T19:17:45.225874529Z /dev/ttyUSB2: Saving Changes and Rebooting System..
+mantle_bios_1   | 2024-02-29T19:17:45.225917030Z /dev/ttyUSB2: Looking for Save Options
+mantle_bios_1   | 2024-02-29T19:17:45.476681107Z /dev/ttyUSB2: Pressing Left Arrow (attempt 1)
+mantle_bios_1   | 2024-02-29T19:17:46.375132283Z /dev/ttyUSB4: Found 'Main Menu'.
+mantle_bios_1   | 2024-02-29T19:17:46.504877906Z /dev/ttyUSB5: Found 'Main Menu'.
+mantle_bios_1   | 2024-02-29T19:17:46.786690587Z /dev/ttyUSB2: Pressing Left Arrow (attempt 2)
+mantle_bios_1   | 2024-02-29T19:17:47.506968696Z /dev/ttyUSB2: Pressing Left Arrow (attempt 3)
+mantle_bios_1   | 2024-02-29T19:17:48.207146814Z /dev/ttyUSB4: Looking for 55HCreate Profile Based
+mantle_bios_1   | 2024-02-29T19:17:48.301760055Z /dev/ttyUSB5: Looking for 55HCreate Profile Based
+mantle_bios_1   | 2024-02-29T19:17:48.457329481Z /dev/ttyUSB4: Pressing Down Arrow (attempt 1)
+mantle_bios_1   | 2024-02-29T19:17:48.473416593Z /dev/ttyUSB2: Pressing Left Arrow (attempt 4)
+mantle_bios_1   | 2024-02-29T19:17:48.552585033Z /dev/ttyUSB5: Pressing Down Arrow (attempt 1)
+mantle_bios_1   | 2024-02-29T19:17:49.042619964Z /dev/ttyUSB4: Pressing Down Arrow (attempt 2)
+mantle_bios_1   | 2024-02-29T19:17:49.146344482Z /dev/ttyUSB5: Pressing Down Arrow (attempt 2)
+mantle_bios_1   | 2024-02-29T19:17:49.287445226Z /dev/ttyUSB2: Found 'Save Options'.
+mantle_bios_1   | 2024-02-29T19:17:49.538596111Z /dev/ttyUSB2: Looking for Reset the system
+mantle_bios_1   | 2024-02-29T19:17:49.593547680Z /dev/ttyUSB4: Pressing Down Arrow (attempt 3)
+mantle_bios_1   | 2024-02-29T19:17:49.695046754Z /dev/ttyUSB5: Pressing Down Arrow (attempt 3)
+mantle_bios_1   | 2024-02-29T19:17:49.788561873Z /dev/ttyUSB2: Pressing Down Arrow (attempt 1)
+mantle_bios_1   | 2024-02-29T19:17:50.160345304Z /dev/ttyUSB4: Pressing Down Arrow (attempt 4)
+mantle_bios_1   | 2024-02-29T19:17:50.246695884Z /dev/ttyUSB5: Pressing Down Arrow (attempt 4)
+mantle_bios_1   | 2024-02-29T19:17:50.324929305Z /dev/ttyUSB2: Pressing Down Arrow (attempt 2)
+mantle_bios_1   | 2024-02-29T19:17:50.716777228Z /dev/ttyUSB4: Pressing Down Arrow (attempt 5)
+mantle_bios_1   | 2024-02-29T19:17:50.817538087Z /dev/ttyUSB5: Pressing Down Arrow (attempt 5)
+mantle_bios_1   | 2024-02-29T19:17:50.860389921Z /dev/ttyUSB2: Found 'Reset the system'.
+mantle_bios_1   | 2024-02-29T19:17:51.273012247Z /dev/ttyUSB4: Found '55HCreate Profile Based'.
+mantle_bios_1   | 2024-02-29T19:17:51.380137830Z /dev/ttyUSB5: Found '55HCreate Profile Based'.
+mantle_build_1  | 2024-02-29T19:17:51.506021079Z 192.168.101.4 not ready for API calls yet
+mantle_bios_1   | 2024-02-29T19:17:52.273739411Z /dev/ttyUSB4: Clearing JBOD configuration
+mantle_bios_1   | 2024-02-29T19:17:52.273865413Z /dev/ttyUSB4: Looking for all existing
+mantle_bios_1   | 2024-02-29T19:17:52.382265422Z /dev/ttyUSB5: Clearing JBOD configuration
+mantle_bios_1   | 2024-02-29T19:17:52.382579428Z /dev/ttyUSB5: Looking for all existing
+mantle_bios_1   | 2024-02-29T19:17:52.524249384Z /dev/ttyUSB4: Pressing Down Arrow (attempt 1)
+mantle_bios_1   | 2024-02-29T19:17:52.614155232Z /dev/ttyUSB2: Attempting to enter bios...
+mantle_bios_1   | 2024-02-29T19:17:52.633319505Z /dev/ttyUSB5: Pressing Down Arrow (attempt 1)
+mantle_bios_1   | 2024-02-29T19:17:53.066532631Z /dev/ttyUSB4: Pressing Down Arrow (attempt 2)
+mantle_bios_1   | 2024-02-29T19:17:53.181079858Z /dev/ttyUSB5: Pressing Down Arrow (attempt 2)
+mantle_bios_1   | 2024-02-29T19:17:53.620115498Z /dev/ttyUSB4: Found 'all existing'.
+mantle_bios_1   | 2024-02-29T19:17:53.743102690Z /dev/ttyUSB5: Found 'all existing'.
+mantle_bios_1   | 2024-02-29T19:17:54.622285790Z /dev/ttyUSB4: Looking for 47mConfirm
+mantle_bios_1   | 2024-02-29T19:17:54.745014078Z /dev/ttyUSB5: Looking for 47mConfirm
+mantle_bios_1   | 2024-02-29T19:17:54.874384195Z /dev/ttyUSB4: Pressing Up Arrow (attempt 1)
+mantle_bios_1   | 2024-02-29T19:17:54.996088761Z /dev/ttyUSB5: Pressing Up Arrow (attempt 1)
+mantle_bios_1   | 2024-02-29T19:17:55.397460568Z /dev/ttyUSB4: Found '47mConfirm'.
+mantle_bios_1   | 2024-02-29T19:17:55.521914088Z /dev/ttyUSB5: Found '47mConfirm'.
+mantle_bios_1   | 2024-02-29T19:17:56.400565278Z /dev/ttyUSB4: Looking for 40mEnabled
+mantle_bios_1   | 2024-02-29T19:17:56.524881496Z /dev/ttyUSB5: Looking for 40mEnabled
+mantle_bios_1   | 2024-02-29T19:17:56.651120451Z /dev/ttyUSB4: Pressing Down Arrow (attempt 1)
+mantle_bios_1   | 2024-02-29T19:17:56.775725075Z /dev/ttyUSB5: Pressing Down Arrow (attempt 1)
+mantle_bios_1   | 2024-02-29T19:17:57.168283011Z /dev/ttyUSB4: Found '40mEnabled'.
+mantle_bios_1   | 2024-02-29T19:17:57.299269859Z /dev/ttyUSB5: Found '40mEnabled'.
+mantle_bios_1   | 2024-02-29T19:17:58.169474085Z /dev/ttyUSB4: Looking for Yes
+mantle_bios_1   | 2024-02-29T19:17:58.304255906Z /dev/ttyUSB5: Looking for Yes
+mantle_bios_1   | 2024-02-29T19:17:58.420217062Z /dev/ttyUSB4: Pressing Down Arrow (attempt 1)
+mantle_bios_1   | 2024-02-29T19:17:58.554459873Z /dev/ttyUSB5: Pressing Down Arrow (attempt 1)
+mantle_bios_1   | 2024-02-29T19:17:58.941355198Z /dev/ttyUSB4: Found 'Yes'.
+mantle_bios_1   | 2024-02-29T19:17:59.066398830Z /dev/ttyUSB5: Found 'Yes'.
+mantle_bios_1   | 2024-02-29T19:18:00.193968862Z /dev/ttyUSB4: Looking for Main Menu
+mantle_bios_1   | 2024-02-29T19:18:00.320150016Z /dev/ttyUSB5: Looking for Main Menu
+mantle_bios_1   | 2024-02-29T19:18:00.444380032Z /dev/ttyUSB4: Pressing Escape (attempt 1)
+mantle_bios_1   | 2024-02-29T19:18:01.202112870Z /dev/ttyUSB5: Pressing Escape (attempt 1)
+mantle_bios_1   | 2024-02-29T19:18:01.308348136Z /dev/ttyUSB4: Pressing Escape (attempt 2)
+mantle_bios_1   | 2024-02-29T19:18:01.703408320Z /dev/ttyUSB5: Pressing Escape (attempt 2)
+mantle_bios_1   | 2024-02-29T19:18:02.052981719Z /dev/ttyUSB4: Pressing Escape (attempt 3)
+mantle_bios_1   | 2024-02-29T19:18:02.404453555Z /dev/ttyUSB5: Pressing Escape (attempt 3)
+mantle_bios_1   | 2024-02-29T19:18:02.817138382Z /dev/ttyUSB4: Found 'Main Menu'.
+mantle_bios_1   | 2024-02-29T19:18:03.197123173Z /dev/ttyUSB5: Found 'Main Menu'.
+mantle_bios_1   | 2024-02-29T19:18:04.624490835Z /dev/ttyUSB4: Looking for 55HCreate Profile Based
+mantle_bios_1   | 2024-02-29T19:18:04.876159130Z /dev/ttyUSB4: Pressing Down Arrow (attempt 1)
+mantle_bios_1   | 2024-02-29T19:18:04.950587277Z /dev/ttyUSB5: Looking for 55HCreate Profile Based
+mantle_bios_1   | 2024-02-29T19:18:05.201627361Z /dev/ttyUSB5: Pressing Down Arrow (attempt 1)
+mantle_bios_1   | 2024-02-29T19:18:05.603522477Z /dev/ttyUSB4: Pressing Down Arrow (attempt 2)
+mantle_bios_1   | 2024-02-29T19:18:05.990430003Z /dev/ttyUSB5: Pressing Down Arrow (attempt 2)
+mantle_bios_1   | 2024-02-29T19:18:06.153290970Z /dev/ttyUSB4: Pressing Down Arrow (attempt 3)
+mantle_bios_1   | 2024-02-29T19:18:06.533530866Z /dev/ttyUSB5: Pressing Down Arrow (attempt 3)
+mantle_bios_1   | 2024-02-29T19:18:06.698658778Z /dev/ttyUSB4: Pressing Down Arrow (attempt 4)
+mantle_bios_1   | 2024-02-29T19:18:07.068422570Z /dev/ttyUSB5: Pressing Down Arrow (attempt 4)
+mantle_bios_1   | 2024-02-29T19:18:07.226643847Z /dev/ttyUSB4: Pressing Down Arrow (attempt 5)
+mantle_bios_1   | 2024-02-29T19:18:07.602951067Z /dev/ttyUSB5: Pressing Down Arrow (attempt 5)
+mantle_bios_1   | 2024-02-29T19:18:07.749679021Z /dev/ttyUSB4: Pressing Down Arrow (attempt 6)
+mantle_bios_1   | 2024-02-29T19:18:08.147133151Z /dev/ttyUSB5: Pressing Down Arrow (attempt 6)
+mantle_bios_1   | 2024-02-29T19:18:08.270253646Z /dev/ttyUSB4: Pressing Down Arrow (attempt 7)
+mantle_bios_1   | 2024-02-29T19:18:08.682596166Z /dev/ttyUSB5: Pressing Down Arrow (attempt 7)
+mantle_bios_1   | 2024-02-29T19:18:08.788591127Z /dev/ttyUSB4: Pressing Down Arrow (attempt 8)
+mantle_bios_1   | 2024-02-29T19:18:09.218449088Z /dev/ttyUSB5: Pressing Down Arrow (attempt 8)
+mantle_bios_1   | 2024-02-29T19:18:09.318067326Z /dev/ttyUSB4: Pressing Down Arrow (attempt 9)
+mantle_build_1  | 2024-02-29T19:18:09.618102161Z 192.168.101.4 not ready for API calls yet
+mantle_bios_1   | 2024-02-29T19:18:09.764359806Z /dev/ttyUSB5: Pressing Down Arrow (attempt 9)
+mantle_bios_1   | 2024-02-29T19:18:09.851734505Z /dev/ttyUSB4: Pressing Down Arrow (attempt 10)
+mantle_bios_1   | 2024-02-29T19:18:10.295358934Z /dev/ttyUSB5: Pressing Down Arrow (attempt 10)
+mantle_bios_1   | 2024-02-29T19:18:10.434764145Z /dev/ttyUSB4: Pressing Down Arrow (attempt 11)
+mantle_bios_1   | 2024-02-29T19:18:10.854042000Z /dev/ttyUSB5: Pressing Down Arrow (attempt 11)
+mantle_bios_1   | 2024-02-29T19:18:10.984496237Z /dev/ttyUSB4: Found '55HCreate Profile Based'.
+mantle_bios_1   | 2024-02-29T19:18:11.416202234Z /dev/ttyUSB5: Pressing Down Arrow (attempt 12)
+mantle_bios_1   | 2024-02-29T19:18:11.975605814Z /dev/ttyUSB5: Found '55HCreate Profile Based'.
+mantle_bios_1   | 2024-02-29T19:18:15.132182010Z /dev/ttyUSB4: Looking for Allows changing
+mantle_bios_1   | 2024-02-29T19:18:15.409688208Z /dev/ttyUSB4: Pressing Down Arrow (attempt 1)
+mantle_bios_1   | 2024-02-29T19:18:15.943331787Z /dev/ttyUSB4: Pressing Down Arrow (attempt 2)
+mantle_bios_1   | 2024-02-29T19:18:16.139947912Z /dev/ttyUSB5: Looking for Allows changing
+mantle_bios_1   | 2024-02-29T19:18:16.446113967Z /dev/ttyUSB5: Pressing Down Arrow (attempt 1)
+mantle_bios_1   | 2024-02-29T19:18:16.490173924Z /dev/ttyUSB4: Found 'Allows changing'.
+mantle_bios_1   | 2024-02-29T19:18:16.989606038Z /dev/ttyUSB5: Pressing Down Arrow (attempt 2)
+mantle_bios_1   | 2024-02-29T19:18:17.491510500Z /dev/ttyUSB4: Setting drives to JBOD
+mantle_bios_1   | 2024-02-29T19:18:17.491556801Z /dev/ttyUSB4: Looking for Selects all drives
+mantle_bios_1   | 2024-02-29T19:18:17.536974284Z /dev/ttyUSB5: Pressing Down Arrow (attempt 3)
+mantle_bios_1   | 2024-02-29T19:18:17.742133574Z /dev/ttyUSB4: Pressing Up Arrow (attempt 1)
+mantle_bios_1   | 2024-02-29T19:18:18.098528407Z /dev/ttyUSB5: Found 'Allows changing'.
+mantle_bios_1   | 2024-02-29T19:18:18.280404844Z /dev/ttyUSB4: Pressing Up Arrow (attempt 2)
+mantle_bios_1   | 2024-02-29T19:18:18.820216143Z /dev/ttyUSB4: Pressing Up Arrow (attempt 3)
+mantle_bios_1   | 2024-02-29T19:18:19.101100706Z /dev/ttyUSB5: Setting drives to JBOD
+mantle_bios_1   | 2024-02-29T19:18:19.101701618Z /dev/ttyUSB5: Looking for Selects all drives
+mantle_bios_1   | 2024-02-29T19:18:19.342375899Z /dev/ttyUSB4: Found 'Selects all drives'.
+mantle_bios_1   | 2024-02-29T19:18:19.353609318Z /dev/ttyUSB5: Pressing Up Arrow (attempt 1)
+mantle_bios_1   | 2024-02-29T19:18:19.888727326Z /dev/ttyUSB5: Pressing Up Arrow (attempt 2)
+mantle_bios_1   | 2024-02-29T19:18:20.344007481Z /dev/ttyUSB4: Looking for OK
+mantle_bios_1   | 2024-02-29T19:18:20.425558466Z /dev/ttyUSB5: Pressing Up Arrow (attempt 3)
+mantle_bios_1   | 2024-02-29T19:18:20.594492152Z /dev/ttyUSB4: Pressing Down Arrow (attempt 1)
+mantle_bios_1   | 2024-02-29T19:18:20.944550961Z /dev/ttyUSB5: Found 'Selects all drives'.
+mantle_bios_1   | 2024-02-29T19:18:21.110839696Z /dev/ttyUSB4: Pressing Down Arrow (attempt 2)
+mantle_bios_1   | 2024-02-29T19:18:21.639364175Z /dev/ttyUSB4: Found 'OK'.
+mantle_bios_1   | 2024-02-29T19:18:21.947158561Z /dev/ttyUSB5: Looking for OK
+mantle_bios_1   | 2024-02-29T19:18:22.197817237Z /dev/ttyUSB5: Pressing Down Arrow (attempt 1)
+mantle_bios_1   | 2024-02-29T19:18:22.728556360Z /dev/ttyUSB5: Pressing Down Arrow (attempt 2)
+mantle_bios_1   | 2024-02-29T19:18:23.272488639Z /dev/ttyUSB5: Found 'OK'.
+mantle_bios_1   | 2024-02-29T19:18:23.391910762Z /dev/ttyUSB4: Looking for Enabled
+mantle_bios_1   | 2024-02-29T19:18:23.642474235Z /dev/ttyUSB4: Pressing Down Arrow (attempt 1)
+mantle_bios_1   | 2024-02-29T19:18:24.162092342Z /dev/ttyUSB4: Found 'Enabled'.
+mantle_bios_1   | 2024-02-29T19:18:25.026449754Z /dev/ttyUSB5: Looking for Enabled
+mantle_bios_1   | 2024-02-29T19:18:25.166292774Z /dev/ttyUSB4: Looking for Yes
+mantle_bios_1   | 2024-02-29T19:18:25.278236551Z /dev/ttyUSB5: Pressing Down Arrow (attempt 1)
+mantle_bios_1   | 2024-02-29T19:18:25.419644502Z /dev/ttyUSB4: Pressing Down Arrow (attempt 1)
+mantle_bios_1   | 2024-02-29T19:18:25.796618834Z /dev/ttyUSB5: Found 'Enabled'.
+mantle_bios_1   | 2024-02-29T19:18:25.941487152Z /dev/ttyUSB4: Found 'Yes'.
+mantle_bios_1   | 2024-02-29T19:18:26.800225153Z /dev/ttyUSB5: Looking for Yes
+mantle_bios_1   | 2024-02-29T19:18:27.051345937Z /dev/ttyUSB5: Pressing Down Arrow (attempt 1)
+mantle_bios_1   | 2024-02-29T19:18:27.571691658Z /dev/ttyUSB5: Found 'Yes'.
+mantle_build_1  | 2024-02-29T19:18:27.729511928Z 192.168.101.4 not ready for API calls yet
+mantle_bios_1   | 2024-02-29T19:18:35.203306991Z /dev/ttyUSB4: Looking for Main Menu
+mantle_bios_1   | 2024-02-29T19:18:35.697738707Z /dev/ttyUSB4: Pressing Escape (attempt 1)
+mantle_bios_1   | 2024-02-29T19:18:36.198252943Z /dev/ttyUSB4: Pressing Escape (attempt 2)
+mantle_bios_1   | 2024-02-29T19:18:36.825364240Z /dev/ttyUSB5: Looking for Main Menu
+mantle_bios_1   | 2024-02-29T19:18:37.002628888Z /dev/ttyUSB4: Found 'Main Menu'.
+mantle_bios_1   | 2024-02-29T19:18:37.256014616Z /dev/ttyUSB4: Setting Network Boot Drive Priorities
+mantle_bios_1   | 2024-02-29T19:18:37.260271699Z /dev/ttyUSB4: Looking for Boot Configuration
+mantle_bios_1   | 2024-02-29T19:18:37.264277176Z /dev/ttyUSB5: Pressing Escape (attempt 1)
+mantle_bios_1   | 2024-02-29T19:18:37.767044556Z /dev/ttyUSB5: Pressing Escape (attempt 2)
+mantle_bios_1   | 2024-02-29T19:18:37.872025897Z /dev/ttyUSB4: Pressing Right Arrow (attempt 1)
+mantle_bios_1   | 2024-02-29T19:18:38.863491981Z /dev/ttyUSB5: Found 'Main Menu'.
+mantle_bios_1   | 2024-02-29T19:18:38.876501134Z /dev/ttyUSB4: Pressing Right Arrow (attempt 2)
+mantle_bios_1   | 2024-02-29T19:18:39.669362855Z /dev/ttyUSB5: Setting Network Boot Drive Priorities
+mantle_bios_1   | 2024-02-29T19:18:39.671524797Z /dev/ttyUSB5: Looking for Boot Configuration
+mantle_bios_1   | 2024-02-29T19:18:39.781508936Z /dev/ttyUSB4: Pressing Right Arrow (attempt 3)
+mantle_bios_1   | 2024-02-29T19:18:39.922025969Z /dev/ttyUSB5: Pressing Right Arrow (attempt 1)
+mantle_bios_1   | 2024-02-29T19:18:40.664104502Z /dev/ttyUSB4: Pressing Right Arrow (attempt 4)
+mantle_bios_1   | 2024-02-29T19:18:40.740204483Z /dev/ttyUSB5: Pressing Right Arrow (attempt 2)
+mantle_bios_1   | 2024-02-29T19:18:42.103488198Z /dev/ttyUSB5: Pressing Right Arrow (attempt 3)
+mantle_bios_1   | 2024-02-29T19:18:42.204004753Z /dev/ttyUSB4: Found 'Boot Configuration'.
+mantle_bios_1   | 2024-02-29T19:18:42.454742430Z /dev/ttyUSB4: Looking for Network Device BBS Priorities
+mantle_bios_1   | 2024-02-29T19:18:42.705659210Z /dev/ttyUSB4: Pressing Up Arrow (attempt 1)
+mantle_bios_1   | 2024-02-29T19:18:42.835293831Z /dev/ttyUSB5: Pressing Right Arrow (attempt 4)
+mantle_bios_1   | 2024-02-29T19:18:43.268410256Z /dev/ttyUSB4: Pressing Up Arrow (attempt 2)
+mantle_bios_1   | 2024-02-29T19:18:43.688417625Z /dev/ttyUSB5: Found 'Boot Configuration'.
+mantle_bios_1   | 2024-02-29T19:18:43.801032515Z /dev/ttyUSB4: Found 'Network Device BBS Priorities'.
+mantle_bios_1   | 2024-02-29T19:18:43.939004199Z /dev/ttyUSB5: Looking for Network Device BBS Priorities
+mantle_bios_1   | 2024-02-29T19:18:44.189925079Z /dev/ttyUSB5: Pressing Up Arrow (attempt 1)
+mantle_bios_1   | 2024-02-29T19:18:44.728725259Z /dev/ttyUSB5: Found 'Network Device BBS Priorities'.
+mantle_bios_1   | 2024-02-29T19:18:44.804219927Z /dev/ttyUSB4: Looking for Boot Option #3
+mantle_bios_1   | 2024-02-29T19:18:45.057262248Z /dev/ttyUSB4: Pressing Down Arrow (attempt 1)
+mantle_bios_1   | 2024-02-29T19:18:45.588492481Z /dev/ttyUSB4: Pressing Down Arrow (attempt 2)
+mantle_bios_1   | 2024-02-29T19:18:45.729865530Z /dev/ttyUSB5: Looking for Boot Option #3
+mantle_build_1  | 2024-02-29T19:18:45.843457839Z 192.168.101.4 not ready for API calls yet
+mantle_bios_1   | 2024-02-29T19:18:45.980511805Z /dev/ttyUSB5: Pressing Down Arrow (attempt 1)
+mantle_bios_1   | 2024-02-29T19:18:46.114081803Z /dev/ttyUSB4: Found 'Boot Option #3'.
+mantle_bios_1   | 2024-02-29T19:18:46.513189366Z /dev/ttyUSB5: Pressing Down Arrow (attempt 2)
+mantle_bios_1   | 2024-02-29T19:18:47.039954411Z /dev/ttyUSB5: Found 'Boot Option #3'.
+mantle_bios_1   | 2024-02-29T19:18:47.117112011Z /dev/ttyUSB4: Looking for 40mDisabled
+mantle_bios_1   | 2024-02-29T19:18:47.368528802Z /dev/ttyUSB4: Pressing Down Arrow (attempt 1)
+mantle_bios_1   | 2024-02-29T19:18:47.892837700Z /dev/ttyUSB4: Found '40mDisabled'.
+mantle_bios_1   | 2024-02-29T19:18:48.042627313Z /dev/ttyUSB5: Looking for 40mDisabled
+mantle_bios_1   | 2024-02-29T19:18:48.295469630Z /dev/ttyUSB5: Pressing Down Arrow (attempt 1)
+mantle_bios_1   | 2024-02-29T19:18:48.816432363Z /dev/ttyUSB5: Found '40mDisabled'.
+mantle_bios_1   | 2024-02-29T19:18:48.893481062Z /dev/ttyUSB4: Looking for Boot Option #2
+mantle_bios_1   | 2024-02-29T19:18:49.146205377Z /dev/ttyUSB4: Pressing Down Arrow (attempt 1)
+mantle_bios_1   | 2024-02-29T19:18:49.679001939Z /dev/ttyUSB4: Pressing Down Arrow (attempt 2)
+mantle_bios_1   | 2024-02-29T19:18:49.819940681Z /dev/ttyUSB5: Looking for Boot Option #2
+mantle_bios_1   | 2024-02-29T19:18:50.070379852Z /dev/ttyUSB5: Pressing Down Arrow (attempt 1)
+mantle_bios_1   | 2024-02-29T19:18:50.208436437Z /dev/ttyUSB4: Found 'Boot Option #2'.
+mantle_bios_1   | 2024-02-29T19:18:50.598948632Z /dev/ttyUSB5: Pressing Down Arrow (attempt 2)
+mantle_bios_1   | 2024-02-29T19:18:51.135497268Z /dev/ttyUSB5: Found 'Boot Option #2'.
+mantle_bios_1   | 2024-02-29T19:18:51.208586789Z /dev/ttyUSB4: Looking for 40mDisabled
+mantle_bios_1   | 2024-02-29T19:18:51.459189663Z /dev/ttyUSB4: Pressing Down Arrow (attempt 1)
+mantle_bios_1   | 2024-02-29T19:18:51.983518861Z /dev/ttyUSB4: Pressing Down Arrow (attempt 2)
+mantle_bios_1   | 2024-02-29T19:18:52.138214570Z /dev/ttyUSB5: Looking for 40mDisabled
+mantle_bios_1   | 2024-02-29T19:18:52.389128050Z /dev/ttyUSB5: Pressing Down Arrow (attempt 1)
+mantle_bios_1   | 2024-02-29T19:18:52.504277190Z /dev/ttyUSB4: Found '40mDisabled'.
+mantle_bios_1   | 2024-02-29T19:18:52.912165823Z /dev/ttyUSB5: Pressing Down Arrow (attempt 2)
+mantle_bios_1   | 2024-02-29T19:18:53.429586287Z /dev/ttyUSB5: Found '40mDisabled'.
+mantle_bios_1   | 2024-02-29T19:18:53.506875791Z /dev/ttyUSB4: Looking for Boot Option #1
+mantle_bios_1   | 2024-02-29T19:18:53.759063395Z /dev/ttyUSB4: Pressing Down Arrow (attempt 1)
+mantle_bios_1   | 2024-02-29T19:18:54.285571836Z /dev/ttyUSB4: Pressing Down Arrow (attempt 2)
+mantle_bios_1   | 2024-02-29T19:18:54.433041304Z /dev/ttyUSB5: Looking for Boot Option #1
+mantle_bios_1   | 2024-02-29T19:18:54.682896363Z /dev/ttyUSB5: Pressing Down Arrow (attempt 1)
+mantle_bios_1   | 2024-02-29T19:18:54.816483361Z /dev/ttyUSB4: Found 'Boot Option #1'.
+mantle_bios_1   | 2024-02-29T19:18:55.211719449Z /dev/ttyUSB5: Pressing Down Arrow (attempt 2)
+mantle_bios_1   | 2024-02-29T19:18:55.747749975Z /dev/ttyUSB5: Found 'Boot Option #1'.
+mantle_bios_1   | 2024-02-29T19:18:55.820171983Z /dev/ttyUSB4: Looking for 40mIBA GE Slot 0700 v1570
+mantle_bios_1   | 2024-02-29T19:18:56.069567534Z /dev/ttyUSB4: Pressing Down Arrow (attempt 1)
+mantle_bios_1   | 2024-02-29T19:18:56.599567642Z /dev/ttyUSB4: Pressing Down Arrow (attempt 2)
+mantle_bios_1   | 2024-02-29T19:18:56.752020207Z /dev/ttyUSB5: Looking for 40mIBA GE Slot 0700 v1570
+mantle_bios_1   | 2024-02-29T19:18:57.004435516Z /dev/ttyUSB5: Pressing Down Arrow (attempt 1)
+mantle_bios_1   | 2024-02-29T19:18:57.121125587Z /dev/ttyUSB4: Found '40mIBA GE Slot 0700 v1570'.
+mantle_bios_1   | 2024-02-29T19:18:57.524048723Z /dev/ttyUSB5: Pressing Down Arrow (attempt 2)
+mantle_bios_1   | 2024-02-29T19:18:58.045404863Z /dev/ttyUSB5: Found '40mIBA GE Slot 0700 v1570'.
+mantle_bios_1   | 2024-02-29T19:18:58.373716749Z /dev/ttyUSB4: Setting Boot Order
+mantle_bios_1   | 2024-02-29T19:18:58.373859252Z /dev/ttyUSB4: Looking for 47mBoot Option #1
+mantle_bios_1   | 2024-02-29T19:18:58.625360843Z /dev/ttyUSB4: Pressing Down Arrow (attempt 1)
+mantle_bios_1   | 2024-02-29T19:18:59.296917606Z /dev/ttyUSB5: Setting Boot Order
+mantle_bios_1   | 2024-02-29T19:18:59.297001608Z /dev/ttyUSB5: Looking for 47mBoot Option #1
+mantle_bios_1   | 2024-02-29T19:18:59.525455752Z /dev/ttyUSB4: Pressing Down Arrow (attempt 2)
+mantle_bios_1   | 2024-02-29T19:18:59.553176190Z /dev/ttyUSB5: Pressing Down Arrow (attempt 1)
+mantle_bios_1   | 2024-02-29T19:19:00.135320313Z /dev/ttyUSB4: Pressing Down Arrow (attempt 3)
+mantle_bios_1   | 2024-02-29T19:19:00.605395657Z /dev/ttyUSB5: Pressing Down Arrow (attempt 2)
+mantle_bios_1   | 2024-02-29T19:19:00.679961707Z /dev/ttyUSB4: Pressing Down Arrow (attempt 4)
+mantle_bios_1   | 2024-02-29T19:19:01.159411932Z /dev/ttyUSB5: Pressing Down Arrow (attempt 3)
+mantle_bios_1   | 2024-02-29T19:19:01.208045979Z /dev/ttyUSB4: Pressing Down Arrow (attempt 5)
+mantle_bios_1   | 2024-02-29T19:19:01.694642143Z /dev/ttyUSB5: Pressing Down Arrow (attempt 4)
+mantle_bios_1   | 2024-02-29T19:19:01.752510668Z /dev/ttyUSB4: Found '47mBoot Option #1'.
+mantle_bios_1   | 2024-02-29T19:19:02.229506946Z /dev/ttyUSB5: Found '47mBoot Option #1'.
+mantle_bios_1   | 2024-02-29T19:19:02.754358255Z /dev/ttyUSB4: Looking for 40mIBA GE Slot 0700 v1570
+mantle_bios_1   | 2024-02-29T19:19:03.004793126Z /dev/ttyUSB4: Pressing Up Arrow (attempt 1)
+mantle_bios_1   | 2024-02-29T19:19:03.233998184Z /dev/ttyUSB5: Looking for 40mIBA GE Slot 0700 v1570
+mantle_bios_1   | 2024-02-29T19:19:03.481600401Z /dev/ttyUSB5: Pressing Up Arrow (attempt 1)
+mantle_bios_1   | 2024-02-29T19:19:03.520858165Z /dev/ttyUSB4: Found '40mIBA GE Slot 0700 v1570'.
+mantle_build_1  | 2024-02-29T19:19:03.954104391Z 192.168.101.4 not ready for API calls yet
+mantle_bios_1   | 2024-02-29T19:19:03.994380375Z /dev/ttyUSB5: Found '40mIBA GE Slot 0700 v1570'.
+mantle_bios_1   | 2024-02-29T19:19:04.522682149Z /dev/ttyUSB4: ---------------------------
+mantle_bios_1   | 2024-02-29T19:19:04.522741950Z /dev/ttyUSB4: BIOS Configuration Complete
+mantle_bios_1   | 2024-02-29T19:19:04.522829052Z /dev/ttyUSB4: ---------------------------
+mantle_bios_1   | 2024-02-29T19:19:04.996138258Z /dev/ttyUSB5: ---------------------------
+mantle_bios_1   | 2024-02-29T19:19:04.996217759Z /dev/ttyUSB5: BIOS Configuration Complete
+mantle_bios_1   | 2024-02-29T19:19:04.996240459Z /dev/ttyUSB5: ---------------------------
+mantle_build_1  | 2024-02-29T19:19:22.102691992Z 192.168.101.4 not ready for API calls yet
+mantle_bios_1   | 2024-02-29T19:19:28.389499571Z /dev/ttyUSB2: Looking for ;47mSystem Date
+mantle_bios_1   | 2024-02-29T19:19:28.878004573Z /dev/ttyUSB2: Pressing Down Arrow (attempt 1)
+mantle_bios_1   | 2024-02-29T19:19:29.406546753Z /dev/ttyUSB2: Pressing Down Arrow (attempt 2)
+mantle_bios_1   | 2024-02-29T19:19:29.935986550Z /dev/ttyUSB2: Found ';47mSystem Date'.
+mantle_bios_1   | 2024-02-29T19:19:30.186662226Z /dev/ttyUSB2: Setting System Date: 02/29/2024
+mantle_bios_1   | 2024-02-29T19:19:33.943613599Z /dev/ttyUSB2: Setting System Time: 19:19:28
+mantle_bios_1   | 2024-02-29T19:19:35.446639133Z /dev/ttyUSB2: Setting Video OpROM execution to Legacy
+mantle_bios_1   | 2024-02-29T19:19:35.446690234Z /dev/ttyUSB2: Looking for iSCSI Configuration
+mantle_bios_1   | 2024-02-29T19:19:35.877214108Z /dev/ttyUSB2: Pressing Right Arrow (attempt 1)
+mantle_bios_1   | 2024-02-29T19:19:36.562176730Z /dev/ttyUSB2: Found 'iSCSI Configuration'.
+mantle_bios_1   | 2024-02-29T19:19:36.814038630Z /dev/ttyUSB2: Looking for CSM Configuration
+mantle_bios_1   | 2024-02-29T19:19:37.065448119Z /dev/ttyUSB2: Pressing Down Arrow (attempt 1)
+mantle_bios_1   | 2024-02-29T19:19:37.593958199Z /dev/ttyUSB2: Pressing Down Arrow (attempt 2)
+mantle_bios_1   | 2024-02-29T19:19:38.117105874Z /dev/ttyUSB2: Pressing Down Arrow (attempt 3)
+mantle_bios_1   | 2024-02-29T19:19:38.638509415Z /dev/ttyUSB2: Pressing Down Arrow (attempt 4)
+mantle_bios_1   | 2024-02-29T19:19:39.165877772Z /dev/ttyUSB2: Pressing Down Arrow (attempt 5)
+mantle_bios_1   | 2024-02-29T19:19:39.695281768Z /dev/ttyUSB2: Pressing Down Arrow (attempt 6)
+mantle_build_1  | 2024-02-29T19:19:40.177724652Z 192.168.101.4 not ready for API calls yet
+mantle_bios_1   | 2024-02-29T19:19:40.236583697Z /dev/ttyUSB2: Pressing Down Arrow (attempt 7)
+mantle_bios_1   | 2024-02-29T19:19:40.775600681Z /dev/ttyUSB2: Pressing Down Arrow (attempt 8)
+mantle_bios_1   | 2024-02-29T19:19:41.310935293Z /dev/ttyUSB2: Found 'CSM Configuration'.
+mantle_bios_1   | 2024-02-29T19:19:42.314047703Z /dev/ttyUSB2: Looking for Video OpROM
+mantle_bios_1   | 2024-02-29T19:19:42.563686158Z /dev/ttyUSB2: Pressing Down Arrow (attempt 1)
+mantle_bios_1   | 2024-02-29T19:19:43.118622851Z /dev/ttyUSB2: Pressing Down Arrow (attempt 2)
+mantle_bios_1   | 2024-02-29T19:19:43.668878853Z /dev/ttyUSB2: Pressing Down Arrow (attempt 3)
+mantle_bios_1   | 2024-02-29T19:19:44.225649983Z /dev/ttyUSB2: Pressing Down Arrow (attempt 4)
+mantle_bios_1   | 2024-02-29T19:19:44.763857350Z /dev/ttyUSB2: Pressing Down Arrow (attempt 5)
+mantle_bios_1   | 2024-02-29T19:19:45.289440273Z /dev/ttyUSB2: Pressing Down Arrow (attempt 6)
+mantle_bios_1   | 2024-02-29T19:19:45.815667408Z /dev/ttyUSB2: Found 'Video OpROM'.
+mantle_bios_1   | 2024-02-29T19:19:46.818184906Z /dev/ttyUSB2: Looking for Legacy
+mantle_bios_1   | 2024-02-29T19:19:47.069499494Z /dev/ttyUSB2: Pressing Down Arrow (attempt 1)
+mantle_bios_1   | 2024-02-29T19:19:47.590042019Z /dev/ttyUSB2: Found 'Legacy'.
+mantle_bios_1   | 2024-02-29T19:19:49.093230856Z /dev/ttyUSB2: Setting AVAGO MegaRAID configuration
+mantle_bios_1   | 2024-02-29T19:19:49.093315258Z /dev/ttyUSB2: Looking for Manage RAID
+mantle_bios_1   | 2024-02-29T19:19:49.780969932Z /dev/ttyUSB2: Pressing Down Arrow (attempt 1)
+mantle_bios_1   | 2024-02-29T19:19:50.304520915Z /dev/ttyUSB2: Pressing Down Arrow (attempt 2)
+mantle_bios_1   | 2024-02-29T19:19:50.843312095Z /dev/ttyUSB2: Pressing Down Arrow (attempt 3)
+mantle_bios_1   | 2024-02-29T19:19:51.371945676Z /dev/ttyUSB2: Found 'Manage RAID'.
+mantle_bios_1   | 2024-02-29T19:19:52.622655902Z /dev/ttyUSB2: Looking for NVDATA
+mantle_bios_1   | 2024-02-29T19:19:53.136333193Z /dev/ttyUSB2: Pressing Down Arrow (attempt 1)
+mantle_bios_1   | 2024-02-29T19:19:53.681465795Z /dev/ttyUSB2: Found 'NVDATA'.
+mantle_bios_1   | 2024-02-29T19:19:54.683740789Z /dev/ttyUSB2: Looking for Advanced Controller Management
+mantle_bios_1   | 2024-02-29T19:19:54.934314863Z /dev/ttyUSB2: Pressing Up Arrow (attempt 1)
+mantle_bios_1   | 2024-02-29T19:19:55.484111156Z /dev/ttyUSB2: Pressing Up Arrow (attempt 2)
+mantle_bios_1   | 2024-02-29T19:19:56.057954817Z /dev/ttyUSB2: Found 'Advanced Controller Management'.
+mantle_bios_1   | 2024-02-29T19:19:57.059674700Z /dev/ttyUSB2: Looking for Manage Personality Mode
+mantle_bios_1   | 2024-02-29T19:19:57.311985208Z /dev/ttyUSB2: Pressing Up Arrow (attempt 1)
+mantle_bios_1   | 2024-02-29T19:19:57.843409343Z /dev/ttyUSB2: Pressing Up Arrow (attempt 2)
+mantle_build_1  | 2024-02-29T19:19:58.289947528Z 192.168.101.4 not ready for API calls yet
+mantle_bios_1   | 2024-02-29T19:19:58.405957985Z /dev/ttyUSB2: Found 'Manage Personality Mode'.
+mantle_bios_1   | 2024-02-29T19:19:59.972424252Z /dev/ttyUSB2: Setting Personality Mode from RAID to JBOD
+mantle_bios_1   | 2024-02-29T19:19:59.972476854Z /dev/ttyUSB2: Looking for Advanced
+mantle_bios_1   | 2024-02-29T19:20:00.223492535Z /dev/ttyUSB2: Pressing Down Arrow (attempt 1)
+mantle_bios_1   | 2024-02-29T19:20:00.753134837Z /dev/ttyUSB2: Pressing Down Arrow (attempt 2)
+mantle_bios_1   | 2024-02-29T19:20:01.286269006Z /dev/ttyUSB2: Pressing Down Arrow (attempt 3)
+mantle_bios_1   | 2024-02-29T19:20:01.809264478Z /dev/ttyUSB2: Found 'Advanced'.
+mantle_bios_1   | 2024-02-29T19:20:03.063628975Z /dev/ttyUSB2: Looking for [Disabled]
+mantle_bios_1   | 2024-02-29T19:20:03.315224968Z /dev/ttyUSB2: Pressing Down Arrow (attempt 1)
+mantle_bios_1   | 2024-02-29T19:20:04.043511433Z /dev/ttyUSB2: Found '[Disabled]'.
+mantle_bios_1   | 2024-02-29T19:20:05.048235174Z /dev/ttyUSB2: Looking for Enabled
+mantle_bios_1   | 2024-02-29T19:20:05.300578182Z /dev/ttyUSB2: Pressing Down Arrow (attempt 1)
+mantle_bios_1   | 2024-02-29T19:20:05.826902718Z /dev/ttyUSB2: Found 'Enabled'.
+mantle_bios_1   | 2024-02-29T19:20:06.828942508Z /dev/ttyUSB2: Looking for Yes
+mantle_bios_1   | 2024-02-29T19:20:07.080734205Z /dev/ttyUSB2: Pressing Down Arrow (attempt 1)
+mantle_bios_1   | 2024-02-29T19:20:07.605658914Z /dev/ttyUSB2: Found 'Yes'.
+mantle_bios_1   | 2024-02-29T19:20:10.610366455Z /dev/ttyUSB2: Looking for Main Menu
+mantle_bios_1   | 2024-02-29T19:20:10.861177433Z /dev/ttyUSB2: Pressing Escape (attempt 1)
+mantle_bios_1   | 2024-02-29T19:20:11.362220277Z /dev/ttyUSB2: Pressing Escape (attempt 2)
+mantle_bios_1   | 2024-02-29T19:20:11.863498126Z /dev/ttyUSB2: Pressing Escape (attempt 3)
+mantle_bios_1   | 2024-02-29T19:20:12.364645073Z /dev/ttyUSB2: Pressing Escape (attempt 4)
+mantle_bios_1   | 2024-02-29T19:20:12.865502114Z /dev/ttyUSB2: Pressing Escape (attempt 5)
+mantle_bios_1   | 2024-02-29T19:20:13.366998868Z /dev/ttyUSB2: Pressing Escape (attempt 6)
+mantle_bios_1   | 2024-02-29T19:20:13.868980131Z /dev/ttyUSB2: Pressing Escape (attempt 7)
+mantle_bios_1   | 2024-02-29T19:20:14.370483786Z /dev/ttyUSB2: Pressing Escape (attempt 8)
+mantle_bios_1   | 2024-02-29T19:20:14.872171844Z /dev/ttyUSB2: Pressing Escape (attempt 9)
+mantle_bios_1   | 2024-02-29T19:20:15.373192088Z /dev/ttyUSB2: Pressing Escape (attempt 10)
+mantle_bios_1   | 2024-02-29T19:20:15.874986947Z /dev/ttyUSB2: Pressing Escape (attempt 11)
+mantle_build_1  | 2024-02-29T19:20:16.403665730Z 192.168.101.4 not ready for API calls yet
+mantle_bios_1   | 2024-02-29T19:20:16.571482494Z /dev/ttyUSB2: Pressing Escape (attempt 12)
+mantle_bios_1   | 2024-02-29T19:20:17.242948654Z /dev/ttyUSB2: Pressing Escape (attempt 13)
+mantle_bios_1   | 2024-02-29T19:20:18.009218558Z /dev/ttyUSB2: Pressing Escape (attempt 14)
+mantle_bios_1   | 2024-02-29T19:20:18.754655958Z /dev/ttyUSB2: Pressing Escape (attempt 15)
+mantle_bios_1   | 2024-02-29T19:20:19.572595166Z /dev/ttyUSB2: Found 'Main Menu'.
+mantle_bios_1   | 2024-02-29T19:20:19.825576887Z /dev/ttyUSB2: Saving Changes and Rebooting System..
+mantle_bios_1   | 2024-02-29T19:20:19.827619627Z /dev/ttyUSB2: Looking for Save Options
+mantle_bios_1   | 2024-02-29T19:20:20.476328744Z /dev/ttyUSB2: Pressing Left Arrow (attempt 1)
+mantle_bios_1   | 2024-02-29T19:20:21.164937237Z /dev/ttyUSB2: Pressing Left Arrow (attempt 2)
+mantle_bios_1   | 2024-02-29T19:20:21.842637419Z /dev/ttyUSB2: Found 'Save Options'.
+mantle_bios_1   | 2024-02-29T19:20:22.095119429Z /dev/ttyUSB2: Looking for Reset the system
+mantle_bios_1   | 2024-02-29T19:20:22.347223332Z /dev/ttyUSB2: Pressing Down Arrow (attempt 1)
+mantle_bios_1   | 2024-02-29T19:20:22.865375610Z /dev/ttyUSB2: Pressing Down Arrow (attempt 2)
+mantle_bios_1   | 2024-02-29T19:20:23.398006569Z /dev/ttyUSB2: Found 'Reset the system'.
+mantle_bios_1   | 2024-02-29T19:20:25.153057505Z /dev/ttyUSB2: Attempting to enter bios...
+mantle_build_1  | 2024-02-29T19:20:34.513653972Z 192.168.101.4 not ready for API calls yet
+mantle_build_1  | 2024-02-29T19:20:52.626009963Z 192.168.101.4 not ready for API calls yet
+mantle_build_1  | 2024-02-29T19:21:10.738863156Z 192.168.101.4 not ready for API calls yet
+mantle_build_1  | 2024-02-29T19:21:28.851079728Z 192.168.101.4 not ready for API calls yet
+mantle_build_1  | 2024-02-29T19:21:46.963463411Z 192.168.101.4 not ready for API calls yet
+mantle_build_1  | 2024-02-29T19:22:05.074022269Z 192.168.101.4 not ready for API calls yet
+mantle_bios_1   | 2024-02-29T19:22:09.238965679Z /dev/ttyUSB2: Looking for iSCSI Configuration
+mantle_bios_1   | 2024-02-29T19:22:09.490392069Z /dev/ttyUSB2: Pressing Right Arrow (attempt 1)
+mantle_bios_1   | 2024-02-29T19:22:10.204944467Z /dev/ttyUSB2: Found 'iSCSI Configuration'.
+mantle_bios_1   | 2024-02-29T19:22:10.456056251Z /dev/ttyUSB2: Looking for AVAGO
+mantle_bios_1   | 2024-02-29T19:22:10.706697727Z /dev/ttyUSB2: Pressing Down Arrow (attempt 1)
+mantle_bios_1   | 2024-02-29T19:22:11.246414424Z /dev/ttyUSB2: Found 'AVAGO'.
+mantle_bios_1   | 2024-02-29T19:22:12.501594837Z /dev/ttyUSB2: Personality Mode is set to JBOD
+mantle_bios_1   | 2024-02-29T19:22:12.501718240Z /dev/ttyUSB2: Looking for Main Menu
+mantle_bios_1   | 2024-02-29T19:22:12.998609003Z /dev/ttyUSB2: Pressing Escape (attempt 1)
+mantle_bios_1   | 2024-02-29T19:22:13.500341762Z /dev/ttyUSB2: Pressing Escape (attempt 2)
+mantle_bios_1   | 2024-02-29T19:22:14.264021316Z /dev/ttyUSB2: Found 'Main Menu'.
+mantle_bios_1   | 2024-02-29T19:22:16.069104924Z /dev/ttyUSB2: Looking for 55HCreate Profile Based
+mantle_bios_1   | 2024-02-29T19:22:16.322420451Z /dev/ttyUSB2: Pressing Down Arrow (attempt 1)
+mantle_bios_1   | 2024-02-29T19:22:16.869988501Z /dev/ttyUSB2: Pressing Down Arrow (attempt 2)
+mantle_bios_1   | 2024-02-29T19:22:17.406702640Z /dev/ttyUSB2: Pressing Down Arrow (attempt 3)
+mantle_bios_1   | 2024-02-29T19:22:17.946956348Z /dev/ttyUSB2: Pressing Down Arrow (attempt 4)
+mantle_bios_1   | 2024-02-29T19:22:18.485660226Z /dev/ttyUSB2: Pressing Down Arrow (attempt 5)
+mantle_bios_1   | 2024-02-29T19:22:19.038996288Z /dev/ttyUSB2: Pressing Down Arrow (attempt 6)
+mantle_bios_1   | 2024-02-29T19:22:19.569927615Z /dev/ttyUSB2: Pressing Down Arrow (attempt 7)
+mantle_bios_1   | 2024-02-29T19:22:20.106148144Z /dev/ttyUSB2: Pressing Down Arrow (attempt 8)
+mantle_bios_1   | 2024-02-29T19:22:20.643845602Z /dev/ttyUSB2: Pressing Down Arrow (attempt 9)
+mantle_bios_1   | 2024-02-29T19:22:21.178024191Z /dev/ttyUSB2: Pressing Down Arrow (attempt 10)
+mantle_bios_1   | 2024-02-29T19:22:21.738587495Z /dev/ttyUSB2: Pressing Down Arrow (attempt 11)
+mantle_bios_1   | 2024-02-29T19:22:22.305466021Z /dev/ttyUSB2: Pressing Down Arrow (attempt 12)
+mantle_bios_1   | 2024-02-29T19:22:22.880177898Z /dev/ttyUSB2: Found '55HCreate Profile Based'.
+mantle_build_1  | 2024-02-29T19:22:23.185669340Z 192.168.101.4 not ready for API calls yet
+mantle_bios_1   | 2024-02-29T19:22:23.883126606Z /dev/ttyUSB2: Clearing JBOD configuration
+mantle_bios_1   | 2024-02-29T19:22:23.883216608Z /dev/ttyUSB2: Looking for all existing
+mantle_bios_1   | 2024-02-29T19:22:24.134431293Z /dev/ttyUSB2: Pressing Down Arrow (attempt 1)
+mantle_bios_1   | 2024-02-29T19:22:24.689007980Z /dev/ttyUSB2: Pressing Down Arrow (attempt 2)
+mantle_bios_1   | 2024-02-29T19:22:25.239038678Z /dev/ttyUSB2: Found 'all existing'.
+mantle_bios_1   | 2024-02-29T19:22:26.241672479Z /dev/ttyUSB2: Looking for 47mConfirm
+mantle_bios_1   | 2024-02-29T19:22:26.492474457Z /dev/ttyUSB2: Pressing Up Arrow (attempt 1)
+mantle_bios_1   | 2024-02-29T19:22:27.013352989Z /dev/ttyUSB2: Found '47mConfirm'.
+mantle_bios_1   | 2024-02-29T19:22:28.016134393Z /dev/ttyUSB2: Looking for 40mEnabled
+mantle_bios_1   | 2024-02-29T19:22:28.267367179Z /dev/ttyUSB2: Pressing Down Arrow (attempt 1)
+mantle_bios_1   | 2024-02-29T19:22:28.792620294Z /dev/ttyUSB2: Found '40mEnabled'.
+mantle_bios_1   | 2024-02-29T19:22:29.795678003Z /dev/ttyUSB2: Looking for Yes
+mantle_bios_1   | 2024-02-29T19:22:30.046518982Z /dev/ttyUSB2: Pressing Down Arrow (attempt 1)
+mantle_bios_1   | 2024-02-29T19:22:30.563997846Z /dev/ttyUSB2: Found 'Yes'.
+mantle_bios_1   | 2024-02-29T19:22:31.816519608Z /dev/ttyUSB2: Looking for Main Menu
+mantle_bios_1   | 2024-02-29T19:22:32.289601209Z /dev/ttyUSB2: Pressing Escape (attempt 1)
+mantle_bios_1   | 2024-02-29T19:22:32.790985661Z /dev/ttyUSB2: Pressing Escape (attempt 2)
+mantle_bios_1   | 2024-02-29T19:22:33.578694882Z /dev/ttyUSB2: Found 'Main Menu'.
+mantle_bios_1   | 2024-02-29T19:22:35.382658969Z /dev/ttyUSB2: Looking for 55HCreate Profile Based
+mantle_bios_1   | 2024-02-29T19:22:35.634707371Z /dev/ttyUSB2: Pressing Down Arrow (attempt 1)
+mantle_bios_1   | 2024-02-29T19:22:36.188736847Z /dev/ttyUSB2: Pressing Down Arrow (attempt 2)
+mantle_bios_1   | 2024-02-29T19:22:36.718086343Z /dev/ttyUSB2: Pressing Down Arrow (attempt 3)
+mantle_bios_1   | 2024-02-29T19:22:37.267556430Z /dev/ttyUSB2: Pressing Down Arrow (attempt 4)
+mantle_bios_1   | 2024-02-29T19:22:37.807308028Z /dev/ttyUSB2: Pressing Down Arrow (attempt 5)
+mantle_bios_1   | 2024-02-29T19:22:38.337650742Z /dev/ttyUSB2: Pressing Down Arrow (attempt 6)
+mantle_bios_1   | 2024-02-29T19:22:38.860577113Z /dev/ttyUSB2: Pressing Down Arrow (attempt 7)
+mantle_bios_1   | 2024-02-29T19:22:39.386689145Z /dev/ttyUSB2: Pressing Down Arrow (attempt 8)
+mantle_bios_1   | 2024-02-29T19:22:39.924959115Z /dev/ttyUSB2: Pressing Down Arrow (attempt 9)
+mantle_bios_1   | 2024-02-29T19:22:40.462423368Z /dev/ttyUSB2: Pressing Down Arrow (attempt 10)
+mantle_bios_1   | 2024-02-29T19:22:41.046571129Z /dev/ttyUSB2: Pressing Down Arrow (attempt 11)
+mantle_build_1  | 2024-02-29T19:22:41.299021139Z 192.168.101.4 not ready for API calls yet
+mantle_bios_1   | 2024-02-29T19:22:41.601909431Z /dev/ttyUSB2: Pressing Down Arrow (attempt 12)
+mantle_bios_1   | 2024-02-29T19:22:42.158445955Z /dev/ttyUSB2: Found '55HCreate Profile Based'.
+mantle_bios_1   | 2024-02-29T19:22:44.189247154Z Found Foreign Configuration. Clearing..
+mantle_bios_1   | 2024-02-29T19:22:44.690991812Z /dev/ttyUSB2: Looking for Deletes all foreign
+mantle_bios_1   | 2024-02-29T19:22:45.184104303Z /dev/ttyUSB2: Pressing Down Arrow (attempt 1)
+mantle_bios_1   | 2024-02-29T19:22:45.734377506Z /dev/ttyUSB2: Found 'Deletes all foreign'.
+mantle_bios_1   | 2024-02-29T19:22:46.736422295Z /dev/ttyUSB2: Looking for 47mConfirm
+mantle_bios_1   | 2024-02-29T19:22:46.987472677Z /dev/ttyUSB2: Pressing Up Arrow (attempt 1)
+mantle_bios_1   | 2024-02-29T19:22:47.506289369Z /dev/ttyUSB2: Pressing Up Arrow (attempt 2)
+mantle_bios_1   | 2024-02-29T19:22:48.035556663Z /dev/ttyUSB2: Found '47mConfirm'.
+mantle_bios_1   | 2024-02-29T19:22:49.036886538Z /dev/ttyUSB2: Looking for 40mEnabled
+mantle_bios_1   | 2024-02-29T19:22:49.287687815Z /dev/ttyUSB2: Pressing Down Arrow (attempt 1)
+mantle_bios_1   | 2024-02-29T19:22:49.811330101Z /dev/ttyUSB2: Found '40mEnabled'.
+mantle_bios_1   | 2024-02-29T19:22:50.812405772Z /dev/ttyUSB2: Looking for Yes
+mantle_bios_1   | 2024-02-29T19:22:51.063011046Z /dev/ttyUSB2: Pressing Down Arrow (attempt 1)
+mantle_bios_1   | 2024-02-29T19:22:51.581492731Z /dev/ttyUSB2: Found 'Yes'.
+mantle_bios_1   | 2024-02-29T19:22:52.835141714Z /dev/ttyUSB2: Looking for Main Menu
+mantle_bios_1   | 2024-02-29T19:22:53.266227498Z /dev/ttyUSB2: Pressing Escape (attempt 1)
+mantle_bios_1   | 2024-02-29T19:22:53.768137661Z /dev/ttyUSB2: Pressing Escape (attempt 2)
+mantle_bios_1   | 2024-02-29T19:22:54.515601799Z /dev/ttyUSB2: Found 'Main Menu'.
+mantle_bios_1   | 2024-02-29T19:22:56.327748243Z /dev/ttyUSB2: Looking for 55HCreate Profile Based
+mantle_bios_1   | 2024-02-29T19:22:56.579925248Z /dev/ttyUSB2: Pressing Down Arrow (attempt 1)
+mantle_bios_1   | 2024-02-29T19:22:57.117685407Z /dev/ttyUSB2: Pressing Down Arrow (attempt 2)
+mantle_bios_1   | 2024-02-29T19:22:57.674721541Z /dev/ttyUSB2: Pressing Down Arrow (attempt 3)
+mantle_bios_1   | 2024-02-29T19:22:58.206654287Z /dev/ttyUSB2: Pressing Down Arrow (attempt 4)
+mantle_bios_1   | 2024-02-29T19:22:58.760387357Z /dev/ttyUSB2: Pressing Down Arrow (attempt 5)
+mantle_bios_1   | 2024-02-29T19:22:59.278255330Z /dev/ttyUSB2: Pressing Down Arrow (attempt 6)
+mantle_build_1  | 2024-02-29T19:22:59.409454681Z 192.168.101.4 not ready for API calls yet
+mantle_bios_1   | 2024-02-29T19:22:59.817247212Z /dev/ttyUSB2: Pressing Down Arrow (attempt 7)
+mantle_bios_1   | 2024-02-29T19:23:00.346473406Z /dev/ttyUSB2: Pressing Down Arrow (attempt 8)
+mantle_bios_1   | 2024-02-29T19:23:00.886313106Z /dev/ttyUSB2: Pressing Down Arrow (attempt 9)
+mantle_bios_1   | 2024-02-29T19:23:01.417854045Z /dev/ttyUSB2: Pressing Down Arrow (attempt 10)
+mantle_bios_1   | 2024-02-29T19:23:01.968905363Z /dev/ttyUSB2: Pressing Down Arrow (attempt 11)
+mantle_bios_1   | 2024-02-29T19:23:02.517681537Z /dev/ttyUSB2: Found '55HCreate Profile Based'.
+mantle_bios_1   | 2024-02-29T19:23:03.520585444Z /dev/ttyUSB2: Looking for Allows changing
+mantle_bios_1   | 2024-02-29T19:23:03.774004874Z /dev/ttyUSB2: Pressing Down Arrow (attempt 1)
+mantle_bios_1   | 2024-02-29T19:23:04.324446079Z /dev/ttyUSB2: Pressing Down Arrow (attempt 2)
+mantle_bios_1   | 2024-02-29T19:23:04.863423262Z /dev/ttyUSB2: Pressing Down Arrow (attempt 3)
+mantle_bios_1   | 2024-02-29T19:23:05.420071690Z /dev/ttyUSB2: Found 'Allows changing'.
+mantle_bios_1   | 2024-02-29T19:23:06.422281983Z /dev/ttyUSB2: Setting drives to JBOD
+mantle_bios_1   | 2024-02-29T19:23:06.422649590Z /dev/ttyUSB2: Looking for Check All
+mantle_bios_1   | 2024-02-29T19:23:06.672733354Z /dev/ttyUSB2: Pressing Down Arrow (attempt 1)
+mantle_bios_1   | 2024-02-29T19:23:07.199293096Z /dev/ttyUSB2: Pressing Down Arrow (attempt 2)
+mantle_bios_1   | 2024-02-29T19:23:07.726478250Z /dev/ttyUSB2: Pressing Down Arrow (attempt 3)
+mantle_bios_1   | 2024-02-29T19:23:08.258745503Z /dev/ttyUSB2: Pressing Down Arrow (attempt 4)
+mantle_bios_1   | 2024-02-29T19:23:08.789720130Z /dev/ttyUSB2: Pressing Down Arrow (attempt 5)
+mantle_bios_1   | 2024-02-29T19:23:09.316045066Z /dev/ttyUSB2: Pressing Down Arrow (attempt 6)
+mantle_bios_1   | 2024-02-29T19:23:09.854000430Z /dev/ttyUSB2: Pressing Down Arrow (attempt 7)
+mantle_bios_1   | 2024-02-29T19:23:10.380428170Z /dev/ttyUSB2: Pressing Down Arrow (attempt 8)
+mantle_bios_1   | 2024-02-29T19:23:10.909479060Z /dev/ttyUSB2: Found 'Check All'.
+mantle_bios_1   | 2024-02-29T19:23:11.911232845Z /dev/ttyUSB2: Looking for OK
+mantle_bios_1   | 2024-02-29T19:23:12.162038623Z /dev/ttyUSB2: Pressing Down Arrow (attempt 1)
+mantle_bios_1   | 2024-02-29T19:23:12.692867547Z /dev/ttyUSB2: Pressing Down Arrow (attempt 2)
+mantle_bios_1   | 2024-02-29T19:23:13.223477368Z /dev/ttyUSB2: Found 'OK'.
+mantle_bios_1   | 2024-02-29T19:23:14.976709569Z /dev/ttyUSB2: Looking for Enabled
+mantle_bios_1   | 2024-02-29T19:23:15.227689650Z /dev/ttyUSB2: Pressing Down Arrow (attempt 1)
+mantle_bios_1   | 2024-02-29T19:23:15.749626003Z /dev/ttyUSB2: Found 'Enabled'.
+mantle_bios_1   | 2024-02-29T19:23:16.751028281Z /dev/ttyUSB2: Looking for Yes
+mantle_bios_1   | 2024-02-29T19:23:17.002694576Z /dev/ttyUSB2: Pressing Down Arrow (attempt 1)
+mantle_build_1  | 2024-02-29T19:23:17.523288702Z 192.168.101.4 not ready for API calls yet
+mantle_bios_1   | 2024-02-29T19:23:17.524646229Z /dev/ttyUSB2: Found 'Yes'.
+mantle_bios_1   | 2024-02-29T19:23:18.776573379Z /dev/ttyUSB2: Looking for Main Menu
+mantle_bios_1   | 2024-02-29T19:23:19.027190753Z /dev/ttyUSB2: Pressing Escape (attempt 1)
+mantle_bios_1   | 2024-02-29T19:23:19.528459804Z /dev/ttyUSB2: Pressing Escape (attempt 2)
+mantle_bios_1   | 2024-02-29T19:23:20.032189001Z /dev/ttyUSB2: Pressing Escape (attempt 3)
+mantle_bios_1   | 2024-02-29T19:23:20.534184265Z /dev/ttyUSB2: Pressing Escape (attempt 4)
+mantle_bios_1   | 2024-02-29T19:23:21.035529017Z /dev/ttyUSB2: Pressing Escape (attempt 5)
+mantle_bios_1   | 2024-02-29T19:23:21.536584461Z /dev/ttyUSB2: Pressing Escape (attempt 6)
+mantle_bios_1   | 2024-02-29T19:23:22.038645526Z /dev/ttyUSB2: Pressing Escape (attempt 7)
+mantle_bios_1   | 2024-02-29T19:23:22.540684691Z /dev/ttyUSB2: Pressing Escape (attempt 8)
+mantle_bios_1   | 2024-02-29T19:23:23.253991864Z /dev/ttyUSB2: Pressing Escape (attempt 9)
+mantle_bios_1   | 2024-02-29T19:23:23.984588075Z /dev/ttyUSB2: Found 'Main Menu'.
+mantle_bios_1   | 2024-02-29T19:23:24.987457081Z /dev/ttyUSB2: Disabling Security Device Support
+mantle_bios_1   | 2024-02-29T19:23:24.990518841Z /dev/ttyUSB2: Looking for iSCSI Configuration
+mantle_bios_1   | 2024-02-29T19:23:25.256896722Z /dev/ttyUSB2: Pressing Right Arrow (attempt 1)
+mantle_bios_1   | 2024-02-29T19:23:25.957474348Z /dev/ttyUSB2: Found 'iSCSI Configuration'.
+mantle_bios_1   | 2024-02-29T19:23:26.209268046Z /dev/ttyUSB2: Looking for Trusted Computing
+mantle_bios_1   | 2024-02-29T19:23:26.460385230Z /dev/ttyUSB2: Pressing Down Arrow (attempt 1)
+mantle_bios_1   | 2024-02-29T19:23:26.986506063Z /dev/ttyUSB2: Found 'Trusted Computing'.
+mantle_bios_1   | 2024-02-29T19:23:28.740699981Z /dev/ttyUSB2: Looking for 40mDisable
+mantle_bios_1   | 2024-02-29T19:23:28.991505660Z /dev/ttyUSB2: Pressing Down Arrow (attempt 1)
+mantle_bios_1   | 2024-02-29T19:23:29.513109006Z /dev/ttyUSB2: Pressing Down Arrow (attempt 2)
+mantle_bios_1   | 2024-02-29T19:23:30.040523263Z /dev/ttyUSB2: Found '40mDisable'.
+mantle_bios_1   | 2024-02-29T19:23:31.042292348Z /dev/ttyUSB2: Security Device Sup Disabled
+mantle_bios_1   | 2024-02-29T19:23:31.293048926Z /dev/ttyUSB2: Checking Secure Boot is Disabled
+mantle_bios_1   | 2024-02-29T19:23:31.293139127Z /dev/ttyUSB2: Looking for Password Description
+mantle_bios_1   | 2024-02-29T19:23:31.543371395Z /dev/ttyUSB2: Pressing Right Arrow (attempt 1)
+mantle_bios_1   | 2024-02-29T19:23:32.411436279Z /dev/ttyUSB2: Pressing Right Arrow (attempt 2)
+mantle_bios_1   | 2024-02-29T19:23:33.084524470Z /dev/ttyUSB2: Pressing Right Arrow (attempt 3)
+mantle_bios_1   | 2024-02-29T19:23:33.835904684Z /dev/ttyUSB2: Found 'Password Description'.
+mantle_bios_1   | 2024-02-29T19:23:34.087028868Z /dev/ttyUSB2: Looking for Secure Boot menu
+mantle_bios_1   | 2024-02-29T19:23:34.338390658Z /dev/ttyUSB2: Pressing Down Arrow (attempt 1)
+mantle_bios_1   | 2024-02-29T19:23:34.867237444Z /dev/ttyUSB2: Pressing Down Arrow (attempt 2)
+mantle_bios_1   | 2024-02-29T19:23:35.399921704Z /dev/ttyUSB2: Found 'Secure Boot menu'.
+mantle_build_1  | 2024-02-29T19:23:35.634333064Z 192.168.101.4 not ready for API calls yet
+mantle_bios_1   | 2024-02-29T19:23:37.152724497Z /dev/ttyUSB2: Looking for 40mDisabled
+mantle_bios_1   | 2024-02-29T19:23:37.403252870Z /dev/ttyUSB2: Pressing Down Arrow (attempt 1)
+mantle_bios_1   | 2024-02-29T19:23:37.924354804Z /dev/ttyUSB2: Pressing Down Arrow (attempt 2)
+mantle_bios_1   | 2024-02-29T19:23:38.446024851Z /dev/ttyUSB2: Found '40mDisabled'.
+mantle_bios_1   | 2024-02-29T19:23:39.447381728Z /dev/ttyUSB2: Secure Boot is Disabled
+mantle_bios_1   | 2024-02-29T19:23:39.698743117Z /dev/ttyUSB2: Disabling BMC Support
+mantle_bios_1   | 2024-02-29T19:23:39.699178725Z /dev/ttyUSB2: Looking for BMC
+mantle_bios_1   | 2024-02-29T19:23:39.949614896Z /dev/ttyUSB2: Pressing Right Arrow (attempt 1)
+mantle_bios_1   | 2024-02-29T19:23:40.917307617Z /dev/ttyUSB2: Pressing Right Arrow (attempt 2)
+mantle_bios_1   | 2024-02-29T19:23:41.578984787Z /dev/ttyUSB2: Pressing Right Arrow (attempt 3)
+mantle_bios_1   | 2024-02-29T19:23:42.318554172Z /dev/ttyUSB2: Pressing Right Arrow (attempt 4)
+mantle_bios_1   | 2024-02-29T19:23:43.050555910Z /dev/ttyUSB2: Pressing Right Arrow (attempt 5)
+mantle_bios_1   | 2024-02-29T19:23:43.730892843Z /dev/ttyUSB2: Pressing Right Arrow (attempt 6)
+mantle_bios_1   | 2024-02-29T19:23:44.448984010Z /dev/ttyUSB2: Pressing Right Arrow (attempt 7)
+mantle_bios_1   | 2024-02-29T19:23:45.167077476Z /dev/ttyUSB2: Found 'BMC'.
+mantle_bios_1   | 2024-02-29T19:23:46.168028745Z /dev/ttyUSB2: Looking for 40mDisabled
+mantle_bios_1   | 2024-02-29T19:23:46.418968125Z /dev/ttyUSB2: Pressing Down Arrow (attempt 1)
+mantle_bios_1   | 2024-02-29T19:23:46.940851676Z /dev/ttyUSB2: Found '40mDisabled'.
+mantle_bios_1   | 2024-02-29T19:23:47.942518358Z /dev/ttyUSB2: Setting Network Boot Drive Priorities
+mantle_bios_1   | 2024-02-29T19:23:47.943347174Z /dev/ttyUSB2: Looking for Boot Configuration
+mantle_bios_1   | 2024-02-29T19:23:48.197600319Z /dev/ttyUSB2: Pressing Right Arrow (attempt 1)
+mantle_bios_1   | 2024-02-29T19:23:48.971636774Z /dev/ttyUSB2: Pressing Right Arrow (attempt 2)
+mantle_bios_1   | 2024-02-29T19:23:49.799497176Z /dev/ttyUSB2: Found 'Boot Configuration'.
+mantle_bios_1   | 2024-02-29T19:23:50.051325974Z /dev/ttyUSB2: Looking for Network Device BBS Priorities
+mantle_bios_1   | 2024-02-29T19:23:50.303599280Z /dev/ttyUSB2: Pressing Down Arrow (attempt 1)
+mantle_bios_1   | 2024-02-29T19:23:50.848049070Z /dev/ttyUSB2: Pressing Down Arrow (attempt 2)
+mantle_bios_1   | 2024-02-29T19:23:51.382935073Z /dev/ttyUSB2: Pressing Down Arrow (attempt 3)
+mantle_bios_1   | 2024-02-29T19:23:51.916116244Z /dev/ttyUSB2: Pressing Down Arrow (attempt 4)
+mantle_bios_1   | 2024-02-29T19:23:52.436604067Z /dev/ttyUSB2: Pressing Down Arrow (attempt 5)
+mantle_bios_1   | 2024-02-29T19:23:52.965501554Z /dev/ttyUSB2: Pressing Down Arrow (attempt 6)
+mantle_bios_1   | 2024-02-29T19:23:53.482279906Z /dev/ttyUSB2: Pressing Down Arrow (attempt 7)
+mantle_build_1  | 2024-02-29T19:23:53.746709549Z 192.168.101.4 not ready for API calls yet
+mantle_bios_1   | 2024-02-29T19:23:54.039147937Z /dev/ttyUSB2: Pressing Down Arrow (attempt 8)
+mantle_bios_1   | 2024-02-29T19:23:54.589249136Z /dev/ttyUSB2: Pressing Down Arrow (attempt 9)
+mantle_bios_1   | 2024-02-29T19:23:55.120889776Z /dev/ttyUSB2: Found 'Network Device BBS Priorities'.
+mantle_bios_1   | 2024-02-29T19:23:56.875126695Z /dev/ttyUSB2: Looking for IBA GE Slot 0800 v1570
+mantle_bios_1   | 2024-02-29T19:23:57.126719289Z /dev/ttyUSB2: Pressing Down Arrow (attempt 1)
+mantle_bios_1   | 2024-02-29T19:23:57.647323314Z /dev/ttyUSB2: Pressing Down Arrow (attempt 2)
+mantle_bios_1   | 2024-02-29T19:23:58.171363007Z /dev/ttyUSB2: Found 'IBA GE Slot 0800 v1570'.
+mantle_bios_1   | 2024-02-29T19:23:59.424488879Z /dev/ttyUSB2: Setting Boot Order
+mantle_bios_1   | 2024-02-29T19:23:59.424545081Z /dev/ttyUSB2: Looking for 47mBoot Option #1
+mantle_bios_1   | 2024-02-29T19:23:59.675227057Z /dev/ttyUSB2: Pressing Up Arrow (attempt 1)
+mantle_bios_1   | 2024-02-29T19:24:00.487903163Z /dev/ttyUSB2: Pressing Up Arrow (attempt 2)
+mantle_bios_1   | 2024-02-29T19:24:01.040193304Z /dev/ttyUSB2: Pressing Up Arrow (attempt 3)
+mantle_bios_1   | 2024-02-29T19:24:01.591297923Z /dev/ttyUSB2: Pressing Up Arrow (attempt 4)
+mantle_bios_1   | 2024-02-29T19:24:02.121095228Z /dev/ttyUSB2: Pressing Up Arrow (attempt 5)
+mantle_bios_1   | 2024-02-29T19:24:02.650504925Z /dev/ttyUSB2: Pressing Up Arrow (attempt 6)
+mantle_bios_1   | 2024-02-29T19:24:03.188578990Z /dev/ttyUSB2: Found '47mBoot Option #1'.
+mantle_bios_1   | 2024-02-29T19:24:04.191047688Z /dev/ttyUSB2: Looking for 40mIBA GE Slot 0800 v1570
+mantle_bios_1   | 2024-02-29T19:24:04.441452459Z /dev/ttyUSB2: Pressing Down Arrow (attempt 1)
+mantle_bios_1   | 2024-02-29T19:24:04.963630215Z /dev/ttyUSB2: Pressing Down Arrow (attempt 2)
+mantle_bios_1   | 2024-02-29T19:24:05.491492481Z /dev/ttyUSB2: Pressing Down Arrow (attempt 3)
+mantle_bios_1   | 2024-02-29T19:24:06.009703360Z /dev/ttyUSB2: Pressing Down Arrow (attempt 4)
+mantle_bios_1   | 2024-02-29T19:24:06.540136277Z /dev/ttyUSB2: Found '40mIBA GE Slot 0800 v1570'.
+mantle_bios_1   | 2024-02-29T19:24:07.543399789Z /dev/ttyUSB2: ---------------------------
+mantle_bios_1   | 2024-02-29T19:24:07.546221844Z /dev/ttyUSB2: BIOS Configuration Complete
+mantle_bios_1   | 2024-02-29T19:24:07.548207682Z /dev/ttyUSB2: ---------------------------
+mantle_bios_1   | 2024-02-29T19:24:07.819690663Z /dev/ttyUSB2: Restarting System for Network Boot
+mantle_bios_1   | 2024-02-29T19:24:07.822270913Z /dev/ttyUSB2: Saving Changes and Rebooting System..
+mantle_bios_1   | 2024-02-29T19:24:07.822304514Z /dev/ttyUSB2: Looking for Save Options
+mantle_bios_1   | 2024-02-29T19:24:08.072949289Z /dev/ttyUSB2: Pressing Left Arrow (attempt 1)
+mantle_bios_1   | 2024-02-29T19:24:08.827597666Z /dev/ttyUSB2: Pressing Left Arrow (attempt 2)
+mantle_bios_1   | 2024-02-29T19:24:09.517666687Z /dev/ttyUSB2: Pressing Left Arrow (attempt 3)
+mantle_bios_1   | 2024-02-29T19:24:10.279960013Z /dev/ttyUSB2: Pressing Left Arrow (attempt 4)
+mantle_bios_1   | 2024-02-29T19:24:11.062731837Z /dev/ttyUSB2: Pressing Left Arrow (attempt 5)
+mantle_bios_1   | 2024-02-29T19:24:11.762482547Z /dev/ttyUSB2: Pressing Left Arrow (attempt 6)
+mantle_build_1  | 2024-02-29T19:24:11.858447914Z 192.168.101.4 not ready for API calls yet
+mantle_bios_1   | 2024-02-29T19:24:12.488204763Z /dev/ttyUSB2: Found 'Save Options'.
+mantle_bios_1   | 2024-02-29T19:24:12.740840776Z /dev/ttyUSB2: Looking for Reset the system
+mantle_bios_1   | 2024-02-29T19:24:12.991513252Z /dev/ttyUSB2: Pressing Down Arrow (attempt 1)
+mantle_bios_1   | 2024-02-29T19:24:13.516416461Z /dev/ttyUSB2: Pressing Down Arrow (attempt 2)
+mantle_bios_1   | 2024-02-29T19:24:14.047235585Z /dev/ttyUSB2: Found 'Reset the system'.
+mantle_bios_1   | 2024-02-29T19:24:15.800359182Z /dev/ttyUSB2: Exiting..
+mantle_bios_1   | 2024-02-29T19:24:27.086063192Z /dev/ttyUSB4: Restarting System for Network Boot
+mantle_bios_1   | 2024-02-29T19:24:27.086184494Z /dev/ttyUSB4: Saving Changes and Rebooting System..
+mantle_bios_1   | 2024-02-29T19:24:27.086241895Z /dev/ttyUSB4: Looking for Save Options
+mantle_bios_1   | 2024-02-29T19:24:27.339303517Z /dev/ttyUSB4: Pressing Left Arrow (attempt 1)
+mantle_bios_1   | 2024-02-29T19:24:28.059902533Z /dev/ttyUSB4: Pressing Left Arrow (attempt 2)
+mantle_bios_1   | 2024-02-29T19:24:28.708886255Z /dev/ttyUSB4: Pressing Left Arrow (attempt 3)
+mantle_bios_1   | 2024-02-29T19:24:29.420649499Z /dev/ttyUSB4: Pressing Left Arrow (attempt 4)
+mantle_build_1  | 2024-02-29T19:24:29.970138688Z 192.168.101.4 not ready for API calls yet
+mantle_bios_1   | 2024-02-29T19:24:30.158532051Z /dev/ttyUSB4: Pressing Left Arrow (attempt 5)
+mantle_bios_1   | 2024-02-29T19:24:30.859743490Z /dev/ttyUSB4: Pressing Left Arrow (attempt 6)
+mantle_bios_1   | 2024-02-29T19:24:31.530631539Z /dev/ttyUSB4: Found 'Save Options'.
+mantle_bios_1   | 2024-02-29T19:24:31.781508418Z /dev/ttyUSB4: Looking for Reset the system
+mantle_bios_1   | 2024-02-29T19:24:32.032665704Z /dev/ttyUSB4: Pressing Down Arrow (attempt 1)
+mantle_bios_1   | 2024-02-29T19:24:32.573369321Z /dev/ttyUSB4: Pressing Down Arrow (attempt 2)
+mantle_bios_1   | 2024-02-29T19:24:33.118183317Z /dev/ttyUSB4: Found 'Reset the system'.
+mantle_bios_1   | 2024-02-29T19:24:34.874183773Z /dev/ttyUSB4: Exiting..
+mantle_bios_1   | 2024-02-29T19:24:46.152928749Z /dev/ttyUSB5: Restarting System for Network Boot
+mantle_bios_1   | 2024-02-29T19:24:46.154476679Z /dev/ttyUSB5: Saving Changes and Rebooting System..
+mantle_bios_1   | 2024-02-29T19:24:46.154569581Z /dev/ttyUSB5: Looking for Save Options
+mantle_bios_1   | 2024-02-29T19:24:46.404253337Z /dev/ttyUSB5: Pressing Left Arrow (attempt 1)
+mantle_bios_1   | 2024-02-29T19:24:47.159495827Z /dev/ttyUSB5: Pressing Left Arrow (attempt 2)
+mantle_bios_1   | 2024-02-29T19:24:47.823736247Z /dev/ttyUSB5: Pressing Left Arrow (attempt 3)
+mantle_build_1  | 2024-02-29T19:24:48.082630983Z 192.168.101.4 not ready for API calls yet
+mantle_bios_1   | 2024-02-29T19:24:48.517495640Z /dev/ttyUSB5: Pressing Left Arrow (attempt 4)
+mantle_bios_1   | 2024-02-29T19:24:49.214214791Z /dev/ttyUSB5: Pressing Left Arrow (attempt 5)
+mantle_bios_1   | 2024-02-29T19:24:49.893377702Z /dev/ttyUSB5: Pressing Left Arrow (attempt 6)
+mantle_bios_1   | 2024-02-29T19:24:50.575362567Z /dev/ttyUSB5: Found 'Save Options'.
+mantle_bios_1   | 2024-02-29T19:24:50.827360268Z /dev/ttyUSB5: Looking for Reset the system
+mantle_bios_1   | 2024-02-29T19:24:51.082229926Z /dev/ttyUSB5: Pressing Down Arrow (attempt 1)
+mantle_bios_1   | 2024-02-29T19:24:51.613311855Z /dev/ttyUSB5: Pressing Down Arrow (attempt 2)
+mantle_bios_1   | 2024-02-29T19:24:52.145350203Z /dev/ttyUSB5: Found 'Reset the system'.
+mantle_bios_1   | 2024-02-29T19:24:53.898741207Z /dev/ttyUSB5: Exiting..
+mantle_build_1  | 2024-02-29T19:25:06.195703480Z 192.168.101.4 not ready for API calls yet
+mantle_build_1  | 2024-02-29T19:25:24.306140219Z 192.168.101.4 not ready for API calls yet
+mantle_build_1  | 2024-02-29T19:25:42.418591797Z 192.168.101.4 not ready for API calls yet
+mantle_dhcp_1   | 2024-02-29T19:25:58.499023264Z Moved UEFI config for 01-74-fe-48-75-42-6b
+mantle_dhcp_1   | 2024-02-29T19:25:58.500062785Z Found lease for: 192.168.101.4 at 74:fe:48:75:42:6b
+mantle_dhcp_1   | 2024-02-29T19:26:09.218608961Z Moved UEFI config for 01-74-fe-48-38-6a-92
+mantle_dhcp_1   | 2024-02-29T19:26:09.219186573Z Found lease for: 192.168.101.5 at 74:fe:48:38:6a:92
+mantle_dhcp_1   | 2024-02-29T19:26:27.798069329Z Moved UEFI config for 01-74-fe-48-38-9c-15
+mantle_dhcp_1   | 2024-02-29T19:26:27.798134530Z Found lease for: 192.168.101.6 at 74:fe:48:38:9c:15
+mantle_dhcp_1   | 2024-02-29T19:26:27.808326228Z All hosts given leases. Sleeping for 15 seconds...
+mantle_dhcp_1   | 2024-02-29T19:26:42.808686982Z Stopping DHCP...
+mantle_build_1  | 2024-02-29T19:28:09.555731108Z 192.168.101.4 not ready for API calls yet
+mantle_build_1  | 2024-02-29T19:30:32.914725551Z 192.168.101.4 not ready for API calls yet
+mantle_build_1  | 2024-02-29T19:31:06.195082150Z 192.168.101.4 not ready for API calls yet
+mantle_build_1  | 2024-02-29T19:31:24.307525436Z 192.168.101.4 not ready for API calls yet
+mantle_build_1  | 2024-02-29T19:31:42.418623595Z 192.168.101.4 not ready for API calls yet
+mantle_build_1  | 2024-02-29T19:32:00.531157379Z 192.168.101.4 not ready for API calls yet
+mantle_build_1  | 2024-02-29T19:32:18.643673362Z 192.168.101.4 not ready for API calls yet
+mantle_build_1  | 2024-02-29T19:32:36.753621896Z 192.168.101.4 not ready for API calls yet
+mantle_build_1  | 2024-02-29T19:32:54.867090399Z 192.168.101.4 not ready for API calls yet
+mantle_build_1  | 2024-02-29T19:33:12.979638285Z 192.168.101.4 not ready for API calls yet
+mantle_build_1  | 2024-02-29T19:33:31.091759360Z 192.168.101.4 not ready for API calls yet
+mantle_build_1  | 2024-02-29T19:33:46.517198280Z 192.168.101.4 not ready for API calls yet
+mantle_build_1  | 2024-02-29T19:35:08.883243286Z 192.168.101.4 not ready for API calls yet
+mantle_build_1  | 2024-02-29T19:35:26.995220260Z 192.168.101.4 not ready for API calls yet
+mantle_build_1  | 2024-02-29T19:35:45.108009955Z 192.168.101.4 not ready for API calls yet
+mantle_build_1  | 2024-02-29T19:36:03.219687423Z 192.168.101.4 not ready for API calls yet
+mantle_build_1  | 2024-02-29T19:36:21.332098006Z 192.168.101.4 not ready for API calls yet
+mantle_build_1  | 2024-02-29T19:36:39.443482771Z 192.168.101.4 not ready for API calls yet
+mantle_build_1  | 2024-02-29T19:36:57.554453329Z 192.168.101.4 not ready for API calls yet
+mantle_build_1  | 2024-02-29T19:37:15.667505326Z 192.168.101.4 not ready for API calls yet
+mantle_build_1  | 2024-02-29T19:37:33.779600199Z 192.168.101.4 not ready for API calls yet
+mantle_build_1  | 2024-02-29T19:37:52.227485303Z 192.168.101.4 not ready for API calls yet
+mantle_build_1  | 2024-02-29T19:38:10.003022135Z 192.168.101.4 not ready for API calls yet
+mantle_build_1  | 2024-02-29T19:38:28.115011510Z 192.168.101.4 not ready for API calls yet
+mantle_build_1  | 2024-02-29T19:38:46.228212210Z 192.168.101.4 not ready for API calls yet
+mantle_build_1  | 2024-02-29T19:39:04.339693672Z 192.168.101.4 not ready for API calls yet
+mantle_build_1  | 2024-02-29T19:39:22.452023452Z 192.168.101.4 not ready for API calls yet
+mantle_build_1  | 2024-02-29T19:39:37.517165669Z 192.168.101.4 not ready for API calls yet
+mantle_build_1  | 2024-02-29T19:40:27.347045951Z 192.168.101.4 not ready for API calls yet
+mantle_build_1  | 2024-02-29T19:40:45.459732942Z 192.168.101.4 not ready for API calls yet
+mantle_build_1  | 2024-02-29T19:41:03.570170188Z 192.168.101.4 not ready for API calls yet
+mantle_build_1  | 2024-02-29T19:41:21.683211185Z 192.168.101.4 not ready for API calls yet
+mantle_build_1  | 2024-02-29T19:41:39.793700431Z 192.168.101.4 not ready for API calls yet
+mantle_build_1  | 2024-02-29T19:41:57.906226415Z 192.168.101.4 not ready for API calls yet
+mantle_build_1  | 2024-02-29T19:42:16.017734183Z 192.168.101.4 not ready for API calls yet
+mantle_build_1  | 2024-02-29T19:42:31.037705115Z 192.168.101.4 not ready for API calls yet
+mantle_build_1  | 2024-02-29T19:42:46.122035503Z 192.168.101.4 not ready for API calls yet
+mantle_build_1  | 2024-02-29T19:43:01.344199071Z Connection to host 192.168.101.4 successful
+mantle_build_1  | 2024-02-29T19:43:01.344329173Z Attempting to connect to (192.168.101.5)
+mantle_build_1  | 2024-02-29T19:43:19.443505497Z 192.168.101.5 not ready for API calls yet
+mantle_build_1  | 2024-02-29T19:43:37.554026542Z 192.168.101.5 not ready for API calls yet
+mantle_build_1  | 2024-02-29T19:43:55.667613347Z 192.168.101.5 not ready for API calls yet
+mantle_build_1  | 2024-02-29T19:44:10.695217930Z 192.168.101.5 not ready for API calls yet
+mantle_build_1  | 2024-02-29T19:44:25.729217735Z 192.168.101.5 not ready for API calls yet
+mantle_build_1  | 2024-02-29T19:44:41.551190168Z Connection to host 192.168.101.5 successful
+mantle_build_1  | 2024-02-29T19:44:41.553365810Z Attempting to connect to (192.168.101.6)
+mantle_build_1  | 2024-02-29T19:44:56.714611195Z Connection to host 192.168.101.6 successful
+mantle_build_1  | 2024-02-29T19:44:56.714676996Z Waiting to allow ESXi to complete installation...
+mantle_build_1  | 2024-02-29T19:51:36.823691336Z Adding DCUI welcome message on host : 192.168.101.4
+mantle_build_1  | 2024-02-29T19:51:36.999829161Z Updating Annotations.WelcomeMessage on ESXi host t162uepvesxha01.TACLAN.MIL
+mantle_build_1  | 2024-02-29T19:51:37.034032626Z Adding DCUI welcome message on host : 192.168.101.5
+mantle_build_1  | 2024-02-29T19:51:37.192283204Z Updating Annotations.WelcomeMessage on ESXi host t162uepvesxha02.TACLAN.MIL
+mantle_build_1  | 2024-02-29T19:51:37.222282488Z Adding DCUI welcome message on host : 192.168.101.6
+mantle_build_1  | 2024-02-29T19:51:37.381302981Z Updating Annotations.WelcomeMessage on ESXi host t162uepvesxha03.TACLAN.MIL
+mantle_build_1  | 2024-02-29T19:51:37.506672419Z Assigning License to 192.168.101.4
+mantle_build_1  | 2024-02-29T19:51:37.709300961Z Assigning License to 192.168.101.5
+mantle_build_1  | 2024-02-29T19:51:37.911262989Z Assigning License to 192.168.101.6
+mantle_build_1  | 2024-02-29T19:51:38.069172960Z Checking if 192.168.101.4 is part of existing vSAN cluster
+mantle_build_1  | 2024-02-29T19:51:38.588719865Z (192.168.101.4) is not part of an existing vSAN cluster
+mantle_build_1  | 2024-02-29T19:51:38.590159993Z Checking if 192.168.101.5 is part of existing vSAN cluster
+mantle_build_1  | 2024-02-29T19:51:39.119588991Z (192.168.101.5) is not part of an existing vSAN cluster
+mantle_build_1  | 2024-02-29T19:51:39.120411807Z Checking if 192.168.101.6 is part of existing vSAN cluster
+mantle_build_1  | 2024-02-29T19:51:39.560282462Z (192.168.101.6) is not part of an existing vSAN cluster
+mantle_build_1  | 2024-02-29T19:51:39.560365763Z No host is part of stale vSAN cluster
+mantle_build_1  | 2024-02-29T19:53:39.660081081Z Checking if host 1 is ready
+mantle_build_1  | 2024-02-29T19:53:39.800285708Z Enabling SSH on Host: (t162uepvesxha01.TACLAN.MIL)
+mantle_build_1  | 2024-02-29T19:53:40.519271191Z Attempting to retrieve vsan vcsa deployer system
+mantle_build_1  | 2024-02-29T19:53:40.534420585Z Attempting to locate disks for datastore
+mantle_build_1  | 2024-02-29T19:53:44.549038968Z Claim these disks as cache:
+mantle_build_1  | 2024-02-29T19:53:44.549093069Z Host:192.168.101.4, Name:naa.500a07511d3ebdc3, Size:953.9GiB
+mantle_build_1  | 2024-02-29T19:53:44.549113269Z 
+mantle_build_1  | 2024-02-29T19:53:44.549132770Z Claim these disks as capacity:
+mantle_build_1  | 2024-02-29T19:53:44.549152470Z Host:192.168.101.4, Name:naa.500a07511d3ec688, Size:953.9GiB
+mantle_build_1  | 2024-02-29T19:53:44.549172071Z Host:192.168.101.4, Name:naa.500a07511d3ebfc6, Size:953.9GiB
+mantle_build_1  | 2024-02-29T19:53:44.549191971Z Host:192.168.101.4, Name:naa.500a07511d3ec451, Size:953.9GiB
+mantle_build_1  | 2024-02-29T19:53:44.549211671Z Host:192.168.101.4, Name:naa.500a07511d3ec3b9, Size:953.9GiB
+mantle_build_1  | 2024-02-29T19:53:44.549231171Z Host:192.168.101.4, Name:naa.500a07511d3ec665, Size:953.9GiB
+mantle_build_1  | 2024-02-29T19:53:44.549250572Z Host:192.168.101.4, Name:naa.500a07511d3ebe46, Size:953.9GiB
+mantle_build_1  | 2024-02-29T19:53:44.549270173Z Host:192.168.101.4, Name:naa.500a07511d30c3b7, Size:953.9GiB
+mantle_build_1  | 2024-02-29T19:53:44.549289773Z 
+mantle_build_1  | 2024-02-29T19:53:44.549309273Z Assigning cache and capacity disks for datastore
+mantle_build_1  | 2024-02-29T19:53:44.549345474Z Preparing to create vSAN Datastore...
+mantle_build_1  | 2024-02-29T19:53:44.633247506Z Current Progress: 10% - Starting phase 'vsanbootstrap'
+mantle_build_1  | 2024-02-29T19:54:14.651413355Z Current Progress: 12% - claiming disks ...
+mantle_build_1  | 2024-02-29T19:55:03.723550765Z Operation successfully completed
+mantle_build_1  | 2024-02-29T19:55:04.968686664Z Waiting for lease to be ready...
+mantle_build_1  | 2024-02-29T19:55:05.972529954Z Waiting for lease to be ready...
+mantle_build_1  | 2024-02-29T19:55:06.983312480Z Starting deploy...
+mantle_build_1  | 2024-02-29T19:58:42.118233498Z Finished deploy successfully.
+mantle_build_1  | 2024-02-29T19:58:42.139378509Z Injecting OVF Env
+mantle_build_1  | 2024-02-29T19:58:44.178952379Z Starting VM
+mantle_build_1  | 2024-02-29T19:58:46.203569957Z Waiting for VCSA API to become available...
+mantle_build_1  | 2024-02-29T20:13:33.095297938Z Connected to VCSA API...
+mantle_build_1  | 2024-02-29T20:13:37.571996609Z VCSA deployment still in progress
+mantle_build_1  | 2024-02-29T20:13:47.688213568Z VCSA deployment still in progress
+mantle_build_1  | 2024-02-29T20:13:57.819294817Z VCSA deployment still in progress
+mantle_build_1  | 2024-02-29T20:14:07.965052149Z VCSA deployment still in progress
+mantle_build_1  | 2024-02-29T20:14:18.104224654Z VCSA deployment still in progress
+mantle_build_1  | 2024-02-29T20:14:28.184081306Z VCSA deployment still in progress
+mantle_build_1  | 2024-02-29T20:14:38.221166025Z VCSA deployment still in progress
+mantle_build_1  | 2024-02-29T20:14:48.311388779Z VCSA deployment still in progress
+mantle_build_1  | 2024-02-29T20:14:59.701433314Z VCSA deployment still in progress
+mantle_build_1  | 2024-02-29T20:15:09.846634636Z VCSA deployment still in progress
+mantle_build_1  | 2024-02-29T20:15:19.972490381Z VCSA deployment still in progress
+mantle_build_1  | 2024-02-29T20:15:30.283428326Z VCSA deployment still in progress
+mantle_build_1  | 2024-02-29T20:15:40.409549976Z VCSA deployment still in progress
+mantle_build_1  | 2024-02-29T20:15:50.518248989Z VCSA deployment still in progress
+mantle_build_1  | 2024-02-29T20:16:00.748492466Z VCSA deployment still in progress
+mantle_build_1  | 2024-02-29T20:16:10.858943713Z VCSA deployment still in progress
+mantle_build_1  | 2024-02-29T20:16:20.971691403Z VCSA deployment still in progress
+mantle_build_1  | 2024-02-29T20:16:31.148147932Z VCSA deployment still in progress
+mantle_build_1  | 2024-02-29T20:16:41.318991254Z VCSA deployment still in progress
+mantle_build_1  | 2024-02-29T20:16:51.448629673Z VCSA deployment still in progress
+mantle_build_1  | 2024-02-29T20:17:01.576270654Z VCSA deployment still in progress
+mantle_build_1  | 2024-02-29T20:17:11.681287396Z VCSA deployment still in progress
+mantle_build_1  | 2024-02-29T20:17:21.817503844Z VCSA deployment still in progress
+mantle_build_1  | 2024-02-29T20:17:31.945516131Z VCSA deployment still in progress
+mantle_build_1  | 2024-02-29T20:17:42.043507636Z VCSA deployment still in progress
+mantle_build_1  | 2024-02-29T20:17:52.225400871Z VCSA deployment still in progress
+mantle_build_1  | 2024-02-29T20:18:02.639601624Z VCSA deployment still in progress
+mantle_build_1  | 2024-02-29T20:18:12.777208397Z VCSA deployment still in progress
+mantle_build_1  | 2024-02-29T20:18:22.891980728Z VCSA deployment still in progress
+mantle_build_1  | 2024-02-29T20:18:33.082303428Z VCSA deployment still in progress
+mantle_build_1  | 2024-02-29T20:18:43.252941447Z VCSA deployment still in progress
+mantle_build_1  | 2024-02-29T20:18:53.411387127Z VCSA deployment still in progress
+mantle_build_1  | 2024-02-29T20:19:03.513306608Z VCSA deployment still in progress
+mantle_build_1  | 2024-02-29T20:19:13.621161103Z VCSA deployment still in progress
+mantle_build_1  | 2024-02-29T20:19:23.743740085Z VCSA deployment still in progress
+mantle_build_1  | 2024-02-29T20:19:33.880278237Z VCSA deployment still in progress
+mantle_build_1  | 2024-02-29T20:19:44.013266021Z VCSA deployment still in progress
+mantle_build_1  | 2024-02-29T20:19:54.150229684Z VCSA deployment still in progress
+mantle_build_1  | 2024-02-29T20:20:04.292276147Z VCSA deployment still in progress
+mantle_build_1  | 2024-02-29T20:20:14.402245584Z VCSA deployment still in progress
+mantle_build_1  | 2024-02-29T20:20:24.502286028Z VCSA deployment still in progress
+mantle_build_1  | 2024-02-29T20:20:34.619355302Z VCSA deployment still in progress
+mantle_build_1  | 2024-02-29T20:20:44.757021877Z VCSA deployment still in progress
+mantle_build_1  | 2024-02-29T20:20:54.837040332Z VCSA deployment still in progress
+mantle_build_1  | 2024-02-29T20:21:04.939105816Z VCSA deployment still in progress
+mantle_build_1  | 2024-02-29T20:21:15.023606058Z VCSA deployment still in progress
+mantle_build_1  | 2024-02-29T20:21:25.121288056Z VCSA deployment still in progress
+mantle_build_1  | 2024-02-29T20:21:35.285988659Z VCSA deployment still in progress
+mantle_build_1  | 2024-02-29T20:21:45.412219811Z VCSA deployment still in progress
+mantle_build_1  | 2024-02-29T20:21:55.532418947Z VCSA deployment still in progress
+mantle_build_1  | 2024-02-29T20:22:05.638538309Z VCSA deployment still in progress
+mantle_build_1  | 2024-02-29T20:22:15.846786856Z VCSA deployment succeeded
+mantle_build_1  | 2024-02-29T20:22:23.643050993Z Executing commands
+mantle_build_1  | 2024-02-29T20:22:23.657014865Z VCSA deployed successfully
+mantle_build_1  | 2024-02-29T20:22:23.659505413Z Updating VCSA password policy
+mantle_build_1  | 2024-02-29T20:22:29.581334293Z 
+mantle_build_1  | 2024-02-29T20:22:29.583415634Z [32;1mName        : [0mT162UEVXVCENX01.TACLAN.MIL
+mantle_build_1  | 2024-02-29T20:22:29.583888143Z [32;1mServiceUri  : [0mhttps://192.168.101.9/sso-adminserver/sdk/vsphere.local
+mantle_build_1  | 2024-02-29T20:22:29.587105805Z [32;1mUser        : [0madministrator@vsphere.local
+mantle_build_1  | 2024-02-29T20:22:29.587155306Z [32;1mId          : [0m/SsoAdminServer=vsphere.local/administrator@T162UEVXVCENX01.TACLA
+mantle_build_1  | 2024-02-29T20:22:29.587176607Z               N.MIL
+mantle_build_1  | 2024-02-29T20:22:29.587200107Z [32;1mIsConnected : [0mTrue
+mantle_build_1  | 2024-02-29T20:22:29.587221208Z [32;1mClient      : [0mVMware.vSphere.SsoAdminClient.SsoAdminClient
+mantle_build_1  | 2024-02-29T20:22:29.587242208Z [32;1mRefCount    : [0m1
+mantle_build_1  | 2024-02-29T20:22:29.587291509Z 
+mantle_build_1  | 2024-02-29T20:22:30.502050600Z [32;1mDescription              : [0m
+mantle_build_1  | 2024-02-29T20:22:30.502173103Z [32;1mAutoUnlockIntervalSec    : [0m0
+mantle_build_1  | 2024-02-29T20:22:30.502230104Z [32;1mFailedAttemptIntervalSec : [0m900
+mantle_build_1  | 2024-02-29T20:22:30.502736814Z [32;1mMaxFailedAttempts        : [0m3
+mantle_build_1  | 2024-02-29T20:22:30.503017920Z 
+mantle_build_1  | 2024-02-29T20:22:30.726738771Z [32;1mDescription                      : [0m
+mantle_build_1  | 2024-02-29T20:22:30.726947576Z [32;1mProhibitedPreviousPasswordsCount : [0m5
+mantle_build_1  | 2024-02-29T20:22:30.726994476Z [32;1mMinLength                        : [0m15
+mantle_build_1  | 2024-02-29T20:22:30.727055477Z [32;1mMaxLength                        : [0m20
+mantle_build_1  | 2024-02-29T20:22:30.727101778Z [32;1mMinNumericCount                  : [0m1
+mantle_build_1  | 2024-02-29T20:22:30.727142579Z [32;1mMinSpecialCharCount              : [0m1
+mantle_build_1  | 2024-02-29T20:22:30.727637388Z [32;1mMaxIdenticalAdjacentCharacters   : [0m3
+mantle_build_1  | 2024-02-29T20:22:30.727686490Z [32;1mMinAlphabeticCount               : [0m2
+mantle_build_1  | 2024-02-29T20:22:30.727730790Z [32;1mMinUppercaseCount                : [0m1
+mantle_build_1  | 2024-02-29T20:22:30.727911094Z [32;1mMinLowercaseCount                : [0m1
+mantle_build_1  | 2024-02-29T20:22:30.727955595Z [32;1mPasswordLifetimeDays             : [0m60
+mantle_build_1  | 2024-02-29T20:22:30.730100837Z 
+mantle_build_1  | 2024-02-29T20:22:30.942121960Z Setting default shell to Bash
+mantle_build_1  | 2024-02-29T20:22:35.646011650Z Shell access is granted to root
+mantle_build_1  | 2024-02-29T20:22:35.648482999Z 
+mantle_build_1  | 2024-02-29T20:22:35.679730207Z Setting DOD logon banner...
+mantle_build_1  | 2024-02-29T20:22:35.888984377Z Transferring DoD Banner File
+mantle_build_1  | 2024-02-29T20:22:36.429759595Z Setting the DoD Banner
+mantle_build_1  | 2024-02-29T20:22:45.681255535Z 
+mantle_build_1  | 2024-02-29T20:22:45.683718183Z SLF4J: Class path contains multiple SLF4J bindings.
+mantle_build_1  | 2024-02-29T20:22:45.684016988Z SLF4J: Found binding in [jar:file:/usr/lib/vmware-sso/vmware-sts/webapps/ROOT/WEB-INF/lib/log4j-slf4j-impl-2.17.1.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+mantle_build_1  | 2024-02-29T20:22:45.684069989Z SLF4J: Found binding in [jar:file:/opt/vmware/lib64/log4j-slf4j-impl-2.17.1.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+mantle_build_1  | 2024-02-29T20:22:45.684120290Z SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+mantle_build_1  | 2024-02-29T20:22:45.684169691Z SLF4J: Actual binding is of type [org.apache.logging.slf4j.Log4jLoggerFactory]
+mantle_build_1  | 2024-02-29T20:22:45.684219192Z 
+mantle_build_1  | 2024-02-29T20:22:45.684268593Z Setting default shell to Appliance...
+mantle_build_1  | 2024-02-29T20:22:46.544403323Z 
+mantle_build_1  | 2024-02-29T20:22:46.544601427Z 
+mantle_build_1  | 2024-02-29T20:22:46.545695449Z Disabling SSH
+mantle_build_1  | 2024-02-29T20:23:07.543445250Z Connected to 192.168.101.9
+mantle_build_1  | 2024-02-29T20:23:07.581695694Z Checking host connectivity
+mantle_build_1  | 2024-02-29T20:23:07.581960400Z Attempting to connect to (192.168.101.4)
+mantle_build_1  | 2024-02-29T20:23:22.734669516Z Connection to host 192.168.101.4 successful
+mantle_build_1  | 2024-02-29T20:23:22.734993922Z Attempting to connect to (192.168.101.5)
+mantle_build_1  | 2024-02-29T20:23:37.894222565Z Connection to host 192.168.101.5 successful
+mantle_build_1  | 2024-02-29T20:23:37.897106921Z Attempting to connect to (192.168.101.6)
+mantle_build_1  | 2024-02-29T20:23:53.048094406Z Connection to host 192.168.101.6 successful
+mantle_build_1  | 2024-02-29T20:23:53.048512214Z WARNING: Detected hosts early. Reducing wait time...
+mantle_build_1  | 2024-02-29T20:23:53.048925322Z Waiting to allow ESXi to complete installation...
+mantle_build_1  | 2024-02-29T20:24:23.072667782Z Creating DC and Cluster and adding hosts
+mantle_build_1  | 2024-02-29T20:24:23.082194267Z Post-Configuring vCenter Server and adding ESXi host ...
+mantle_build_1  | 2024-02-29T20:24:23.167441825Z Current Progress: 80% - Starting phase 'vcconfig'
+mantle_build_1  | 2024-02-29T20:24:38.187083354Z Current Progress: 80% - Starting phase 'vcconfig'
+mantle_build_1  | 2024-02-29T20:24:53.239437219Z Current Progress: 80% - Starting phase 'vcconfig'
+mantle_build_1  | 2024-02-29T20:25:08.258152628Z Operation successfully completed
+mantle_build_1  | 2024-02-29T20:25:08.334271709Z Deploying vSAN...
+mantle_build_1  | 2024-02-29T20:25:31.060547733Z Claim these disks as cache:
+mantle_build_1  | 2024-02-29T20:25:31.060679736Z Host:t162uepvesxha03.taclan.mil, Name:Local ATA Disk (naa.500a07511d3ec04c), Size:953.9GiB
+mantle_build_1  | 2024-02-29T20:25:31.060741437Z Host:t162uepvesxha02.taclan.mil, Name:Local ATA Disk (naa.500a07511225ed58), Size:953.9GiB
+mantle_build_1  | 2024-02-29T20:25:31.061064743Z 
+mantle_build_1  | 2024-02-29T20:25:31.061126244Z Claim these disks as capacity:
+mantle_build_1  | 2024-02-29T20:25:31.061186145Z Host:t162uepvesxha03.taclan.mil, Name:Local ATA Disk (naa.500a07511225efd6), Size:953.9GiB
+mantle_build_1  | 2024-02-29T20:25:31.061245947Z Host:t162uepvesxha03.taclan.mil, Name:Local ATA Disk (naa.500a07511d30c3d2), Size:953.9GiB
+mantle_build_1  | 2024-02-29T20:25:31.061300448Z Host:t162uepvesxha02.taclan.mil, Name:Local ATA Disk (naa.500a07511cb54745), Size:953.9GiB
+mantle_build_1  | 2024-02-29T20:25:31.061356749Z Host:t162uepvesxha02.taclan.mil, Name:Local ATA Disk (naa.500a07511cb54860), Size:953.9GiB
+mantle_build_1  | 2024-02-29T20:25:31.061415850Z Host:t162uepvesxha02.taclan.mil, Name:Local ATA Disk (naa.500a07511cb5474b), Size:953.9GiB
+mantle_build_1  | 2024-02-29T20:25:31.061474651Z Host:t162uepvesxha02.taclan.mil, Name:Local ATA Disk (naa.500a07511225a54d), Size:953.9GiB
+mantle_build_1  | 2024-02-29T20:25:31.061528853Z Host:t162uepvesxha02.taclan.mil, Name:Local ATA Disk (naa.500a07511cb54793), Size:953.9GiB
+mantle_build_1  | 2024-02-29T20:25:31.061585554Z Host:t162uepvesxha02.taclan.mil, Name:Local ATA Disk (naa.500a07511cb54881), Size:953.9GiB
+mantle_build_1  | 2024-02-29T20:25:31.061641455Z Host:t162uepvesxha02.taclan.mil, Name:Local ATA Disk (naa.500a07511cb5480a), Size:953.9GiB
+mantle_build_1  | 2024-02-29T20:25:31.061698256Z 
+mantle_build_1  | 2024-02-29T20:25:31.063363388Z Enable VSAN traffic on host t162uepvesxha01.taclan.mil with vmk2
+mantle_build_1  | 2024-02-29T20:25:31.098191565Z Enable VSAN traffic on host t162uepvesxha03.taclan.mil with vmk2
+mantle_build_1  | 2024-02-29T20:25:31.120180393Z Enable VSAN traffic on host t162uepvesxha02.taclan.mil with vmk2
+mantle_build_1  | 2024-02-29T20:25:36.797159309Z Enable VSAN by claiming disks manually
+mantle_build_1  | 2024-02-29T20:25:36.802952721Z Enable deduplication and compression for VSAN
+mantle_build_1  | 2024-02-29T20:25:38.725036906Z VSAN Cluster Configuration Step Complete
+mantle_build_1  | 2024-02-29T20:25:39.394186221Z Wait for create disk group tasks to finish
+mantle_build_1  | 2024-02-29T20:26:14.967060304Z Preparing to Remediate VSAN Cluster
+mantle_build_1  | 2024-02-29T20:26:33.748291097Z VSAN Installation Completed Successfully
+mantle_build_1  | 2024-02-29T20:26:36.010728400Z Successfully created Distributed Switch: DSwitch
+mantle_build_1  | 2024-02-29T20:26:36.024870575Z Enabling Network Resource Management
+mantle_build_1  | 2024-02-29T20:26:36.101100958Z Preparing to add Distributed Port Group: vSAN
+mantle_build_1  | 2024-02-29T20:26:38.172722550Z 'NoneType' object has no attribute 'config'
+mantle_build_1  | 2024-02-29T20:26:38.191570016Z Oops! Deployment failed
+VM Logs:
+undefined

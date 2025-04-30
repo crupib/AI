@@ -1,0 +1,269 @@
+Your role is to assist users in identifying possible variables within a Cisco networking configuration file. When a configuration file is provided, analyze its content to identify elements that could be variables for use in a Jinja2 template, focusing on elements like IP addresses, interface names, VLAN IDs, IP routes, usernames, passwords, and keychains. Your primary task is to convert the original configuration into a full Jinja2 template by incorporating these identified variables. This process involves replacing potential variable elements with Jinja2 variable syntax, ensuring the configuration remains fully functional and reusable.
+
+Provide clear, concise guidance, focusing solely on replacing elements with variables without altering the configuration's operational intent. Avoid using Jinja2 for loops or other logic constructs; the goal is to present the entire configuration as a Jinja2 template with variables. If uncertain about any part, seek clarification from the user rather than making assumptions.
+
+Communicate straightforwardly, ensuring users receive the full Jinja2 templated version of their configuration. Tailor responses to users familiar with Cisco networking but not necessarily with Jinja2 templating. Ensure they understand how to apply your suggestions for a reusable and modular configuration.
+
+With that said, provide me a Jinja2 template based on this Cisco Configuration:
+
+!
+
+version 17.5
+
+service timestamps debug datetime msec
+
+service timestamps log datetime msec
+
+service call-home
+
+service unsupported-transceiver
+
+platform punt-keepalive disable-kernel-core
+
+!
+
+hostname Switch
+
+!
+
+!
+
+vrf definition Mgmt-vrf
+
+!
+
+address-family ipv4
+
+exit-address-family
+
+!
+
+address-family ipv6
+
+exit-address-family
+
+!
+
+!
+
+!
+
+!
+
+!
+
+no aaa new-model
+
+!
+
+!
+
+vlan 3
+
+name ::NATIVE::
+
+vlan 150
+
+name ::vMotion::
+
+vlan 180
+
+name ::VSAN::
+
+vlan 500
+
+name ::SERVER:::
+
+!
+
+!
+
+!
+
+interface port-channel 1
+
+description ::20G-LAG::
+
+switchport mode trunk
+
+switchport trunk native vlan 3
+
+switchport trunk allowed vlan 150,180,500
+
+!
+
+!
+
+!
+
+ip routing
+
+!
+
+interface GigabitEthernet0/0
+
+vrf forwarding Mgmt-vrf
+
+no ip address
+
+shutdown
+
+negotiation auto
+
+!
+
+interface TenGigabitEthernet1/1
+
+description ::Link-to-SDN::
+
+no switchport
+
+ip address x.x.x.x y.y.y.y
+
+!
+
+interface TenGigabitEthernet1/2
+
+description ::FILO::
+
+switchport access vlan 500
+
+switchport mode access
+
+!
+
+interface TenGigabitEthernet1/3
+
+description ::CM::
+
+switchport access vlan 500
+
+switchport mode access
+
+!
+
+interface TenGigabitEthernet1/4
+
+description ::ILO-ESXiMGMT::
+
+switchport mode trunk
+
+switchport trunk allowed vlan 500
+
+!
+
+interface TenGigabitEthernet1/5
+
+description ::DS-L::
+
+switchport trunk native vlan 3
+
+switchport trunk allowed vlan 150,180,500
+
+switchport mode trunk
+
+channel-group 1 mode on
+
+!
+
+interface TenGigabitEthernet1/6
+
+description ::DS-R::
+
+switchport trunk native vlan 3
+
+switchport trunk allowed vlan 150,180,500
+
+switchport mode trunk
+
+channel-group 1 mode on
+
+!
+
+interface TenGigabitEthernet1/7
+
+description ::MANTLE::
+
+switchport access vlan 500
+
+switchport mode access
+
+interface TenGigabitEthernet1/8
+
+!
+
+interface TenGigabitEthernet1/9
+
+!
+
+interface TenGigabitEthernet1/10
+
+!
+
+interface Vlan1
+
+no ip address
+
+shutdown
+
+!
+
+interface Vlan150
+
+ip address 192.168.150.1 255.255.255.0
+
+!
+
+interface Vlan180
+
+ip address 192.168.180.1 255.255.255.0
+
+!
+
+interface Vlan500
+
+ip address 192.168.101.1 255.255.255.0
+
+!
+
+ip forward-protocol nd
+
+ip http server
+
+ip http authentication local
+
+ip http secure-server
+
+!
+
+!
+
+!
+
+!
+
+control-plane
+
+service-policy input system-cpp-policy
+
+!
+
+!
+
+line con 0
+
+stopbits 1
+
+line aux 0
+
+line vty 0 4
+
+login
+
+transport input ssh
+
+line vty 5 15
+
+login
+
+transport input ssh

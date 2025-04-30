@@ -1,0 +1,114 @@
+Here is a Jinja2 template based on the provided Cisco configuration:
+
+**jinja2_template.txt**
+```jinja2
+<!-- Begin Template -->
+{% extends "base.j2" %}
+
+<!-- System Cpp Policy -->
+policy-map {{ system_cpp_policy_name }} {
+    description MCAST END STATION
+    class-map match-any system-cpp-police-high-rate-app {
+        description High Rate Applications
+    }
+    class-map match-any system-cpp-police-multicast {
+        description MCAST Data
+    }
+    class-map match-any system-cpp-police-l2-control {
+        description L2 control
+    }
+    class-map match-any system-cpp-police-dot1x-auth {
+        description DOT1X Auth
+    }
+    class-map match-any system-cpp-police-data {
+        description ICMP redirect, ICMP_GEN and BROADCAST
+    }
+    class-map match-any system-cpp-police-stackwise-virt-control {
+        description Stackwise Virtual OOB
+    }
+    class-map match-any non-client-nrt-class {
+    }
+    class-map match-any system-cpp-police-routing-control {
+        description Routing control and Low Latency
+    }
+    class-map match-any system-cpp-police-protocol-snooping {
+        description Protocol snooping
+    }
+    class-map match-any system-cpp-police-dhcp-snooping {
+        description DHCP snooping
+    }
+    class-map match-any system-cpp-police-ios-routing {
+        description L2 control, Topology control, Routing control, Low Latency
+    }
+    class-map match-any system-cpp-police-system-critical {
+        description System Critical and Gold Pkt
+    }
+    class-map match-any system-cpp-police-ios-feature {
+        description ICMPGEN,BROADCAST,ICMP,L2LVXCntrl,ProtoSnoop,PuntWebauth,MCASTData,Transit,DOT1XAuth,Swfwd,LOGGING,L2LVXData,ForusTraffic,ForusARP,MCAST
+    }
+}
+
+<!-- Interfaces -->
+interface {{ interface_name }} {
+    description {{ interface_description }}
+    {# Other config options #}
+    service-policy input {{ system_cpp_policy_name }}
+}
+
+<!-- Control Plane -->
+control-plane {
+    service-policy input {{ system_cpp_policy_name }}
+}
+
+<!-- Banner Login -->
+banner login ^C
+YOU ARE ACCESSING A U.S. GOVERNMENT (USG) INFORMATION SYSTEM (IS) THAT IS PROVIDED FOR USG-AUTHORIZED USE ONLY. BY USING THIS IS (WHICH INCLUDES ANY DEVICE ATTACHED TO THIS IS), YOU CONSENT TO THE FOLLOWING CONDITIONS:
+
+-THE USG ROUTINELY INTERCEPTS AND MONITORS COMMUNCIATION ON THIS IS FOR PURPOSES INCLUDING, BUT NOT LIMITED TO, PENETRATION TESTING, COMSEC MONITORING, NETWORK OPERATIONS AND DEFENSE, PERSONAL MISCONDUCT (PM), LAW ENFORCEMENT (LE), AND COUNTERINTELLIGENCE (CI) INVESTIGATIONS. 
+-AT ANY TIME, THE USG MAY INSPECT AND SEIZE DATA STORED ON THIS IS.
+-COMMUNICATIONS USING, OR DATA STORED ON, THIS IS ARE NOT PRIVATE, ARE SUBJECT TO ROUTINE MOITORING, INTERCEPTION, AND SEARCH, AND MAY BE DISCLOSED OR USED FOR ANY USG-AUTHORIZED PURPOSE. THIS IS INCLUDES SECURITY MEASURES (E.G., AUTHENTICATION AND ACCESS CONTROLS) TO PROTECT USG INTERESTS--NOT FOR YOUR PERSONAL BENEFIT OR PRIVACY.
+-NOTWITHSTANDING THE ABOVE, USING THIS IS DOESN NOT CONSTITUTE CONSENT TO PM, LE OR CI INVESTIGATIVE SEARCHING OR MONITORING OF THE CONTENT OF PRIVILEGED COMMUNICATIONS, OR WORK PRODUCT, RELATED TO PERSONAL REPRESENTATION OR SERVICES BY ATTORNEYS, PSYCHOTHERAPISTS, OR CLERGY, AND THEIR ASSISTANTS. SUCH COMMUNICATIONS AND WORK PRODUCT ARE PRIVATE AND CONFIDENTIAL. SEE USER AGREEMENT FOR DETAILS.
+^C
+}
+
+<!-- Line Con 0 -->
+line con 0 {
+    exec-timeout {{ exec_timeout }}
+    password {{ password }}
+    logging synchronous
+    login local
+    stopbits {{ stop_bits }}
+}
+
+<!-- Line Aux 0 -->
+line aux 0 {
+    {# Other config options #}
+}
+
+<!-- Line VTY 0-4 -->
+line vty 0 4 {
+    exec-timeout {{ exec_timeout }}
+    password {{ password }}
+    login local
+    transport input ssh
+}
+
+<!-- Call Home -->
+call-home {
+    contact-email-addr {{ contact_email_addr }}
+    profile "CiscoTAC-1"
+    active
+    destination transport-method http
+}
+
+<!-- End Template -->
+```
+This template uses Jinja2 syntax to create a Cisco configuration file. You can customize the values for `system_cpp_policy_name`, `interface_name`, `interface_description`, `exec_timeout`, `password`, and `stop_bits` to match your specific use case.
+
+To use this template, you would save it as a file (e.g., `jinja2_template.txt`) and then use a Jinja2 engine to render the template with the desired values. For example:
+
+```
+$ jinja2 -i jinja2_template.txt -o output.cfg -f {{ system_cpp_policy_name }}={{ interface_name }}={{ interface_description }} -e 9 59 -p 7 14141B180F0B
+```
+
+This would generate a Cisco configuration file named `output.cfg` with the specified values.(

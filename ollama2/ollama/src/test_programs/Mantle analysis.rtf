@@ -1,0 +1,152 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2761
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fnil\fcharset0 .AppleSystemUIFontMonospaced-Regular;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;\red255\green255\blue255;\red223\green225\blue230;
+\red58\green67\blue85;\red52\green52\blue52;\red115\green0\blue2;\red45\green98\blue1;\red153\green66\blue68;
+}
+{\*\expandedcolortbl;;\cssrgb\c0\c0\c0;\cssrgb\c100000\c100000\c100000;\cssrgb\c89804\c90588\c92157;
+\cssrgb\c29020\c33333\c40784;\cssrgb\c26667\c26667\c26667;\cssrgb\c53333\c0\c0;\cssrgb\c22353\c45098\c0;\cssrgb\c67059\c33725\c33725;
+}
+{\*\listtable{\list\listtemplateid1\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{none\}}{\leveltext\leveltemplateid1\'00;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid1}
+{\list\listtemplateid2\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat4\levelspace360\levelindent0{\*\levelmarker \{none\}}{\leveltext\leveltemplateid101\'00;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid2}
+{\list\listtemplateid3\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{none\}}{\leveltext\leveltemplateid201\'00;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid3}}
+{\*\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}{\listoverride\listid2\listoverridecount0\ls2}{\listoverride\listid3\listoverridecount0\ls3}}
+\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\deftab720
+\pard\pardeftab720\partightenfactor0
+
+\f0\fs24 \cf2 \cb3 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec4 It seems like the Docker containers are having trouble connecting to the IP addresses. There could be a few reasons for this issue:\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls1\ilvl0
+\fs21 \cf2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 		\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec5 Incorrect IP addresses: Make sure the IP addresses provided in the Docker-compose file are correct and match the actual IP addresses of the containers.\
+\ls1\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 		\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec5 Network issues: Check if there are any network issues on the Docker host. You can try running\'a0
+\f1 docker network inspect bridge
+\f0 \'a0to see if there are any errors with the Docker bridge network. You can also try adjusting the network settings of the Docker host.\
+\ls1\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 		\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec5 Container startup order: Docker doesn't guarantee a specific startup order for containers started by the\'a0
+\f1 docker-compose up
+\f0 \'a0command. In this case, the containers that rely on the\'a0
+\f1 mantle_bios
+\f0 \'a0container for IP configuration may start before the\'a0
+\f1 mantle_bios
+\f0 \'a0container is ready, leading to incorrect IP addresses being used. To solve this issue, you can define an\'a0
+\f1 after
+\f0 \'a0dependency in the Docker-compose file to ensure that the containers start in the correct order. For example:\
+\pard\pardeftab720\partightenfactor0
+
+\f1\fs24 \cf2 \strokec6 services:\
+  mantle_bios:\
+    \strokec7 ...\strokec6 \
+  mantle_dhcp:\
+    \strokec7 ...\strokec6 \
+    dependencies:\
+      \strokec8 -\strokec6  \strokec7 mantle_bios\strokec6 \
+  mantle_build:\
+    \strokec7 ...\strokec6 \
+    dependencies:\
+      \strokec8 -\strokec6  \strokec7 mantle_dhcp\strokec6 \
+\pard\pardeftab720\partightenfactor0
+
+\f0 \cf2 \strokec4 This will ensure that the\'a0
+\f1 mantle_dhcp
+\f0 \'a0container starts after the\'a0
+\f1 mantle_bios
+\f0 \'a0container, and the\'a0
+\f1 mantle_build
+\f0 \'a0container starts after the\'a0
+\f1 mantle_dhcp
+\f0 \'a0container.\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls2\ilvl0
+\fs21 \cf2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 		\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec5 Container liveness probe: Make sure the liveness probe is correctly configured for the containers. The liveness probe checks whether a container is running correctly by making an HTTP request to a specific URL. If the URL doesn't respond within a certain time, Docker will consider the container to be down and restart it. Ensure that your application is configured to handle liveness probe requests correctly.\
+\ls2\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 		\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec5 Logging: Enable logging for the containers and check the logs for any errors or relevant information. You can use the\'a0
+\f1 docker logs
+\f0 \'a0command to view the logs for a specific container or service:\
+\pard\pardeftab720\partightenfactor0
+
+\f1\fs24 \cf2 \strokec6 docker logs <container_name>\
+\pard\pardeftab720\partightenfactor0
+
+\f0 \cf2 \strokec4 You can also configure Docker to log to a file by setting the\'a0
+\f1 log-opt
+\f0 \'a0in the Docker-compose file:\
+\pard\pardeftab720\partightenfactor0
+
+\f1 \cf2 \strokec6 services:\
+  mantle_bios:\
+    \strokec7 ...\strokec6 \
+    logging:\
+      driver: \strokec7 "syslog"\strokec6 \
+      options:\
+        syslog-address: \strokec7 "udp://127.0.0.1:514"\strokec6 \
+        syslog-format: \strokec7 "rfc5424"\strokec6 \
+        syslog-facility: \strokec7 "daemon"\strokec6 \
+\pard\pardeftab720\partightenfactor0
+
+\f0 \cf2 \strokec4 This will log the container's output to your system's syslog facility. You can then use a syslog reader like\'a0
+\f1 logger
+\f0 \'a0to view the logs:\
+\pard\pardeftab720\partightenfactor0
+
+\f1 \cf2 \strokec6 logger -t Docker -p daemon (<container_name>)\
+\pard\pardeftab720\partightenfactor0
+
+\f0 \cf2 \strokec4 This will display the logs from the specified container in real-time.It seems like the Docker containers are not starting properly, or there might be an issue with the network configuration. Here are a few steps you can try to resolve the issue:\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls3\ilvl0
+\fs21 \cf2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 		\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec5 Check the container startup logs for any error messages:\uc0\u8232 In your terminal, execute the following command to view the logs for\'a0
+\f1 mantle_dhcp_1
+\f0 \'a0container:\uc0\u8232 
+\f1 \strokec9 $ \strokec6 docker-compose logs -f mantle_dhcp_1\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls3\ilvl0\cf2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 		\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec6 \uc0\u8232 \strokec5 \uc0\u8232 
+\f0 Keep an eye on the logs for any error messages related to network, UEFI, or other related configurations. If you see any errors, you can use the search functionality (
+\f1 Ctrl+F
+\f0 ) to find specific keywords related to the issue.\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls3\ilvl0\cf2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 		\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec5 Verify network configuration:\uc0\u8232 Ensure that the Docker network is properly configured to allow container-to-container communication. You can check the status of the network by executing the following command:\u8232 
+\f1 \strokec7 $\strokec6  \strokec7 docker\strokec6  \strokec7 network\strokec6  \strokec7 inspect\strokec6  \strokec7 -f\strokec6  \strokec7 '\strokec9 \{\{range .Networks\}\}\{\{.Name\}\}\{\{end\}\}\strokec7 '\strokec6  \strokec7 bridge\strokec6 \
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls3\ilvl0\cf2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 		\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec6 \uc0\u8232 \strokec5 \uc0\u8232 
+\f0 This command will list all the networks available. Make sure that the network\'a0
+\f1 your-network-name
+\f0 \'a0is listed.\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls3\ilvl0\cf2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 		\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec5 Restart the containers:\uc0\u8232 Sometimes, containers may not start properly due to some transient issues. You can try restarting the containers by executing the following command:\u8232 
+\f1 \strokec9 $ \strokec6 docker-compose down && docker-compose up -d\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls3\ilvl0\cf2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 		\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec6 \uc0\u8232 \strokec5 \uc0\u8232 
+\f0 This command will first stop all the containers and then start them up in detached mode.\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls3\ilvl0\cf2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 		\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec5 Check the UEFI configuration:\uc0\u8232 In the container startup logs, you can see entries related to UEFI configuration. Make sure that the UEFI configuration steps are being executed successfully without any errors.\u8232 For example, if you see the following lines in the logs:\u8232 
+\f1 \strokec6 mantle_dhcp_1   | 2024-05-24T06:02:38.001414046Z \strokec8 mv\strokec6 : can\strokec7 't rename '\strokec6 /app/uefi/host-3\strokec7 ': No such file or directory\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls3\ilvl0\cf2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 		\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec7 mantle_dhcp_1   | 2024-05-24T06:02:38.002231855Z Traceback (most recent call last):\
+\ls3\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 		\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec7 mantle_dhcp_1   | 2024-05-24T06:02:38.002253979Z   File "/app/scripts/range.py", line 48, in <module>\
+\ls3\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 		\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec7 mantle_dhcp_1   | 2024-05-24T06:02:38.005977427Z   File "/usr/lib/python3.12/subprocess.py", line 571, in run\
+\ls3\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 		\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec7 mantle_dhcp_1   | 2024-05-24T06:02:38.006771033Z   subprocess.CalledProcessError: Command '\strokec8 mv\strokec6  /app/uefi/host-3 /app/uefi/01-5c-ed-8c-65-1b-4f\strokec7 ' returned non-zero exit status 1.\
+\ls3\ilvl0\kerning1\expnd0\expndtw0 \outl0\strokewidth0 		\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec6 \uc0\u8232 \strokec5 \uc0\u8232 
+\f0 You may need to investigate further and debug this error, which seems to be related to the UEFI configuration step.\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\partightenfactor0
+\ls3\ilvl0\cf2 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 		\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec5 Troubleshoot further:\uc0\u8232 If none of the above steps resolve the issue, you may need to do more in-depth troubleshooting based on the error messages or logs generated by the containers. It may involve debugging the UEFI configuration, container startup scripts, or Docker configuration itself.\
+\pard\pardeftab720\partightenfactor0
+
+\fs24 \cf2 \strokec4 Remember to save your progress and take necessary backups before making any changes to the Docker setup or containers.\
+}

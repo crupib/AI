@@ -1,0 +1,331 @@
+!
+configure terminal
+!
+enable secret {{ Network_Device_Password }}
+username {{ Network_Device_Username }} password {{ Network_Device_Password }}
+!
+service password-encryption
+service sequence-numbers
+service tcp-keepalives-in
+service tcp-keepalives-out
+service timestamps debug datetime msec show-timezone
+service timestamps log datetime msec show-timezone
+!
+hostname {{ Switch1_Hostname }}
+no logging console
+logging on
+login on-failure log every 1
+login on-success log every 1
+!
+spanning-tree mode rapid-pvst
+spanning-tree portfast default
+spanning-tree portfast bpduguard default
+spanning-tree loopguard default
+errdisable recovery cause bpduguard
+errdisable recovery cause psecure-violation
+errdisable recovery interval 1800
+!
+vtp domain NULL
+vtp mode off
+!
+ip domain-name {{ Fully_Qualified_Domain_Name }}
+!
+crypto key generate rsa general-keys modulus 2048
+ip ssh authentication-retries 2
+ip ssh version 2 
+ip ssh time-out 10
+ip ssh dh min size 2048
+ip ssh server algorithm mac hmac-sha1-96 hmac-sha1
+!
+vlan {{ Server_VLAN_ID }}
+name ::SERVER::
+vlan {{ vMotion_VLAN_ID }}
+name ::vMotion::
+vlan {{ vSAN_VLAN_ID }}
+name ::VSAN::
+vlan {{ Client_VLAN_ID }}
+name ::CLIENT::
+vlan 3
+name ::NATIVE::
+vlan 888
+name ::NULL_VLAN::
+!
+interface GigabitEthernet0/1
+ description 1 - M3-SE3 Router FE0/0 TOP LEFT PORT 
+ switchport mode access
+ switchport nonegotiate
+ switchport access vlan {{ Server_VLAN_ID }}
+ spanning-tree portfast
+ spanning-tree bpduguard enable
+ no logging event link-status
+ no snmp trap link-status
+!
+interface GigabitEthernet0/2
+ description 2 - Mantle Appliance - Server VLAN {{ Server_VLAN_ID }}
+ switchport mode access
+ switchport nonegotiate
+ switchport access vlan {{ Server_VLAN_ID }}
+ spanning-tree portfast
+ spanning-tree bpduguard enable
+ no logging event link-status
+ no snmp trap link-status
+!
+interface GigabitEthernet0/3
+ description 3 - ESXi1-VSVR5 ETH-MGMT - Server VLAN {{ Server_VLAN_ID }}
+ switchport mode access
+ switchport nonegotiate
+ switchport access vlan {{ Server_VLAN_ID }}
+ spanning-tree portfast
+ spanning-tree bpduguard enable
+ no logging event link-status
+ no snmp trap link-status
+!
+interface GigabitEthernet0/4
+ description 4 - ESXi1-VSVR5 1G ETH Port C - Server VLAN {{ Server_VLAN_ID }}
+ switchport mode trunk
+ switchport nonegotiate
+ switchport trunk allowed vlan {{ Server_VLAN_ID }}
+ switchport trunk native vlan 3
+!
+interface GigabitEthernet0/5
+ description ::PORT-CHANNEL::TRUNK::vMotion::
+ switchport trunk allowed vlan {{ vMotion_VLAN_ID }}
+ switchport mode trunk
+ switchport nonegotiate
+!
+interface GigabitEthernet0/6
+ description ::PORT-CHANNEL::TRUNK::vMotion::
+ switchport trunk allowed vlan {{ vMotion_VLAN_ID }}
+ switchport mode trunk
+ switchport nonegotiate
+!
+interface GigabitEthernet0/7
+ description ::PORT-CHANNEL::TRUNK::VSAN::
+ switchport trunk allowed vlan {{ vSAN_VLAN_ID }}
+ switchport mode trunk
+ switchport nonegotiate
+!
+interface GigabitEthernet0/8
+ description ::PORT-CHANNEL::TRUNK::VSAN::
+ switchport trunk allowed vlan {{ vSAN_VLAN_ID }}
+ switchport mode trunk
+ switchport nonegotiate
+!
+interface GigabitEthernet0/9
+ description 9 - M3-SE-LMR4 ETH or M3-SE-MFGW ETH 2 - Server VLAN {{ Server_VLAN_ID }}
+ switchport mode access
+ switchport nonegotiate
+ switchport access vlan {{ Server_VLAN_ID }}
+ spanning-tree portfast
+ spanning-tree bpduguard enable
+ no logging event link-status
+ no snmp trap link-status
+!
+interface GigabitEthernet0/10
+ description 10 - QNAP Port 1 - Server VLAN {{ Server_VLAN_ID }}
+ switchport mode access
+ switchport nonegotiate
+ switchport access vlan {{ Server_VLAN_ID }}
+ spanning-tree portfast 
+ spanning-tree bpduguard enable
+ no logging event link-status
+ no snmp trap link-status
+!
+interface GigabitEthernet0/11
+ description 11 - QNAP Port 2/3 - VSAN VLAN {{ vSAN_VLAN_ID }}
+ switchport mode access
+ switchport nonegotiate
+ switchport access vlan {{ vSAN_VLAN_ID }}
+ spanning-tree portfast
+ spanning-tree bpduguard enable
+ no logging event link-status
+ no snmp trap link-status
+!
+interface GigabitEthernet0/12
+ description 12 - Switch 1 to Client Switch 1 Port Gi1/0/1
+ switchport mode trunk
+ switchport nonegotiate
+ switchport trunk allowed vlan {{ Client_VLAN_ID }}
+ switchport trunk native vlan 3
+!
+interface GigabitEthernet0/13
+ description 13 - Switch 1 to Switch 2 Port Gi0/13
+ switchport mode trunk
+ switchport nonegotiate
+ switchport trunk allowed vlan {{ Server_VLAN_ID }},{{ vMotion_VLAN_ID }},{{ vSAN_VLAN_ID }},{{ Client_VLAN_ID }}
+ switchport trunk native vlan 3
+ shutdown
+!
+interface GigabitEthernet0/14
+ description 14 - If Medium Switch 1 to Client Switch 3 Port Gi1/0/1, If Heavy Switch 1 to Switch 3 Port Gi0/13
+ switchport mode trunk
+ switchport nonegotiate
+ switchport trunk allowed vlan {{ Client_VLAN_ID }}
+ switchport trunk native vlan 3
+ shutdown
+!
+interface GigabitEthernet0/15
+ description 15 - DISABLED - VLAN 888
+ switchport 
+ switchport mode access 
+ switchport nonegotiate
+ spanning-tree portfast
+ spanning-tree bpduguard enable
+ no logging event link-status
+ no snmp trap link-status
+ switchport port-security maximum 1
+ switchport port-security mac-address sticky
+ switchport port-security violation shutdown
+ switchport port-security aging time 30
+ switchport port-security 
+ switchport access vlan 888
+ shutdown
+!
+interface GigabitEthernet0/16
+ description 16 - DISABLED - VLAN 888
+ switchport 
+ switchport mode access 
+ switchport nonegotiate
+ spanning-tree portfast
+ spanning-tree bpduguard enable
+ no logging event link-status
+ no snmp trap link-status
+ switchport port-security maximum 1
+ switchport port-security mac-address sticky
+ switchport port-security violation shutdown
+ switchport port-security aging time 30
+ switchport port-security 
+ switchport access vlan 888
+ shutdown
+!
+interface Vlan1
+ no ip address
+ shutdown
+ description VLAN_1 DISABLED
+!
+interface Vlan{{ vMotion_VLAN_ID }}
+ ip address {{ vMotion_Default_Gateway }} {{ vMotion_Subnet_Mask }}
+ no ip redirects
+ no ip unreachables
+ no ip proxy-arp
+!
+!
+interface Vlan{{ vSAN_VLAN_ID }}
+ ip address {{ vSAN_Default_Gateway }} {{ vSAN_Subnet_Mask }}
+ no ip redirects
+ no ip unreachables
+ no ip proxy-arp
+!
+interface Vlan{{ Server_VLAN_ID }}
+ description Server_VLAN_ID_{{ Server_VLAN_ID }} CREATED
+ ip address {{ Server_Default_Gateway }} {{ Server_Subnet_Mask }}
+ no mop enabled
+ no ip directed-broadcast
+ no ip proxy-arp
+ no ip redirects
+ no ip unreachables
+!
+interface Vlan{{ Client_VLAN_ID }}
+ description Client_VLAN_ID_{{ Client_VLAN_ID }} CREATED
+ ip address {{ Client_Default_Gateway }} {{ Client_Subnet_Mask }}
+ no mop enabled
+ no ip directed-broadcast
+ no ip proxy-arp
+ no ip redirects
+ no ip unreachables
+!
+ip routing
+ip route 0.0.0.0 0.0.0.0 {{ Router_LAN_IP }}
+ip forward-protocol nd
+ip classless
+no service config
+no service call-home
+no service finger
+no service pad
+no service tcp-small-servers
+no service udp-small-servers
+no ip bootp server
+no ip finger
+no ip http server
+no ip http secure-server
+no ip identd
+no vstack
+ip multicast-routing distributed
+no ip arp gratuitous none 
+ip dhcp bootp ignore
+ip icmp rate-limit unreachable 1000
+ip tcp synwait-time 10
+no boot network
+no mop enabled
+no ip gratuitous-arps
+no ip mask-reply
+no ip source-route
+clock timezone GMT 0
+no clock summer-time
+no ip domain-lookup
+no ip name-server
+!
+no snmp-server system-shutdown
+no snmp-server trap-timeout 180
+snmp-server packetsize 1400
+snmp-server queue-length 20
+!
+logging buffered 10000 informational
+logging trap informational 
+logging facility local6
+no logging console
+no logging monitor
+logging source-interface vlan {{ Server_VLAN_ID }}
+!
+logging discriminator CHGNTFY severity includes 5 facility includes SYS mnemonics includes RELOAD|RESTART|CONFIG
+!
+no banner exec
+no banner login
+no banner motd
+!
+banner login ^
+YOU ARE ACCESSING A U.S. GOVERNMENT (USG) INFORMATION SYSTEM (IS) THAT
+IS PROVIDED FOR USG-AUTHORIZED USE ONLY. BY USING THIS IS (WHICH
+INCLUDES ANY DEVICE ATTACHED TO THIS IS), YOU CONSENT TO THE FOLLOWING
+CONDITIONS:
+
+-THE USG ROUTINELY INTERCEPTS AND MONITORS COMMUNICATION ON THIS IS
+FOR PURPOSES INCLUDING, BUT NOT LIMITED TO, PENETRATION TESTING, COMSEC
+MONITORING, NETWORK OPERATIONS AND DEFENSE, PERSONAL MISCONDUCT (PM),
+LAW ENFORCEMENT (LE), AND COUNTERINTELLIGENCE (CI) INVESTIGATIONS. 
+-AT ANY TIME, THE USG MAY INSPECT AND SEIZE DATA STORED ON THIS IS.
+-COMMUNICATIONS USING, OR DATA STORED ON, THIS IS ARE NOT PRIVATE, ARE
+SUBJECT TO ROUTINE MONITORING, INTERCEPTION, AND SEARCH, AND MAY BE
+DISCLOSED OR USED FOR ANY USG-AUTHORIZED PURPOSE. THIS IS INCLUDES
+SECURITY MEASURES (E.G., AUTHENTICATION AND ACCESS CONTROLS) TO PROTECT
+USG INTERESTS--NOT FOR YOUR PERSONAL BENEFIT OR PRIVACY.
+-NOTWITHSTANDING THE ABOVE, USING THIS IS DOES NOT CONSTITUTE CONSENT
+TO PM, LE OR CI INVESTIGATIVE SEARCHING OR MONITORING OF THE CONTENT OF
+PRIVILEGED COMMUNICATIONS, OR WORK PRODUCT, RELATED TO PERSONAL
+REPRESENTATION OR SERVICES BY ATTORNEYS, PSYCHOTHERAPISTS, OR CLERGY,
+AND THEIR ASSISTANTS. SUCH COMMUNICATIONS AND WORK PRODUCT ARE PRIVATE 
+AND CONFIDENTIAL. SEE USER AGREEMENT FOR DETAILS.
+^
+!
+line console 0
+exec-timeout 9 59
+logging synchronous
+password {{ Network_Device_Password }}
+login local
+line vty 0 4
+password {{ Network_Device_Password }}
+login local
+exec-timeout 9 59
+transport input ssh
+line vty 5 15
+password {{ Network_Device_Password }}
+login local
+exec-timeout 9 59
+transport input ssh
+!
+interface GigabitEthernet0/13
+ no shutdown
+!
+interface GigabitEthernet0/14
+ no shutdown
+!

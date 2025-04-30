@@ -1,0 +1,766 @@
+Build Logs:
+Attaching to build_202403121420_143e8963-96c3-40e4-89ca-9d3a827bbce8_mantle_serial_1
+mantle_serial_1  | 2024-03-12T14:20:44.176636878Z /dev/ttyUSB0: --- Starting Network Build on TACLANRTR ---
+mantle_serial_1  | 2024-03-12T14:20:44.290799095Z /dev/ttyUSB0: Sending break sequence to enter ROMMON..
+mantle_serial_1  | 2024-03-12T14:20:44.299687533Z /dev/ttyUSB3: --- Starting Network Build on TACLANSW2 ---
+mantle_serial_1  | 2024-03-12T14:20:44.299715503Z /dev/ttyUSB3: Waiting for device prompt..
+mantle_serial_1  | 2024-03-12T14:20:44.300823245Z /dev/ttyUSB1: --- Starting Network Build on TACLANSW1 ---
+mantle_serial_1  | 2024-03-12T14:20:44.300841163Z /dev/ttyUSB1: Waiting for device prompt..
+mantle_serial_1  | 2024-03-12T14:20:44.320837918Z /dev/ttyUSB3: 
+mantle_serial_1  | 2024-03-12T14:20:44.320861001Z % Please answer
+mantle_serial_1  | 2024-03-12T14:20:44.320864417Z /dev/ttyUSB3: Found Initial Configuration Dialog..
+mantle_serial_1  | 2024-03-12T14:20:44.322038731Z /dev/ttyUSB1: 
+mantle_serial_1  | 2024-03-12T14:20:44.322052882Z % Please answer
+mantle_serial_1  | 2024-03-12T14:20:44.322056097Z /dev/ttyUSB1: Found Initial Configuration Dialog..
+mantle_serial_1  | 2024-03-12T14:20:46.552301374Z /dev/ttyUSB3: Sending Configuration to Device:/dev/ttyUSB1: Sending Configuration to Device:
+mantle_serial_1  | 2024-03-12T14:20:46.552369835Z 
+mantle_serial_1  | 2024-03-12T14:20:46.552375516Z /dev/ttyUSB3: Applying line 1 of 292
+mantle_serial_1  | 2024-03-12T14:20:46.552377745Z /dev/ttyUSB1: Applying line 1 of 333
+mantle_serial_1  | 2024-03-12T14:20:47.152957489Z /dev/ttyUSB3: Applying line 2 of 292
+mantle_serial_1  | 2024-03-12T14:20:47.153101811Z /dev/ttyUSB1: Applying line 2 of 333
+mantle_serial_1  | 2024-03-12T14:20:47.753918119Z /dev/ttyUSB3: Applying line 3 of 292
+mantle_serial_1  | 2024-03-12T14:20:47.753988052Z /dev/ttyUSB1: Applying line 3 of 333
+mantle_serial_1  | 2024-03-12T14:20:48.354193234Z /dev/ttyUSB3: Applying line 4 of 292
+mantle_serial_1  | 2024-03-12T14:20:48.354722255Z /dev/ttyUSB1: Applying line 4 of 333
+mantle_serial_1  | 2024-03-12T14:20:48.955145398Z /dev/ttyUSB3: Applying line 5 of 292
+mantle_serial_1  | 2024-03-12T14:20:48.955350195Z /dev/ttyUSB1: Applying line 5 of 333
+mantle_serial_1  | 2024-03-12T14:20:49.556143664Z /dev/ttyUSB3: Applying line 6 of 292
+mantle_serial_1  | 2024-03-12T14:20:49.556199998Z /dev/ttyUSB1: Applying line 6 of 333
+mantle_serial_1  | 2024-03-12T14:20:50.157022298Z /dev/ttyUSB1: Applying line 7 of 333/dev/ttyUSB3: Applying line 7 of 292
+mantle_serial_1  | 2024-03-12T14:20:50.157092221Z 
+mantle_serial_1  | 2024-03-12T14:20:50.758526478Z /dev/ttyUSB3: Applying line 8 of 292
+mantle_serial_1  | 2024-03-12T14:20:50.758585900Z /dev/ttyUSB1: Applying line 8 of 333
+mantle_serial_1  | 2024-03-12T14:20:51.359629193Z /dev/ttyUSB3: Applying line 9 of 292
+mantle_serial_1  | 2024-03-12T14:20:51.359684029Z /dev/ttyUSB1: Applying line 9 of 333
+mantle_serial_1  | 2024-03-12T14:20:51.961031714Z /dev/ttyUSB3: Applying line 10 of 292
+mantle_serial_1  | 2024-03-12T14:20:51.961116625Z /dev/ttyUSB1: Applying line 10 of 333
+mantle_serial_1  | 2024-03-12T14:20:52.562518441Z /dev/ttyUSB1: Applying line 11 of 333
+mantle_serial_1  | 2024-03-12T14:20:52.562557679Z /dev/ttyUSB3: Applying line 11 of 292
+mantle_serial_1  | 2024-03-12T14:20:53.163391582Z /dev/ttyUSB1: Applying line 12 of 333
+mantle_serial_1  | 2024-03-12T14:20:53.163470962Z /dev/ttyUSB3: Applying line 12 of 292
+mantle_serial_1  | 2024-03-12T14:20:53.764773137Z /dev/ttyUSB1: Applying line 13 of 333
+mantle_serial_1  | 2024-03-12T14:20:53.764850199Z /dev/ttyUSB3: Applying line 13 of 292
+mantle_serial_1  | 2024-03-12T14:20:54.404866873Z /dev/ttyUSB3: Applying line 14 of 292/dev/ttyUSB1: Applying line 14 of 333
+mantle_serial_1  | 2024-03-12T14:20:54.405016986Z 
+mantle_serial_1  | 2024-03-12T14:20:54.405145827Z /dev/ttyUSB0: Sending break sequence to enter ROMMON..
+mantle_serial_1  | 2024-03-12T14:20:55.005934734Z /dev/ttyUSB3: Applying line 15 of 292
+mantle_serial_1  | 2024-03-12T14:20:55.005970061Z /dev/ttyUSB1: Applying line 15 of 333
+mantle_serial_1  | 2024-03-12T14:20:55.606414008Z /dev/ttyUSB1: Applying line 16 of 333
+mantle_serial_1  | 2024-03-12T14:20:55.606658338Z /dev/ttyUSB3: Applying line 16 of 292
+mantle_serial_1  | 2024-03-12T14:20:56.207835736Z /dev/ttyUSB3: Applying line 17 of 292
+mantle_serial_1  | 2024-03-12T14:20:56.207882107Z /dev/ttyUSB1: Applying line 17 of 333
+mantle_serial_1  | 2024-03-12T14:20:56.808941076Z /dev/ttyUSB1: Applying line 18 of 333
+mantle_serial_1  | 2024-03-12T14:20:56.809016334Z /dev/ttyUSB3: Applying line 18 of 292
+mantle_serial_1  | 2024-03-12T14:20:57.410267493Z /dev/ttyUSB3: Applying line 19 of 292/dev/ttyUSB1: Applying line 19 of 333
+mantle_serial_1  | 2024-03-12T14:20:57.410333138Z 
+mantle_serial_1  | 2024-03-12T14:20:58.011093018Z /dev/ttyUSB1: Applying line 20 of 333/dev/ttyUSB3: Applying line 20 of 292
+mantle_serial_1  | 2024-03-12T14:20:58.011161573Z 
+mantle_serial_1  | 2024-03-12T14:20:58.611894121Z /dev/ttyUSB1: Applying line 21 of 333
+mantle_serial_1  | 2024-03-12T14:20:58.611978359Z /dev/ttyUSB3: Applying line 21 of 292
+mantle_serial_1  | 2024-03-12T14:20:59.213178569Z /dev/ttyUSB3: Applying line 22 of 292/dev/ttyUSB1: Applying line 22 of 333
+mantle_serial_1  | 2024-03-12T14:20:59.213236618Z 
+mantle_serial_1  | 2024-03-12T14:20:59.814174181Z /dev/ttyUSB3: Applying line 23 of 292/dev/ttyUSB1: Applying line 23 of 333
+mantle_serial_1  | 2024-03-12T14:20:59.814211940Z 
+mantle_serial_1  | 2024-03-12T14:21:00.414372874Z /dev/ttyUSB1: Applying line 24 of 333
+mantle_serial_1  | 2024-03-12T14:21:00.414972032Z /dev/ttyUSB3: Applying line 24 of 292
+mantle_serial_1  | 2024-03-12T14:21:01.015792019Z /dev/ttyUSB1: Applying line 25 of 333/dev/ttyUSB3: Applying line 25 of 292
+mantle_serial_1  | 2024-03-12T14:21:01.015873947Z 
+mantle_serial_1  | 2024-03-12T14:21:01.616391622Z /dev/ttyUSB3: Applying line 26 of 292
+mantle_serial_1  | 2024-03-12T14:21:01.616507556Z /dev/ttyUSB1: Applying line 26 of 333
+mantle_serial_1  | 2024-03-12T14:21:02.217782976Z /dev/ttyUSB3: Applying line 27 of 292
+mantle_serial_1  | 2024-03-12T14:21:02.217815698Z /dev/ttyUSB1: Applying line 27 of 333
+mantle_serial_1  | 2024-03-12T14:21:02.818816947Z /dev/ttyUSB1: Applying line 28 of 333
+mantle_serial_1  | 2024-03-12T14:21:02.818878173Z /dev/ttyUSB3: Applying line 28 of 292
+mantle_serial_1  | 2024-03-12T14:21:03.419377344Z /dev/ttyUSB1: Applying line 29 of 333
+mantle_serial_1  | 2024-03-12T14:21:03.419491520Z /dev/ttyUSB3: Applying line 29 of 292
+mantle_serial_1  | 2024-03-12T14:21:04.020405441Z /dev/ttyUSB1: Applying line 30 of 333
+mantle_serial_1  | 2024-03-12T14:21:04.020456282Z /dev/ttyUSB3: Applying line 30 of 292
+mantle_serial_1  | 2024-03-12T14:21:04.525180205Z /dev/ttyUSB0: Entered ROMMON
+mantle_serial_1  | 2024-03-12T14:21:04.525246712Z /dev/ttyUSB0: Set config-register to 0x2142
+mantle_serial_1  | 2024-03-12T14:21:04.525257484Z /dev/ttyUSB0: Rebooting device..
+mantle_serial_1  | 2024-03-12T14:21:04.525273617Z /dev/ttyUSB0: Waiting for device prompt..
+mantle_serial_1  | 2024-03-12T14:21:04.621204192Z /dev/ttyUSB1: Applying line 31 of 333
+mantle_serial_1  | 2024-03-12T14:21:04.621268956Z /dev/ttyUSB3: Applying line 31 of 292
+mantle_serial_1  | 2024-03-12T14:21:05.221466908Z /dev/ttyUSB1: Applying line 32 of 333
+mantle_serial_1  | 2024-03-12T14:21:05.222164418Z /dev/ttyUSB3: Applying line 32 of 292
+mantle_serial_1  | 2024-03-12T14:21:05.822042028Z /dev/ttyUSB1: Applying line 33 of 333
+mantle_serial_1  | 2024-03-12T14:21:05.822813363Z /dev/ttyUSB3: Applying line 33 of 292
+mantle_serial_1  | 2024-03-12T14:21:06.422349655Z /dev/ttyUSB1: Applying line 34 of 333
+mantle_serial_1  | 2024-03-12T14:21:06.423252258Z /dev/ttyUSB3: Applying line 34 of 292
+mantle_serial_1  | 2024-03-12T14:21:07.023464969Z /dev/ttyUSB1: Applying line 35 of 333
+mantle_serial_1  | 2024-03-12T14:21:07.023995489Z /dev/ttyUSB3: Applying line 35 of 292
+mantle_serial_1  | 2024-03-12T14:21:07.624678770Z /dev/ttyUSB1: Applying line 36 of 333
+mantle_serial_1  | 2024-03-12T14:21:07.624796149Z /dev/ttyUSB3: Applying line 36 of 292
+mantle_serial_1  | 2024-03-12T14:21:08.226010831Z /dev/ttyUSB1: Applying line 37 of 333
+mantle_serial_1  | 2024-03-12T14:21:08.226071614Z /dev/ttyUSB3: Applying line 37 of 292
+mantle_serial_1  | 2024-03-12T14:21:08.826886668Z /dev/ttyUSB3: Applying line 38 of 292
+mantle_serial_1  | 2024-03-12T14:21:08.826923038Z /dev/ttyUSB1: Applying line 38 of 333
+mantle_serial_1  | 2024-03-12T14:21:09.427246905Z /dev/ttyUSB3: Applying line 39 of 292/dev/ttyUSB1: Applying line 39 of 333
+mantle_serial_1  | 2024-03-12T14:21:09.427274800Z 
+mantle_serial_1  | 2024-03-12T14:21:10.028273381Z /dev/ttyUSB3: Applying line 40 of 292/dev/ttyUSB1: Applying line 40 of 333
+mantle_serial_1  | 2024-03-12T14:21:10.028333634Z 
+mantle_serial_1  | 2024-03-12T14:21:10.629445680Z /dev/ttyUSB3: Applying line 41 of 292
+mantle_serial_1  | 2024-03-12T14:21:10.629499006Z /dev/ttyUSB1: Applying line 41 of 333
+mantle_serial_1  | 2024-03-12T14:21:11.230484361Z /dev/ttyUSB3: Applying line 42 of 292
+mantle_serial_1  | 2024-03-12T14:21:11.230535134Z /dev/ttyUSB1: Applying line 42 of 333
+mantle_serial_1  | 2024-03-12T14:21:11.830908871Z /dev/ttyUSB1: Applying line 43 of 333
+mantle_serial_1  | 2024-03-12T14:21:11.831168877Z /dev/ttyUSB3: Applying line 43 of 292
+mantle_serial_1  | 2024-03-12T14:21:12.431511547Z /dev/ttyUSB3: Applying line 44 of 292
+mantle_serial_1  | 2024-03-12T14:21:12.431555081Z /dev/ttyUSB1: Applying line 44 of 333
+mantle_serial_1  | 2024-03-12T14:21:13.032425213Z /dev/ttyUSB1: Applying line 45 of 333
+mantle_serial_1  | 2024-03-12T14:21:13.032458248Z /dev/ttyUSB3: Applying line 45 of 292
+mantle_serial_1  | 2024-03-12T14:21:13.633381506Z /dev/ttyUSB1: Applying line 46 of 333
+mantle_serial_1  | 2024-03-12T14:21:13.633431197Z /dev/ttyUSB3: Applying line 46 of 292
+mantle_serial_1  | 2024-03-12T14:21:14.233863097Z /dev/ttyUSB1: Applying line 47 of 333
+mantle_serial_1  | 2024-03-12T14:21:14.234051759Z /dev/ttyUSB3: Applying line 47 of 292
+mantle_serial_1  | 2024-03-12T14:21:14.834454102Z /dev/ttyUSB1: Applying line 48 of 333/dev/ttyUSB3: Applying line 48 of 292
+mantle_serial_1  | 2024-03-12T14:21:14.834514876Z 
+mantle_serial_1  | 2024-03-12T14:21:15.435356681Z /dev/ttyUSB3: Applying line 49 of 292/dev/ttyUSB1: Applying line 49 of 333
+mantle_serial_1  | 2024-03-12T14:21:15.435399274Z 
+mantle_serial_1  | 2024-03-12T14:21:16.036787176Z /dev/ttyUSB1: Applying line 50 of 333/dev/ttyUSB3: Applying line 50 of 292
+mantle_serial_1  | 2024-03-12T14:21:16.036854893Z 
+mantle_serial_1  | 2024-03-12T14:21:16.637427107Z /dev/ttyUSB1: Applying line 51 of 333
+mantle_serial_1  | 2024-03-12T14:21:16.637462182Z /dev/ttyUSB3: Applying line 51 of 292
+mantle_serial_1  | 2024-03-12T14:21:17.238449873Z /dev/ttyUSB3: Applying line 52 of 292/dev/ttyUSB1: Applying line 52 of 333
+mantle_serial_1  | 2024-03-12T14:21:17.238492043Z 
+mantle_serial_1  | 2024-03-12T14:21:17.839325961Z /dev/ttyUSB1: Applying line 53 of 333/dev/ttyUSB3: Applying line 53 of 292
+mantle_serial_1  | 2024-03-12T14:21:17.839362326Z 
+mantle_serial_1  | 2024-03-12T14:21:18.439577821Z /dev/ttyUSB1: Applying line 54 of 333
+mantle_serial_1  | 2024-03-12T14:21:18.439798229Z /dev/ttyUSB3: Applying line 54 of 292
+mantle_serial_1  | 2024-03-12T14:21:19.040416432Z /dev/ttyUSB1: Applying line 55 of 333
+mantle_serial_1  | 2024-03-12T14:21:19.040554517Z /dev/ttyUSB3: Applying line 55 of 292
+mantle_serial_1  | 2024-03-12T14:21:19.641665844Z /dev/ttyUSB1: Applying line 56 of 333
+mantle_serial_1  | 2024-03-12T14:21:19.641731147Z /dev/ttyUSB3: Applying line 56 of 292
+mantle_serial_1  | 2024-03-12T14:21:20.242448744Z /dev/ttyUSB1: Applying line 57 of 333
+mantle_serial_1  | 2024-03-12T14:21:20.242550558Z /dev/ttyUSB3: Applying line 57 of 292
+mantle_serial_1  | 2024-03-12T14:21:20.843440339Z /dev/ttyUSB1: Applying line 58 of 333
+mantle_serial_1  | 2024-03-12T14:21:20.843509895Z /dev/ttyUSB3: Applying line 58 of 292
+mantle_serial_1  | 2024-03-12T14:21:21.277293740Z /dev/ttyUSB0: |Y
+mantle_serial_1  | 2024-03-12T14:21:21.277362884Z 
+rommon 1 > reset
+mantle_serial_1  | 2024-03-12T14:21:21.277366591Z 
+mantle_serial_1  | 2024-03-12T14:21:21.277368244Z System Bootstrap, Version 15.2(1r)GC1, RELEASE SOFTWARE (fc1)
+mantle_serial_1  | 2024-03-12T14:21:21.277369897Z Technical Support: http://www.cisco.com/techsupport
+mantle_serial_1  | 2024-03-12T14:21:21.277371360Z Copyright (c) 2011 by cisco Systems, Inc.
+mantle_serial_1  | 2024-03-12T14:21:21.277372856Z 
+mantle_serial_1  | 2024-03-12T14:21:21.277374355Z 
+mantle_serial_1  | 2024-03-12T14:21:21.277375760Z Rommon signature verification PASSED for Readonly Rommon
+mantle_serial_1  | 2024-03-12T14:21:21.277377330Z 
+C5915 platform with 524288 Kbytes of main memory
+mantle_serial_1  | 2024-03-12T14:21:21.277379002Z 
+mantle_serial_1  | 2024-03-12T14:21:21.277380726Z 
+Readonly ROMMON initialized
+mantle_serial_1  | 2024-03-12T14:21:21.277382195Z 
+mantle_serial_1  | 2024-03-12T14:21:21.444366576Z /dev/ttyUSB1: Applying line 59 of 333
+mantle_serial_1  | 2024-03-12T14:21:21.444419106Z /dev/ttyUSB3: Applying line 59 of 292
+mantle_serial_1  | 2024-03-12T14:21:22.045353640Z /dev/ttyUSB3: Applying line 60 of 292
+mantle_serial_1  | 2024-03-12T14:21:22.045390553Z /dev/ttyUSB1: Applying line 60 of 333
+mantle_serial_1  | 2024-03-12T14:21:22.646384879Z /dev/ttyUSB1: Applying line 61 of 333
+mantle_serial_1  | 2024-03-12T14:21:22.646439756Z /dev/ttyUSB3: Applying line 61 of 292
+mantle_serial_1  | 2024-03-12T14:21:23.247191367Z /dev/ttyUSB1: Applying line 62 of 333/dev/ttyUSB3: Applying line 62 of 292
+mantle_serial_1  | 2024-03-12T14:21:23.247239441Z 
+mantle_serial_1  | 2024-03-12T14:21:23.848175968Z /dev/ttyUSB3: Applying line 63 of 292/dev/ttyUSB1: Applying line 63 of 333
+mantle_serial_1  | 2024-03-12T14:21:23.848228725Z 
+mantle_serial_1  | 2024-03-12T14:21:24.448566229Z /dev/ttyUSB1: Applying line 64 of 333
+mantle_serial_1  | 2024-03-12T14:21:24.448885239Z /dev/ttyUSB3: Applying line 64 of 292
+mantle_serial_1  | 2024-03-12T14:21:25.049339965Z /dev/ttyUSB1: Applying line 65 of 333
+mantle_serial_1  | 2024-03-12T14:21:25.049707981Z /dev/ttyUSB3: Applying line 65 of 292
+mantle_serial_1  | 2024-03-12T14:21:25.650728586Z /dev/ttyUSB3: Applying line 66 of 292
+mantle_serial_1  | 2024-03-12T14:21:25.650779673Z /dev/ttyUSB1: Applying line 66 of 333
+mantle_serial_1  | 2024-03-12T14:21:26.252169204Z /dev/ttyUSB3: Applying line 67 of 292/dev/ttyUSB1: Applying line 67 of 333
+mantle_serial_1  | 2024-03-12T14:21:26.252235018Z 
+mantle_serial_1  | 2024-03-12T14:21:26.853619586Z /dev/ttyUSB1: Applying line 68 of 333
+mantle_serial_1  | 2024-03-12T14:21:26.853657667Z /dev/ttyUSB3: Applying line 68 of 292
+mantle_serial_1  | 2024-03-12T14:21:27.454437617Z /dev/ttyUSB3: Applying line 69 of 292
+mantle_serial_1  | 2024-03-12T14:21:27.454495030Z /dev/ttyUSB1: Applying line 69 of 333
+mantle_serial_1  | 2024-03-12T14:21:28.055883780Z /dev/ttyUSB1: Applying line 70 of 333/dev/ttyUSB3: Applying line 70 of 292
+mantle_serial_1  | 2024-03-12T14:21:28.055990485Z 
+mantle_serial_1  | 2024-03-12T14:21:28.657411621Z /dev/ttyUSB1: Applying line 71 of 333
+mantle_serial_1  | 2024-03-12T14:21:28.657473801Z /dev/ttyUSB3: Applying line 71 of 292
+mantle_serial_1  | 2024-03-12T14:21:29.258547849Z /dev/ttyUSB3: Applying line 72 of 292
+mantle_serial_1  | 2024-03-12T14:21:29.258595690Z /dev/ttyUSB1: Applying line 72 of 333
+mantle_serial_1  | 2024-03-12T14:21:29.859439208Z /dev/ttyUSB3: Applying line 73 of 292
+mantle_serial_1  | 2024-03-12T14:21:29.859513569Z /dev/ttyUSB1: Applying line 73 of 333
+mantle_serial_1  | 2024-03-12T14:21:30.460375375Z /dev/ttyUSB3: Applying line 74 of 292
+mantle_serial_1  | 2024-03-12T14:21:30.460453490Z /dev/ttyUSB1: Applying line 74 of 333
+mantle_serial_1  | 2024-03-12T14:21:31.061858213Z /dev/ttyUSB3: Applying line 75 of 292/dev/ttyUSB1: Applying line 75 of 333
+mantle_serial_1  | 2024-03-12T14:21:31.061931952Z 
+mantle_serial_1  | 2024-03-12T14:21:31.662958343Z /dev/ttyUSB3: Applying line 76 of 292/dev/ttyUSB1: Applying line 76 of 333
+mantle_serial_1  | 2024-03-12T14:21:31.663018575Z 
+mantle_serial_1  | 2024-03-12T14:21:32.264475155Z /dev/ttyUSB1: Applying line 77 of 333
+mantle_serial_1  | 2024-03-12T14:21:32.264528687Z /dev/ttyUSB3: Applying line 77 of 292
+mantle_serial_1  | 2024-03-12T14:21:32.865437312Z /dev/ttyUSB1: Applying line 78 of 333
+mantle_serial_1  | 2024-03-12T14:21:32.865485223Z /dev/ttyUSB3: Applying line 78 of 292
+mantle_serial_1  | 2024-03-12T14:21:33.465823034Z /dev/ttyUSB1: Applying line 79 of 333
+mantle_serial_1  | 2024-03-12T14:21:33.466256933Z /dev/ttyUSB3: Applying line 79 of 292
+mantle_serial_1  | 2024-03-12T14:21:34.067205004Z /dev/ttyUSB3: Applying line 80 of 292/dev/ttyUSB1: Applying line 80 of 333
+mantle_serial_1  | 2024-03-12T14:21:34.067264687Z 
+mantle_serial_1  | 2024-03-12T14:21:34.668638596Z /dev/ttyUSB1: Applying line 81 of 333
+mantle_serial_1  | 2024-03-12T14:21:34.668676831Z /dev/ttyUSB3: Applying line 81 of 292
+mantle_serial_1  | 2024-03-12T14:21:35.269734420Z /dev/ttyUSB1: Applying line 82 of 333
+mantle_serial_1  | 2024-03-12T14:21:35.269797117Z /dev/ttyUSB3: Applying line 82 of 292
+mantle_serial_1  | 2024-03-12T14:21:35.870414646Z /dev/ttyUSB3: Applying line 83 of 292
+mantle_serial_1  | 2024-03-12T14:21:35.870474164Z /dev/ttyUSB1: Applying line 83 of 333
+mantle_serial_1  | 2024-03-12T14:21:36.284647034Z /dev/ttyUSB0: 
+mantle_serial_1  | 2024-03-12T14:21:36.471830216Z /dev/ttyUSB1: Applying line 84 of 333
+mantle_serial_1  | 2024-03-12T14:21:36.471872535Z /dev/ttyUSB3: Applying line 84 of 292
+mantle_serial_1  | 2024-03-12T14:21:37.073278030Z /dev/ttyUSB3: Applying line 85 of 292
+mantle_serial_1  | 2024-03-12T14:21:37.073403621Z /dev/ttyUSB1: Applying line 85 of 333
+mantle_serial_1  | 2024-03-12T14:21:37.673530180Z /dev/ttyUSB3: Applying line 86 of 292
+mantle_serial_1  | 2024-03-12T14:21:37.674045355Z /dev/ttyUSB1: Applying line 86 of 333
+mantle_serial_1  | 2024-03-12T14:21:38.274514862Z /dev/ttyUSB3: Applying line 87 of 292
+mantle_serial_1  | 2024-03-12T14:21:38.274560018Z /dev/ttyUSB1: Applying line 87 of 333
+mantle_serial_1  | 2024-03-12T14:21:38.875963296Z /dev/ttyUSB1: Applying line 88 of 333
+mantle_serial_1  | 2024-03-12T14:21:38.876008896Z /dev/ttyUSB3: Applying line 88 of 292
+mantle_serial_1  | 2024-03-12T14:21:39.477330634Z /dev/ttyUSB1: Applying line 89 of 333/dev/ttyUSB3: Applying line 89 of 292
+mantle_serial_1  | 2024-03-12T14:21:39.477404913Z 
+mantle_serial_1  | 2024-03-12T14:21:40.078323837Z /dev/ttyUSB1: Applying line 90 of 333/dev/ttyUSB3: Applying line 90 of 292
+mantle_serial_1  | 2024-03-12T14:21:40.078395323Z 
+mantle_serial_1  | 2024-03-12T14:21:40.679622929Z /dev/ttyUSB1: Applying line 91 of 333
+mantle_serial_1  | 2024-03-12T14:21:40.679670210Z /dev/ttyUSB3: Applying line 91 of 292
+mantle_serial_1  | 2024-03-12T14:21:41.280454787Z /dev/ttyUSB1: Applying line 92 of 333
+mantle_serial_1  | 2024-03-12T14:21:41.280507857Z /dev/ttyUSB3: Applying line 92 of 292
+mantle_serial_1  | 2024-03-12T14:21:41.881801630Z /dev/ttyUSB1: Applying line 93 of 333
+mantle_serial_1  | 2024-03-12T14:21:41.881839488Z /dev/ttyUSB3: Applying line 93 of 292
+mantle_serial_1  | 2024-03-12T14:21:42.483156284Z /dev/ttyUSB3: Applying line 94 of 292/dev/ttyUSB1: Applying line 94 of 333
+mantle_serial_1  | 2024-03-12T14:21:42.483225552Z 
+mantle_serial_1  | 2024-03-12T14:21:43.083531994Z /dev/ttyUSB1: Applying line 95 of 333
+mantle_serial_1  | 2024-03-12T14:21:43.083948424Z /dev/ttyUSB3: Applying line 95 of 292
+mantle_serial_1  | 2024-03-12T14:21:43.684860909Z /dev/ttyUSB1: Applying line 96 of 333/dev/ttyUSB3: Applying line 96 of 292
+mantle_serial_1  | 2024-03-12T14:21:43.684898651Z 
+mantle_serial_1  | 2024-03-12T14:21:44.286287426Z /dev/ttyUSB3: Applying line 97 of 292/dev/ttyUSB1: Applying line 97 of 333
+mantle_serial_1  | 2024-03-12T14:21:44.286335938Z 
+mantle_serial_1  | 2024-03-12T14:21:44.887483239Z /dev/ttyUSB1: Applying line 98 of 333
+mantle_serial_1  | 2024-03-12T14:21:44.887547825Z /dev/ttyUSB3: Applying line 98 of 292
+mantle_serial_1  | 2024-03-12T14:21:45.488578949Z /dev/ttyUSB1: Applying line 99 of 333/dev/ttyUSB3: Applying line 99 of 292
+mantle_serial_1  | 2024-03-12T14:21:45.488641493Z 
+mantle_serial_1  | 2024-03-12T14:21:46.090140223Z /dev/ttyUSB3: Applying line 100 of 292/dev/ttyUSB1: Applying line 100 of 333
+mantle_serial_1  | 2024-03-12T14:21:46.090174644Z 
+mantle_serial_1  | 2024-03-12T14:21:46.690498714Z /dev/ttyUSB1: Applying line 101 of 333
+mantle_serial_1  | 2024-03-12T14:21:46.690769785Z /dev/ttyUSB3: Applying line 101 of 292
+mantle_serial_1  | 2024-03-12T14:21:47.291398974Z /dev/ttyUSB1: Applying line 102 of 333
+mantle_serial_1  | 2024-03-12T14:21:47.291435160Z /dev/ttyUSB3: Applying line 102 of 292
+mantle_serial_1  | 2024-03-12T14:21:47.892477962Z /dev/ttyUSB1: Applying line 103 of 333/dev/ttyUSB3: Applying line 103 of 292
+mantle_serial_1  | 2024-03-12T14:21:47.892510562Z 
+mantle_serial_1  | 2024-03-12T14:21:48.493384352Z /dev/ttyUSB1: Applying line 104 of 333/dev/ttyUSB3: Applying line 104 of 292
+mantle_serial_1  | 2024-03-12T14:21:48.493420722Z 
+mantle_serial_1  | 2024-03-12T14:21:49.094288675Z /dev/ttyUSB1: Applying line 105 of 333/dev/ttyUSB3: Applying line 105 of 292
+mantle_serial_1  | 2024-03-12T14:21:49.094344287Z 
+mantle_serial_1  | 2024-03-12T14:21:49.695402628Z /dev/ttyUSB3: Applying line 106 of 292/dev/ttyUSB1: Applying line 106 of 333
+mantle_serial_1  | 2024-03-12T14:21:49.695457609Z 
+mantle_serial_1  | 2024-03-12T14:21:50.296698436Z /dev/ttyUSB3: Applying line 107 of 292/dev/ttyUSB1: Applying line 107 of 333
+mantle_serial_1  | 2024-03-12T14:21:50.296735403Z 
+mantle_serial_1  | 2024-03-12T14:21:50.898121789Z /dev/ttyUSB1: Applying line 108 of 333/dev/ttyUSB3: Applying line 108 of 292
+mantle_serial_1  | 2024-03-12T14:21:50.898163817Z 
+mantle_serial_1  | 2024-03-12T14:21:51.300472351Z /dev/ttyUSB0: 
+mantle_serial_1  | 2024-03-12T14:21:51.300538610Z 
+mantle_serial_1  | 2024-03-12T14:21:51.498414014Z /dev/ttyUSB1: Applying line 109 of 333
+mantle_serial_1  | 2024-03-12T14:21:51.498754486Z /dev/ttyUSB3: Applying line 109 of 292
+mantle_serial_1  | 2024-03-12T14:21:52.099223509Z /dev/ttyUSB1: Applying line 110 of 333
+mantle_serial_1  | 2024-03-12T14:21:52.099608097Z /dev/ttyUSB3: Applying line 110 of 292
+mantle_serial_1  | 2024-03-12T14:21:52.700607905Z /dev/ttyUSB1: Applying line 111 of 333
+mantle_serial_1  | 2024-03-12T14:21:52.700675368Z /dev/ttyUSB3: Applying line 111 of 292
+mantle_serial_1  | 2024-03-12T14:21:53.302093059Z /dev/ttyUSB3: Applying line 112 of 292
+mantle_serial_1  | 2024-03-12T14:21:53.302142190Z /dev/ttyUSB1: Applying line 112 of 333
+mantle_serial_1  | 2024-03-12T14:21:53.903029642Z /dev/ttyUSB3: Applying line 113 of 292
+mantle_serial_1  | 2024-03-12T14:21:53.903115788Z /dev/ttyUSB1: Applying line 113 of 333
+mantle_serial_1  | 2024-03-12T14:21:54.503544381Z /dev/ttyUSB1: Applying line 114 of 333
+mantle_serial_1  | 2024-03-12T14:21:54.503668023Z /dev/ttyUSB3: Applying line 114 of 292
+mantle_serial_1  | 2024-03-12T14:21:55.104313242Z /dev/ttyUSB1: Applying line 115 of 333
+mantle_serial_1  | 2024-03-12T14:21:55.104500098Z /dev/ttyUSB3: Applying line 115 of 292
+mantle_serial_1  | 2024-03-12T14:21:55.705368946Z /dev/ttyUSB1: Applying line 116 of 333
+mantle_serial_1  | 2024-03-12T14:21:55.705447771Z /dev/ttyUSB3: Applying line 116 of 292
+mantle_serial_1  | 2024-03-12T14:21:56.306180776Z /dev/ttyUSB1: Applying line 117 of 333/dev/ttyUSB3: Applying line 117 of 292
+mantle_serial_1  | 2024-03-12T14:21:56.306263859Z 
+mantle_serial_1  | 2024-03-12T14:21:56.906464310Z /dev/ttyUSB3: Applying line 118 of 292
+mantle_serial_1  | 2024-03-12T14:21:56.906943641Z /dev/ttyUSB1: Applying line 118 of 333
+mantle_serial_1  | 2024-03-12T14:21:57.507780845Z /dev/ttyUSB3: Applying line 119 of 292
+mantle_serial_1  | 2024-03-12T14:21:57.507819425Z /dev/ttyUSB1: Applying line 119 of 333
+mantle_serial_1  | 2024-03-12T14:21:58.109175825Z /dev/ttyUSB1: Applying line 120 of 333/dev/ttyUSB3: Applying line 120 of 292
+mantle_serial_1  | 2024-03-12T14:21:58.109213646Z 
+mantle_serial_1  | 2024-03-12T14:21:58.709505115Z /dev/ttyUSB1: Applying line 121 of 333
+mantle_serial_1  | 2024-03-12T14:21:58.709935652Z /dev/ttyUSB3: Applying line 121 of 292
+mantle_serial_1  | 2024-03-12T14:21:59.310572127Z /dev/ttyUSB1: Applying line 122 of 333
+mantle_serial_1  | 2024-03-12T14:21:59.310696215Z /dev/ttyUSB3: Applying line 122 of 292
+mantle_serial_1  | 2024-03-12T14:21:59.910855160Z /dev/ttyUSB1: Applying line 123 of 333
+mantle_serial_1  | 2024-03-12T14:21:59.911271827Z /dev/ttyUSB3: Applying line 123 of 292
+mantle_serial_1  | 2024-03-12T14:22:00.512136498Z /dev/ttyUSB1: Applying line 124 of 333/dev/ttyUSB3: Applying line 124 of 292
+mantle_serial_1  | 2024-03-12T14:22:00.512229512Z 
+mantle_serial_1  | 2024-03-12T14:22:01.113624906Z /dev/ttyUSB1: Applying line 125 of 333
+mantle_serial_1  | 2024-03-12T14:22:01.113676334Z /dev/ttyUSB3: Applying line 125 of 292
+mantle_serial_1  | 2024-03-12T14:22:01.715024081Z /dev/ttyUSB3: Applying line 126 of 292
+mantle_serial_1  | 2024-03-12T14:22:01.715117634Z /dev/ttyUSB1: Applying line 126 of 333
+mantle_serial_1  | 2024-03-12T14:22:02.316436523Z /dev/ttyUSB1: Applying line 127 of 333
+mantle_serial_1  | 2024-03-12T14:22:02.316522629Z /dev/ttyUSB3: Applying line 127 of 292
+mantle_serial_1  | 2024-03-12T14:22:02.917510413Z /dev/ttyUSB3: Applying line 128 of 292
+mantle_serial_1  | 2024-03-12T14:22:02.917558837Z /dev/ttyUSB1: Applying line 128 of 333
+mantle_serial_1  | 2024-03-12T14:22:03.518921027Z /dev/ttyUSB3: Applying line 129 of 292
+mantle_serial_1  | 2024-03-12T14:22:03.518964221Z /dev/ttyUSB1: Applying line 129 of 333
+mantle_serial_1  | 2024-03-12T14:22:04.120442784Z /dev/ttyUSB3: Applying line 130 of 292
+mantle_serial_1  | 2024-03-12T14:22:04.120502196Z /dev/ttyUSB1: Applying line 130 of 333
+mantle_serial_1  | 2024-03-12T14:22:04.721846070Z /dev/ttyUSB1: Applying line 131 of 333/dev/ttyUSB3: Applying line 131 of 292
+mantle_serial_1  | 2024-03-12T14:22:04.721905286Z 
+mantle_serial_1  | 2024-03-12T14:22:05.322513477Z /dev/ttyUSB1: Applying line 132 of 333
+mantle_serial_1  | 2024-03-12T14:22:05.322643745Z /dev/ttyUSB3: Applying line 132 of 292
+mantle_serial_1  | 2024-03-12T14:22:05.923559083Z /dev/ttyUSB3: Applying line 133 of 292
+mantle_serial_1  | 2024-03-12T14:22:05.923621046Z /dev/ttyUSB1: Applying line 133 of 333
+mantle_serial_1  | 2024-03-12T14:22:06.315859778Z /dev/ttyUSB0: 
+mantle_serial_1  | 2024-03-12T14:22:06.525126816Z /dev/ttyUSB1: Applying line 134 of 333
+mantle_serial_1  | 2024-03-12T14:22:06.525176182Z /dev/ttyUSB3: Applying line 134 of 292
+mantle_serial_1  | 2024-03-12T14:22:07.126370667Z /dev/ttyUSB1: Applying line 135 of 333
+mantle_serial_1  | 2024-03-12T14:22:07.126430913Z /dev/ttyUSB3: Applying line 135 of 292
+mantle_serial_1  | 2024-03-12T14:22:07.727248818Z /dev/ttyUSB1: Applying line 136 of 333/dev/ttyUSB3: Applying line 136 of 292
+mantle_serial_1  | 2024-03-12T14:22:07.727304469Z 
+mantle_serial_1  | 2024-03-12T14:22:08.328192945Z /dev/ttyUSB3: Applying line 137 of 292/dev/ttyUSB1: Applying line 137 of 333
+mantle_serial_1  | 2024-03-12T14:22:08.328306058Z 
+mantle_serial_1  | 2024-03-12T14:22:08.929071653Z /dev/ttyUSB3: Applying line 138 of 292/dev/ttyUSB1: Applying line 138 of 333
+mantle_serial_1  | 2024-03-12T14:22:08.929143992Z 
+mantle_serial_1  | 2024-03-12T14:22:09.530446631Z /dev/ttyUSB3: Applying line 139 of 292
+mantle_serial_1  | 2024-03-12T14:22:09.530489338Z /dev/ttyUSB1: Applying line 139 of 333
+mantle_serial_1  | 2024-03-12T14:22:10.131370916Z /dev/ttyUSB3: Applying line 140 of 292
+mantle_serial_1  | 2024-03-12T14:22:10.131424078Z /dev/ttyUSB1: Applying line 140 of 333
+mantle_serial_1  | 2024-03-12T14:22:10.732356837Z /dev/ttyUSB3: Applying line 141 of 292/dev/ttyUSB1: Applying line 141 of 333
+mantle_serial_1  | 2024-03-12T14:22:10.732382717Z 
+mantle_serial_1  | 2024-03-12T14:22:11.333693280Z /dev/ttyUSB1: Applying line 142 of 333
+mantle_serial_1  | 2024-03-12T14:22:11.333753033Z /dev/ttyUSB3: Applying line 142 of 292
+mantle_serial_1  | 2024-03-12T14:22:11.934484855Z /dev/ttyUSB3: Applying line 143 of 292
+mantle_serial_1  | 2024-03-12T14:22:11.934555229Z /dev/ttyUSB1: Applying line 143 of 333
+mantle_serial_1  | 2024-03-12T14:22:12.535309570Z /dev/ttyUSB3: Applying line 144 of 292
+mantle_serial_1  | 2024-03-12T14:22:12.535379280Z /dev/ttyUSB1: Applying line 144 of 333
+mantle_serial_1  | 2024-03-12T14:22:13.136717020Z /dev/ttyUSB1: Applying line 145 of 333
+mantle_serial_1  | 2024-03-12T14:22:13.136776128Z /dev/ttyUSB3: Applying line 145 of 292
+mantle_serial_1  | 2024-03-12T14:22:13.737399507Z /dev/ttyUSB3: Applying line 146 of 292
+mantle_serial_1  | 2024-03-12T14:22:13.737466745Z /dev/ttyUSB1: Applying line 146 of 333
+mantle_serial_1  | 2024-03-12T14:22:14.338780258Z /dev/ttyUSB1: Applying line 147 of 333
+mantle_serial_1  | 2024-03-12T14:22:14.338813940Z /dev/ttyUSB3: Applying line 147 of 292
+mantle_serial_1  | 2024-03-12T14:22:14.940086822Z /dev/ttyUSB3: Applying line 148 of 292/dev/ttyUSB1: Applying line 148 of 333
+mantle_serial_1  | 2024-03-12T14:22:14.940155709Z 
+mantle_serial_1  | 2024-03-12T14:22:15.541091206Z /dev/ttyUSB3: Applying line 149 of 292/dev/ttyUSB1: Applying line 149 of 333
+mantle_serial_1  | 2024-03-12T14:22:15.541157158Z 
+mantle_serial_1  | 2024-03-12T14:22:16.142075065Z /dev/ttyUSB1: Applying line 150 of 333/dev/ttyUSB3: Applying line 150 of 292
+mantle_serial_1  | 2024-03-12T14:22:16.142165660Z 
+mantle_serial_1  | 2024-03-12T14:22:16.743503812Z /dev/ttyUSB1: Applying line 151 of 333/dev/ttyUSB3: Applying line 151 of 292
+mantle_serial_1  | 2024-03-12T14:22:16.743576886Z 
+mantle_serial_1  | 2024-03-12T14:22:17.344405591Z /dev/ttyUSB1: Applying line 152 of 333
+mantle_serial_1  | 2024-03-12T14:22:17.344461046Z /dev/ttyUSB3: Applying line 152 of 292
+mantle_serial_1  | 2024-03-12T14:22:17.945174565Z /dev/ttyUSB1: Applying line 153 of 333
+mantle_serial_1  | 2024-03-12T14:22:17.945196264Z /dev/ttyUSB3: Applying line 153 of 292
+mantle_serial_1  | 2024-03-12T14:22:18.545894161Z /dev/ttyUSB1: Applying line 154 of 333
+mantle_serial_1  | 2024-03-12T14:22:18.545964610Z /dev/ttyUSB3: Applying line 154 of 292
+mantle_serial_1  | 2024-03-12T14:22:19.146462882Z /dev/ttyUSB3: Applying line 155 of 292
+mantle_serial_1  | 2024-03-12T14:22:19.146668502Z /dev/ttyUSB1: Applying line 155 of 333
+mantle_serial_1  | 2024-03-12T14:22:19.747547056Z /dev/ttyUSB3: Applying line 156 of 292/dev/ttyUSB1: Applying line 156 of 333
+mantle_serial_1  | 2024-03-12T14:22:19.747625748Z 
+mantle_serial_1  | 2024-03-12T14:22:20.348984647Z /dev/ttyUSB1: Applying line 157 of 333
+mantle_serial_1  | 2024-03-12T14:22:20.349050590Z /dev/ttyUSB3: Applying line 157 of 292
+mantle_serial_1  | 2024-03-12T14:22:20.950351959Z /dev/ttyUSB1: Applying line 158 of 333
+mantle_serial_1  | 2024-03-12T14:22:20.950428883Z /dev/ttyUSB3: Applying line 158 of 292
+mantle_serial_1  | 2024-03-12T14:22:21.331821734Z /dev/ttyUSB0: 
+mantle_serial_1  | 2024-03-12T14:22:21.551209351Z /dev/ttyUSB1: Applying line 159 of 333
+mantle_serial_1  | 2024-03-12T14:22:21.551262805Z /dev/ttyUSB3: Applying line 159 of 292
+mantle_serial_1  | 2024-03-12T14:22:22.151533165Z /dev/ttyUSB3: Applying line 160 of 292
+mantle_serial_1  | 2024-03-12T14:22:22.151937094Z /dev/ttyUSB1: Applying line 160 of 333
+mantle_serial_1  | 2024-03-12T14:22:22.752998841Z /dev/ttyUSB3: Applying line 161 of 292
+mantle_serial_1  | 2024-03-12T14:22:22.753045264Z /dev/ttyUSB1: Applying line 161 of 333
+mantle_serial_1  | 2024-03-12T14:22:23.354400724Z /dev/ttyUSB3: Applying line 162 of 292
+mantle_serial_1  | 2024-03-12T14:22:23.354516289Z /dev/ttyUSB1: Applying line 162 of 333
+mantle_serial_1  | 2024-03-12T14:22:23.955911261Z /dev/ttyUSB1: Applying line 163 of 333/dev/ttyUSB3: Applying line 163 of 292
+mantle_serial_1  | 2024-03-12T14:22:23.956001652Z 
+mantle_serial_1  | 2024-03-12T14:22:24.556396358Z /dev/ttyUSB1: Applying line 164 of 333
+mantle_serial_1  | 2024-03-12T14:22:24.556708839Z /dev/ttyUSB3: Applying line 164 of 292
+mantle_serial_1  | 2024-03-12T14:22:25.157817307Z /dev/ttyUSB1: Applying line 165 of 333
+mantle_serial_1  | 2024-03-12T14:22:25.157965287Z /dev/ttyUSB3: Applying line 165 of 292
+mantle_serial_1  | 2024-03-12T14:22:25.759344945Z /dev/ttyUSB3: Applying line 166 of 292/dev/ttyUSB1: Applying line 166 of 333
+mantle_serial_1  | 2024-03-12T14:22:25.759402600Z 
+mantle_serial_1  | 2024-03-12T14:22:26.360773285Z /dev/ttyUSB3: Applying line 167 of 292
+mantle_serial_1  | 2024-03-12T14:22:26.360826551Z /dev/ttyUSB1: Applying line 167 of 333
+mantle_serial_1  | 2024-03-12T14:22:26.961531247Z /dev/ttyUSB1: Applying line 168 of 333
+mantle_serial_1  | 2024-03-12T14:22:26.961608832Z /dev/ttyUSB3: Applying line 168 of 292
+mantle_serial_1  | 2024-03-12T14:22:27.562576732Z /dev/ttyUSB1: Applying line 169 of 333
+mantle_serial_1  | 2024-03-12T14:22:27.562655878Z /dev/ttyUSB3: Applying line 169 of 292
+mantle_serial_1  | 2024-03-12T14:22:28.164010699Z /dev/ttyUSB1: Applying line 170 of 333
+mantle_serial_1  | 2024-03-12T14:22:28.164043715Z /dev/ttyUSB3: Applying line 170 of 292
+mantle_serial_1  | 2024-03-12T14:22:28.764529088Z /dev/ttyUSB3: Applying line 171 of 292
+mantle_serial_1  | 2024-03-12T14:22:28.764647270Z /dev/ttyUSB1: Applying line 171 of 333
+mantle_serial_1  | 2024-03-12T14:22:29.366009815Z /dev/ttyUSB1: Applying line 172 of 333
+mantle_serial_1  | 2024-03-12T14:22:29.366075068Z /dev/ttyUSB3: Applying line 172 of 292
+mantle_serial_1  | 2024-03-12T14:22:29.966475032Z /dev/ttyUSB3: Applying line 173 of 292
+mantle_serial_1  | 2024-03-12T14:22:29.966791744Z /dev/ttyUSB1: Applying line 173 of 333
+mantle_serial_1  | 2024-03-12T14:22:30.567884810Z /dev/ttyUSB1: Applying line 174 of 333
+mantle_serial_1  | 2024-03-12T14:22:30.567934466Z /dev/ttyUSB3: Applying line 174 of 292
+mantle_serial_1  | 2024-03-12T14:22:31.169342485Z /dev/ttyUSB3: Applying line 175 of 292/dev/ttyUSB1: Applying line 175 of 333
+mantle_serial_1  | 2024-03-12T14:22:31.169410610Z 
+mantle_serial_1  | 2024-03-12T14:22:31.770682534Z /dev/ttyUSB1: Applying line 176 of 333
+mantle_serial_1  | 2024-03-12T14:22:31.770749390Z /dev/ttyUSB3: Applying line 176 of 292
+mantle_serial_1  | 2024-03-12T14:22:32.372129499Z /dev/ttyUSB1: Applying line 177 of 333
+mantle_serial_1  | 2024-03-12T14:22:32.372194981Z /dev/ttyUSB3: Applying line 177 of 292
+mantle_serial_1  | 2024-03-12T14:22:32.972588613Z /dev/ttyUSB3: Applying line 178 of 292
+mantle_serial_1  | 2024-03-12T14:22:32.972784814Z /dev/ttyUSB1: Applying line 178 of 333
+mantle_serial_1  | 2024-03-12T14:22:33.573946420Z /dev/ttyUSB1: Applying line 179 of 333
+mantle_serial_1  | 2024-03-12T14:22:33.573989814Z /dev/ttyUSB3: Applying line 179 of 292
+mantle_serial_1  | 2024-03-12T14:22:34.174484970Z /dev/ttyUSB1: Applying line 180 of 333
+mantle_serial_1  | 2024-03-12T14:22:34.174769996Z /dev/ttyUSB3: Applying line 180 of 292
+mantle_serial_1  | 2024-03-12T14:22:34.775373207Z /dev/ttyUSB1: Applying line 181 of 333
+mantle_serial_1  | 2024-03-12T14:22:34.775561438Z /dev/ttyUSB3: Applying line 181 of 292
+mantle_serial_1  | 2024-03-12T14:22:35.376259677Z /dev/ttyUSB1: Applying line 182 of 333
+mantle_serial_1  | 2024-03-12T14:22:35.376319266Z /dev/ttyUSB3: Applying line 182 of 292
+mantle_serial_1  | 2024-03-12T14:22:35.977642327Z /dev/ttyUSB3: Applying line 183 of 292
+mantle_serial_1  | 2024-03-12T14:22:35.977673566Z /dev/ttyUSB1: Applying line 183 of 333
+mantle_serial_1  | 2024-03-12T14:22:36.347762678Z /dev/ttyUSB0: 
+mantle_serial_1  | 2024-03-12T14:22:36.578573545Z /dev/ttyUSB1: Applying line 184 of 333/dev/ttyUSB3: Applying line 184 of 292
+mantle_serial_1  | 2024-03-12T14:22:36.578630118Z 
+mantle_serial_1  | 2024-03-12T14:22:37.180013240Z /dev/ttyUSB3: Applying line 185 of 292
+mantle_serial_1  | 2024-03-12T14:22:37.180045232Z /dev/ttyUSB1: Applying line 185 of 333
+mantle_serial_1  | 2024-03-12T14:22:37.781392660Z /dev/ttyUSB3: Applying line 186 of 292
+mantle_serial_1  | 2024-03-12T14:22:37.781442082Z /dev/ttyUSB1: Applying line 186 of 333
+mantle_serial_1  | 2024-03-12T14:22:38.382320405Z /dev/ttyUSB3: Applying line 187 of 292/dev/ttyUSB1: Applying line 187 of 333
+mantle_serial_1  | 2024-03-12T14:22:38.382348094Z 
+mantle_serial_1  | 2024-03-12T14:22:38.983814288Z /dev/ttyUSB1: Applying line 188 of 333/dev/ttyUSB3: Applying line 188 of 292
+mantle_serial_1  | 2024-03-12T14:22:38.983870230Z 
+mantle_serial_1  | 2024-03-12T14:22:39.585344875Z /dev/ttyUSB1: Applying line 189 of 333
+mantle_serial_1  | 2024-03-12T14:22:39.585396910Z /dev/ttyUSB3: Applying line 189 of 292
+mantle_serial_1  | 2024-03-12T14:22:40.186218446Z /dev/ttyUSB3: Applying line 190 of 292/dev/ttyUSB1: Applying line 190 of 333
+mantle_serial_1  | 2024-03-12T14:22:40.186271601Z 
+mantle_serial_1  | 2024-03-12T14:22:40.787636562Z /dev/ttyUSB3: Applying line 191 of 292
+mantle_serial_1  | 2024-03-12T14:22:40.787707642Z /dev/ttyUSB1: Applying line 191 of 333
+mantle_serial_1  | 2024-03-12T14:22:41.388588565Z /dev/ttyUSB1: Applying line 192 of 333
+mantle_serial_1  | 2024-03-12T14:22:41.388631797Z /dev/ttyUSB3: Applying line 192 of 292
+mantle_serial_1  | 2024-03-12T14:22:41.990001699Z /dev/ttyUSB1: Applying line 193 of 333
+mantle_serial_1  | 2024-03-12T14:22:41.990041071Z /dev/ttyUSB3: Applying line 193 of 292
+mantle_serial_1  | 2024-03-12T14:22:42.591484684Z /dev/ttyUSB3: Applying line 194 of 292/dev/ttyUSB1: Applying line 194 of 333
+mantle_serial_1  | 2024-03-12T14:22:42.591536247Z 
+mantle_serial_1  | 2024-03-12T14:22:43.192550528Z /dev/ttyUSB1: Applying line 195 of 333/dev/ttyUSB3: Applying line 195 of 292
+mantle_serial_1  | 2024-03-12T14:22:43.192601869Z 
+mantle_serial_1  | 2024-03-12T14:22:43.793487575Z /dev/ttyUSB3: Applying line 196 of 292
+mantle_serial_1  | 2024-03-12T14:22:43.793549506Z /dev/ttyUSB1: Applying line 196 of 333
+mantle_serial_1  | 2024-03-12T14:22:44.394446340Z /dev/ttyUSB1: Applying line 197 of 333
+mantle_serial_1  | 2024-03-12T14:22:44.394532892Z /dev/ttyUSB3: Applying line 197 of 292
+mantle_serial_1  | 2024-03-12T14:22:44.995350141Z /dev/ttyUSB1: Applying line 198 of 333
+mantle_serial_1  | 2024-03-12T14:22:44.995428915Z /dev/ttyUSB3: Applying line 198 of 292
+mantle_serial_1  | 2024-03-12T14:22:45.596802662Z /dev/ttyUSB1: Applying line 199 of 333/dev/ttyUSB3: Applying line 199 of 292
+mantle_serial_1  | 2024-03-12T14:22:45.596860461Z 
+mantle_serial_1  | 2024-03-12T14:22:46.197820792Z /dev/ttyUSB3: Applying line 200 of 292
+mantle_serial_1  | 2024-03-12T14:22:46.197866024Z /dev/ttyUSB1: Applying line 200 of 333
+mantle_serial_1  | 2024-03-12T14:22:46.799310528Z /dev/ttyUSB1: Applying line 201 of 333/dev/ttyUSB3: Applying line 201 of 292
+mantle_serial_1  | 2024-03-12T14:22:46.799379633Z 
+mantle_serial_1  | 2024-03-12T14:22:47.400232261Z /dev/ttyUSB1: Applying line 202 of 333/dev/ttyUSB3: Applying line 202 of 292
+mantle_serial_1  | 2024-03-12T14:22:47.400297052Z 
+mantle_serial_1  | 2024-03-12T14:22:48.001150822Z /dev/ttyUSB3: Applying line 203 of 292
+mantle_serial_1  | 2024-03-12T14:22:48.001196544Z /dev/ttyUSB1: Applying line 203 of 333
+mantle_serial_1  | 2024-03-12T14:22:48.601418922Z /dev/ttyUSB3: Applying line 204 of 292
+mantle_serial_1  | 2024-03-12T14:22:48.601866712Z /dev/ttyUSB1: Applying line 204 of 333
+mantle_serial_1  | 2024-03-12T14:22:49.202828409Z /dev/ttyUSB3: Applying line 205 of 292
+mantle_serial_1  | 2024-03-12T14:22:49.202890776Z /dev/ttyUSB1: Applying line 205 of 333
+mantle_serial_1  | 2024-03-12T14:22:49.803818696Z /dev/ttyUSB1: Applying line 206 of 333
+mantle_serial_1  | 2024-03-12T14:22:49.803870684Z /dev/ttyUSB3: Applying line 206 of 292
+mantle_serial_1  | 2024-03-12T14:22:50.405294545Z /dev/ttyUSB1: Applying line 207 of 333/dev/ttyUSB3: Applying line 207 of 292
+mantle_serial_1  | 2024-03-12T14:22:50.405358547Z 
+mantle_serial_1  | 2024-03-12T14:22:51.006414865Z /dev/ttyUSB1: Applying line 208 of 333
+mantle_serial_1  | 2024-03-12T14:22:51.006470130Z /dev/ttyUSB3: Applying line 208 of 292
+mantle_serial_1  | 2024-03-12T14:22:51.607718286Z /dev/ttyUSB1: Applying line 209 of 333
+mantle_serial_1  | 2024-03-12T14:22:51.607759272Z /dev/ttyUSB3: Applying line 209 of 292
+mantle_serial_1  | 2024-03-12T14:22:52.209159299Z /dev/ttyUSB1: Applying line 210 of 333/dev/ttyUSB3: Applying line 210 of 292
+mantle_serial_1  | 2024-03-12T14:22:52.209219347Z 
+mantle_serial_1  | 2024-03-12T14:22:52.810678932Z /dev/ttyUSB1: Applying line 211 of 333
+mantle_serial_1  | 2024-03-12T14:22:52.810719409Z /dev/ttyUSB3: Applying line 211 of 292
+mantle_serial_1  | 2024-03-12T14:22:53.412096060Z /dev/ttyUSB3: Applying line 212 of 292
+mantle_serial_1  | 2024-03-12T14:22:53.412163055Z /dev/ttyUSB1: Applying line 212 of 333
+mantle_serial_1  | 2024-03-12T14:22:54.012968371Z /dev/ttyUSB1: Applying line 213 of 333
+mantle_serial_1  | 2024-03-12T14:22:54.013009269Z /dev/ttyUSB3: Applying line 213 of 292
+mantle_serial_1  | 2024-03-12T14:22:54.614437472Z /dev/ttyUSB3: Applying line 214 of 292
+mantle_serial_1  | 2024-03-12T14:22:54.614496231Z /dev/ttyUSB1: Applying line 214 of 333
+mantle_serial_1  | 2024-03-12T14:22:55.215803730Z /dev/ttyUSB1: Applying line 215 of 333
+mantle_serial_1  | 2024-03-12T14:22:55.215891929Z /dev/ttyUSB3: Applying line 215 of 292
+mantle_serial_1  | 2024-03-12T14:22:55.816525566Z /dev/ttyUSB3: Applying line 216 of 292
+mantle_serial_1  | 2024-03-12T14:22:55.816751290Z /dev/ttyUSB1: Applying line 216 of 333
+mantle_serial_1  | 2024-03-12T14:22:56.417523054Z /dev/ttyUSB3: Applying line 217 of 292
+mantle_serial_1  | 2024-03-12T14:22:56.417596234Z /dev/ttyUSB1: Applying line 217 of 333
+mantle_serial_1  | 2024-03-12T14:22:57.018915955Z /dev/ttyUSB3: Applying line 218 of 292
+mantle_serial_1  | 2024-03-12T14:22:57.019004347Z /dev/ttyUSB1: Applying line 218 of 333
+mantle_serial_1  | 2024-03-12T14:22:57.619473032Z /dev/ttyUSB3: Applying line 219 of 292
+mantle_serial_1  | 2024-03-12T14:22:57.619737479Z /dev/ttyUSB1: Applying line 219 of 333
+mantle_serial_1  | 2024-03-12T14:22:58.220876414Z /dev/ttyUSB1: Applying line 220 of 333
+mantle_serial_1  | 2024-03-12T14:22:58.220951581Z /dev/ttyUSB3: Applying line 220 of 292
+mantle_serial_1  | 2024-03-12T14:22:58.822361195Z /dev/ttyUSB1: Applying line 221 of 333/dev/ttyUSB3: Applying line 221 of 292
+mantle_serial_1  | 2024-03-12T14:22:58.822422682Z 
+mantle_serial_1  | 2024-03-12T14:22:59.423894069Z /dev/ttyUSB1: Applying line 222 of 333
+mantle_serial_1  | 2024-03-12T14:22:59.423941385Z /dev/ttyUSB3: Applying line 222 of 292
+mantle_serial_1  | 2024-03-12T14:23:00.025161808Z /dev/ttyUSB1: Applying line 223 of 333/dev/ttyUSB3: Applying line 223 of 292
+mantle_serial_1  | 2024-03-12T14:23:00.025220553Z 
+mantle_serial_1  | 2024-03-12T14:23:00.626643850Z /dev/ttyUSB1: Applying line 224 of 333/dev/ttyUSB3: Applying line 224 of 292
+mantle_serial_1  | 2024-03-12T14:23:00.626707526Z 
+mantle_serial_1  | 2024-03-12T14:23:01.228162813Z /dev/ttyUSB3: Applying line 225 of 292/dev/ttyUSB1: Applying line 225 of 333
+mantle_serial_1  | 2024-03-12T14:23:01.228215474Z 
+mantle_serial_1  | 2024-03-12T14:23:01.829681685Z /dev/ttyUSB3: Applying line 226 of 292/dev/ttyUSB1: Applying line 226 of 333
+mantle_serial_1  | 2024-03-12T14:23:01.829744057Z 
+mantle_serial_1  | 2024-03-12T14:23:02.430536104Z /dev/ttyUSB3: Applying line 227 of 292
+mantle_serial_1  | 2024-03-12T14:23:02.430580327Z /dev/ttyUSB1: Applying line 227 of 333
+mantle_serial_1  | 2024-03-12T14:23:03.031434470Z /dev/ttyUSB3: Applying line 228 of 292
+mantle_serial_1  | 2024-03-12T14:23:03.031472910Z /dev/ttyUSB1: Applying line 228 of 333
+mantle_serial_1  | 2024-03-12T14:23:03.632912443Z /dev/ttyUSB1: Applying line 229 of 333/dev/ttyUSB3: Applying line 229 of 292
+mantle_serial_1  | 2024-03-12T14:23:03.632967974Z 
+mantle_serial_1  | 2024-03-12T14:23:04.234351103Z /dev/ttyUSB1: Applying line 230 of 333
+mantle_serial_1  | 2024-03-12T14:23:04.234403748Z /dev/ttyUSB3: Applying line 230 of 292
+mantle_serial_1  | 2024-03-12T14:23:04.835276124Z /dev/ttyUSB1: Applying line 231 of 333/dev/ttyUSB3: Applying line 231 of 292
+mantle_serial_1  | 2024-03-12T14:23:04.835345452Z 
+mantle_serial_1  | 2024-03-12T14:23:05.436089369Z /dev/ttyUSB3: Applying line 232 of 292/dev/ttyUSB1: Applying line 232 of 333
+mantle_serial_1  | 2024-03-12T14:23:05.436152745Z 
+mantle_serial_1  | 2024-03-12T14:23:06.036986056Z /dev/ttyUSB3: Applying line 233 of 292/dev/ttyUSB1: Applying line 233 of 333
+mantle_serial_1  | 2024-03-12T14:23:06.037055577Z 
+mantle_serial_1  | 2024-03-12T14:23:06.638436565Z /dev/ttyUSB1: Applying line 234 of 333
+mantle_serial_1  | 2024-03-12T14:23:06.638527211Z /dev/ttyUSB3: Applying line 234 of 292
+mantle_serial_1  | 2024-03-12T14:23:07.239858783Z /dev/ttyUSB1: Applying line 235 of 333/dev/ttyUSB3: Applying line 235 of 292
+mantle_serial_1  | 2024-03-12T14:23:07.239951572Z 
+mantle_serial_1  | 2024-03-12T14:23:07.840981516Z /dev/ttyUSB1: Applying line 236 of 333
+mantle_serial_1  | 2024-03-12T14:23:07.841053410Z /dev/ttyUSB3: Applying line 236 of 292
+mantle_serial_1  | 2024-03-12T14:23:08.441358896Z /dev/ttyUSB3: Applying line 237 of 292
+mantle_serial_1  | 2024-03-12T14:23:08.441599993Z /dev/ttyUSB1: Applying line 237 of 333
+mantle_serial_1  | 2024-03-12T14:23:09.042737906Z /dev/ttyUSB1: Applying line 238 of 333
+mantle_serial_1  | 2024-03-12T14:23:09.042795440Z /dev/ttyUSB3: Applying line 238 of 292
+mantle_serial_1  | 2024-03-12T14:23:09.643723925Z /dev/ttyUSB3: Applying line 239 of 292
+mantle_serial_1  | 2024-03-12T14:23:09.643765025Z /dev/ttyUSB1: Applying line 239 of 333
+mantle_serial_1  | 2024-03-12T14:23:10.245007325Z /dev/ttyUSB1: Applying line 240 of 333
+mantle_serial_1  | 2024-03-12T14:23:10.245069350Z /dev/ttyUSB3: Applying line 240 of 292
+mantle_serial_1  | 2024-03-12T14:23:10.845868043Z /dev/ttyUSB1: Applying line 241 of 333
+mantle_serial_1  | 2024-03-12T14:23:10.845951666Z /dev/ttyUSB3: Applying line 241 of 292
+mantle_serial_1  | 2024-03-12T14:23:11.446778297Z /dev/ttyUSB1: Applying line 242 of 333/dev/ttyUSB3: Applying line 242 of 292
+mantle_serial_1  | 2024-03-12T14:23:11.446834396Z 
+mantle_serial_1  | 2024-03-12T14:23:12.048316623Z /dev/ttyUSB1: Applying line 243 of 333/dev/ttyUSB3: Applying line 243 of 292
+mantle_serial_1  | 2024-03-12T14:23:12.048375643Z 
+mantle_serial_1  | 2024-03-12T14:23:12.649695531Z /dev/ttyUSB3: Applying line 244 of 292
+mantle_serial_1  | 2024-03-12T14:23:12.649760009Z /dev/ttyUSB1: Applying line 244 of 333
+mantle_serial_1  | 2024-03-12T14:23:13.250412322Z /dev/ttyUSB1: Applying line 245 of 333
+mantle_serial_1  | 2024-03-12T14:23:13.250555491Z /dev/ttyUSB3: Applying line 245 of 292
+mantle_serial_1  | 2024-03-12T14:23:13.851299616Z /dev/ttyUSB1: Applying line 246 of 333
+mantle_serial_1  | 2024-03-12T14:23:13.851349870Z /dev/ttyUSB3: Applying line 246 of 292
+mantle_serial_1  | 2024-03-12T14:23:14.452213619Z /dev/ttyUSB1: Applying line 247 of 333/dev/ttyUSB3: Applying line 247 of 292
+mantle_serial_1  | 2024-03-12T14:23:14.452271925Z 
+mantle_serial_1  | 2024-03-12T14:23:15.053539800Z /dev/ttyUSB1: Applying line 248 of 333/dev/ttyUSB3: Applying line 248 of 292
+mantle_serial_1  | 2024-03-12T14:23:15.053594053Z 
+mantle_serial_1  | 2024-03-12T14:23:15.654507960Z /dev/ttyUSB3: Applying line 249 of 292/dev/ttyUSB1: Applying line 249 of 333
+mantle_serial_1  | 2024-03-12T14:23:15.654535560Z 
+mantle_serial_1  | 2024-03-12T14:23:16.255357114Z /dev/ttyUSB3: Applying line 250 of 292/dev/ttyUSB1: Applying line 250 of 333
+mantle_serial_1  | 2024-03-12T14:23:16.255391510Z 
+mantle_serial_1  | 2024-03-12T14:23:16.856032578Z /dev/ttyUSB3: Applying line 251 of 292
+mantle_serial_1  | 2024-03-12T14:23:16.856068278Z /dev/ttyUSB1: Applying line 251 of 333
+mantle_serial_1  | 2024-03-12T14:23:17.457019858Z /dev/ttyUSB3: Applying line 252 of 292
+mantle_serial_1  | 2024-03-12T14:23:17.457054146Z /dev/ttyUSB1: Applying line 252 of 333
+mantle_serial_1  | 2024-03-12T14:23:18.057891562Z /dev/ttyUSB3: Applying line 253 of 292
+mantle_serial_1  | 2024-03-12T14:23:18.057969763Z /dev/ttyUSB1: Applying line 253 of 333
+mantle_serial_1  | 2024-03-12T14:23:18.659358582Z /dev/ttyUSB3: Applying line 254 of 292
+mantle_serial_1  | 2024-03-12T14:23:18.659402084Z /dev/ttyUSB1: Applying line 254 of 333
+mantle_serial_1  | 2024-03-12T14:23:19.259494882Z /dev/ttyUSB3: Applying line 255 of 292
+mantle_serial_1  | 2024-03-12T14:23:19.260235547Z /dev/ttyUSB1: Applying line 255 of 333
+mantle_serial_1  | 2024-03-12T14:23:19.860976518Z /dev/ttyUSB3: Applying line 256 of 292/dev/ttyUSB1: Applying line 256 of 333
+mantle_serial_1  | 2024-03-12T14:23:19.861028858Z 
+mantle_serial_1  | 2024-03-12T14:23:20.462437666Z /dev/ttyUSB3: Applying line 257 of 292
+mantle_serial_1  | 2024-03-12T14:23:20.462469726Z /dev/ttyUSB1: Applying line 257 of 333
+mantle_serial_1  | 2024-03-12T14:23:21.063890438Z /dev/ttyUSB1: Applying line 258 of 333
+mantle_serial_1  | 2024-03-12T14:23:21.063938751Z /dev/ttyUSB3: Applying line 258 of 292
+mantle_serial_1  | 2024-03-12T14:23:21.665346156Z /dev/ttyUSB3: Applying line 259 of 292/dev/ttyUSB1: Applying line 259 of 333
+mantle_serial_1  | 2024-03-12T14:23:21.665422325Z 
+mantle_serial_1  | 2024-03-12T14:23:22.265973371Z /dev/ttyUSB1: Applying line 260 of 333
+mantle_serial_1  | 2024-03-12T14:23:22.266031328Z /dev/ttyUSB3: Applying line 260 of 292
+mantle_serial_1  | 2024-03-12T14:23:22.866432607Z /dev/ttyUSB3: Applying line 261 of 292
+mantle_serial_1  | 2024-03-12T14:23:22.866624827Z /dev/ttyUSB1: Applying line 261 of 333
+mantle_serial_1  | 2024-03-12T14:23:23.467756507Z /dev/ttyUSB3: Applying line 262 of 292
+mantle_serial_1  | 2024-03-12T14:23:23.467815530Z /dev/ttyUSB1: Applying line 262 of 333
+mantle_serial_1  | 2024-03-12T14:23:24.068416981Z /dev/ttyUSB3: Applying line 263 of 292
+mantle_serial_1  | 2024-03-12T14:23:24.068470182Z /dev/ttyUSB1: Applying line 263 of 333
+mantle_serial_1  | 2024-03-12T14:23:24.669815799Z /dev/ttyUSB1: Applying line 264 of 333
+mantle_serial_1  | 2024-03-12T14:23:24.669905478Z /dev/ttyUSB3: Applying banner...
+mantle_serial_1  | 2024-03-12T14:23:24.669908913Z /dev/ttyUSB3: Applying line 264 of 292
+mantle_serial_1  | 2024-03-12T14:23:25.271177024Z /dev/ttyUSB3: Applying line 265 of 292/dev/ttyUSB1: Applying line 265 of 333
+mantle_serial_1  | 2024-03-12T14:23:25.271226706Z 
+mantle_serial_1  | 2024-03-12T14:23:25.872641204Z /dev/ttyUSB1: Applying line 266 of 333
+mantle_serial_1  | 2024-03-12T14:23:25.872706560Z /dev/ttyUSB3: Applying line 266 of 292
+mantle_serial_1  | 2024-03-12T14:23:26.474071796Z /dev/ttyUSB1: Applying line 267 of 333
+mantle_serial_1  | 2024-03-12T14:23:26.474153474Z /dev/ttyUSB3: Applying line 267 of 292
+mantle_serial_1  | 2024-03-12T14:23:27.075466864Z /dev/ttyUSB1: Applying line 268 of 333
+mantle_serial_1  | 2024-03-12T14:23:27.075529143Z /dev/ttyUSB3: Applying line 268 of 292
+mantle_serial_1  | 2024-03-12T14:23:27.676357858Z /dev/ttyUSB1: Applying line 269 of 333
+mantle_serial_1  | 2024-03-12T14:23:27.676429881Z /dev/ttyUSB3: Applying line 269 of 292
+mantle_serial_1  | 2024-03-12T14:23:27.686136327Z /dev/ttyUSB0: 
+mantle_serial_1  | 2024-03-12T14:23:27.686183301Z 
+flash:c5915-adventerprisek9-mz.SPA.156-3.M6.bin: Digitally Signed Release Software with key version A
+mantle_serial_1  | 2024-03-12T14:23:27.686187628Z 
+program load complete, entry point: 0x88000000, size: 0x32753c0
+mantle_serial_1  | 2024-03-12T14:23:27.686190795Z 
+Self decompressing the image : ###################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################################### [OK]
+mantle_serial_1  | 2024-03-12T14:23:27.686197343Z 
+*** No sreloc section
+mantle_serial_1  | 2024-03-12T14:23:27.686199018Z               Restricted Rights Legend
+mantle_serial_1  | 2024-03-12T14:23:27.686200594Z 
+mantle_serial_1  | 2024-03-12T14:23:27.686202027Z Use, duplication, or disclosure by the Government is
+mantle_serial_1  | 2024-03-12T14:23:27.686203520Z subject to restrictions as set forth in subparagraph
+mantle_serial_1  | 2024-03-12T14:23:27.686205039Z (c) of the Commercial Computer Software - Restricted
+mantle_serial_1  | 2024-03-12T14:23:27.686206522Z Rights clause at FAR sec. 52.227-19 and subparagraph
+mantle_serial_1  | 2024-03-12T14:23:27.686207971Z (c) (1) (ii) of the Rights in Technical Data and Computer
+mantle_serial_1  | 2024-03-12T14:23:27.686209426Z Software clause at DFARS sec. 252.227-7013.
+mantle_serial_1  | 2024-03-12T14:23:27.686211079Z 
+mantle_serial_1  | 2024-03-12T14:23:27.686212502Z            cisco Systems, Inc.
+mantle_serial_1  | 2024-03-12T14:23:27.686214000Z            170 West Tasman Drive
+mantle_serial_1  | 2024-03-12T14:23:27.686215511Z            San Jose, California 95134-1706
+mantle_serial_1  | 2024-03-12T14:23:27.686217016Z 
+mantle_serial_1  | 2024-03-12T14:23:27.686218417Z 
+mantle_serial_1  | 2024-03-12T14:23:27.686219782Z 
+mantle_serial_1  | 2024-03-12T14:23:27.686221171Z Cisco IOS Software, C5915 Software (C5915-ADVENTERPRISEK9-M), Version 15.6(3)M6, RELEASE SOFTWARE (fc3)
+mantle_serial_1  | 2024-03-12T14:23:27.686222768Z Technical Support: http://www.cisco.com/techsupport
+mantle_serial_1  | 2024-03-12T14:23:27.686224275Z Copyright (c) 1986-2019 by Cisco Systems, Inc.
+mantle_serial_1  | 2024-03-12T14:23:27.686225768Z Compiled Wed 13-Feb-19 16:44 by prod_rel_team
+mantle_serial_1  | 2024-03-12T14:23:27.686237295Z 
+mantle_serial_1  | 2024-03-12T14:23:27.686239142Z 
+mantle_serial_1  | 2024-03-12T14:23:27.686240572Z Initializing flashfs...
+mantle_serial_1  | 2024-03-12T14:23:27.686241994Z flashfs[7]: 38 files, 1 directories
+mantle_serial_1  | 2024-03-12T14:23:27.686243435Z flashfs[7]: 0 orphaned files, 0 orphaned directories
+mantle_serial_1  | 2024-03-12T14:23:27.686244953Z flashfs[7]: Total bytes: 258951168
+mantle_serial_1  | 2024-03-12T14:23:27.686246430Z flashfs[7]: Bytes used: 106561536
+mantle_serial_1  | 2024-03-12T14:23:27.686248139Z flashfs[7]: Bytes available: 152389632
+mantle_serial_1  | 2024-03-12T14:23:27.686249625Z flashfs[7]: flashfs fsck took 9 seconds.
+mantle_serial_1  | 2024-03-12T14:23:27.686251139Z flashfs[7]: Initialization complete.
+mantle_serial_1  | 2024-03-12T14:23:28.277467344Z /dev/ttyUSB1: Applying line 270 of 333
+mantle_serial_1  | 2024-03-12T14:23:28.277529716Z /dev/ttyUSB3: Applying line 270 of 292
+mantle_serial_1  | 2024-03-12T14:23:28.878882685Z /dev/ttyUSB3: Applying line 271 of 292/dev/ttyUSB1: Applying line 271 of 333
+mantle_serial_1  | 2024-03-12T14:23:28.878948373Z 
+mantle_serial_1  | 2024-03-12T14:23:29.480322732Z /dev/ttyUSB3: Applying line 272 of 292
+mantle_serial_1  | 2024-03-12T14:23:29.480360960Z /dev/ttyUSB1: Applying line 272 of 333
+mantle_serial_1  | 2024-03-12T14:23:30.081759667Z /dev/ttyUSB1: Applying line 273 of 333
+mantle_serial_1  | 2024-03-12T14:23:30.081846572Z /dev/ttyUSB3: Applying line 273 of 292
+mantle_serial_1  | 2024-03-12T14:23:30.683221062Z /dev/ttyUSB3: Applying line 274 of 292/dev/ttyUSB1: Applying line 274 of 333
+mantle_serial_1  | 2024-03-12T14:23:30.683264058Z 
+mantle_serial_1  | 2024-03-12T14:23:31.283538528Z /dev/ttyUSB1: Applying line 275 of 333
+mantle_serial_1  | 2024-03-12T14:23:31.283955403Z /dev/ttyUSB3: Applying line 275 of 292
+mantle_serial_1  | 2024-03-12T14:23:31.884829740Z /dev/ttyUSB1: Applying line 276 of 333/dev/ttyUSB3: Applying line 276 of 292
+mantle_serial_1  | 2024-03-12T14:23:31.884906673Z 
+mantle_serial_1  | 2024-03-12T14:23:32.486325321Z /dev/ttyUSB1: Applying line 277 of 333
+mantle_serial_1  | 2024-03-12T14:23:32.486374264Z /dev/ttyUSB3: Applying line 277 of 292
+mantle_serial_1  | 2024-03-12T14:23:33.087229968Z /dev/ttyUSB1: Applying line 278 of 333/dev/ttyUSB3: Applying line 278 of 292
+mantle_serial_1  | 2024-03-12T14:23:33.087346751Z 
+mantle_serial_1  | 2024-03-12T14:23:33.688628979Z /dev/ttyUSB3: Applying line 279 of 292
+mantle_serial_1  | 2024-03-12T14:23:33.688704499Z /dev/ttyUSB1: Applying line 279 of 333
+mantle_serial_1  | 2024-03-12T14:23:34.290135936Z /dev/ttyUSB3: Applying line 280 of 292/dev/ttyUSB1: Applying line 280 of 333
+mantle_serial_1  | 2024-03-12T14:23:34.290193228Z 
+mantle_serial_1  | 2024-03-12T14:23:34.891544942Z /dev/ttyUSB1: Applying line 281 of 333/dev/ttyUSB3: Applying line 281 of 292
+mantle_serial_1  | 2024-03-12T14:23:34.891587348Z 
+mantle_serial_1  | 2024-03-12T14:23:35.492433762Z /dev/ttyUSB3: Applying line 282 of 292/dev/ttyUSB1: Applying line 282 of 333
+mantle_serial_1  | 2024-03-12T14:23:35.492472540Z 
+mantle_serial_1  | 2024-03-12T14:23:36.093309786Z /dev/ttyUSB1: Applying line 283 of 333/dev/ttyUSB3: Applying line 283 of 292
+mantle_serial_1  | 2024-03-12T14:23:36.093355886Z 
+mantle_serial_1  | 2024-03-12T14:23:36.694770822Z /dev/ttyUSB1: Applying line 284 of 333/dev/ttyUSB3: Applying line 284 of 292
+mantle_serial_1  | 2024-03-12T14:23:36.694831371Z 
+mantle_serial_1  | 2024-03-12T14:23:37.296186447Z /dev/ttyUSB3: Applying line 285 of 292/dev/ttyUSB1: Applying line 285 of 333
+mantle_serial_1  | 2024-03-12T14:23:37.296222345Z 
+mantle_serial_1  | 2024-03-12T14:23:37.896404104Z /dev/ttyUSB1: Applying line 286 of 333
+mantle_serial_1  | 2024-03-12T14:23:37.896961122Z /dev/ttyUSB3: Applying line 286 of 292
+mantle_serial_1  | 2024-03-12T14:23:38.497842057Z /dev/ttyUSB1: Applying line 287 of 333
+mantle_serial_1  | 2024-03-12T14:23:38.498807357Z /dev/ttyUSB3: Applying line 287 of 292
+mantle_serial_1  | 2024-03-12T14:23:38.498823827Z /dev/ttyUSB3: Sleeping to allow SSH key to generate..
+mantle_serial_1  | 2024-03-12T14:23:39.098906596Z /dev/ttyUSB1: Applying line 288 of 333
+mantle_serial_1  | 2024-03-12T14:23:39.700304386Z /dev/ttyUSB1: Applying line 289 of 333
+mantle_serial_1  | 2024-03-12T14:23:40.301684164Z /dev/ttyUSB1: Applying line 290 of 333
+mantle_serial_1  | 2024-03-12T14:23:40.902346739Z /dev/ttyUSB1: Applying line 291 of 333
+mantle_serial_1  | 2024-03-12T14:23:41.503122880Z /dev/ttyUSB1: Applying line 292 of 333
+mantle_serial_1  | 2024-03-12T14:23:42.104235923Z /dev/ttyUSB1: Applying line 293 of 333
+mantle_serial_1  | 2024-03-12T14:23:42.705174961Z /dev/ttyUSB1: Applying line 294 of 333
+mantle_serial_1  | 2024-03-12T14:23:43.306541866Z /dev/ttyUSB1: Applying line 295 of 333
+mantle_serial_1  | 2024-03-12T14:23:43.907895963Z /dev/ttyUSB1: Applying line 296 of 333
+mantle_serial_1  | 2024-03-12T14:23:44.509242144Z /dev/ttyUSB1: Applying line 297 of 333
+mantle_serial_1  | 2024-03-12T14:23:45.110641435Z /dev/ttyUSB1: Applying line 298 of 333
+mantle_serial_1  | 2024-03-12T14:23:45.712027250Z /dev/ttyUSB1: Applying line 299 of 333
+mantle_serial_1  | 2024-03-12T14:23:46.313368421Z /dev/ttyUSB1: Applying line 300 of 333
+mantle_serial_1  | 2024-03-12T14:23:46.853380526Z /dev/ttyUSB0: 
+mantle_serial_1  | 2024-03-12T14:23:46.853447443Z This product contains cryptographic features and is subject to United
+mantle_serial_1  | 2024-03-12T14:23:46.853451924Z States and local country laws governing import, export, transfer and
+mantle_serial_1  | 2024-03-12T14:23:46.853473749Z use. Delivery of Cisco cryptographic products does not imply
+mantle_serial_1  | 2024-03-12T14:23:46.853476928Z third-party authority to import, export, distribute or use encryption.
+mantle_serial_1  | 2024-03-12T14:23:46.853479446Z Importers, exporters, distributors and users are responsible for
+mantle_serial_1  | 2024-03-12T14:23:46.853482347Z compliance with U.S. and local country laws. By using this product you
+mantle_serial_1  | 2024-03-12T14:23:46.853485373Z agree to comply with applicable laws and regulations. If you are unable
+mantle_serial_1  | 2024-03-12T14:23:46.853488072Z to comply with U.S. and local laws, return this product immediately.
+mantle_serial_1  | 2024-03-12T14:23:46.853491110Z 
+mantle_serial_1  | 2024-03-12T14:23:46.853493837Z A summary of U.S. laws governing Cisco cryptographic products may be found at:
+mantle_serial_1  | 2024-03-12T14:23:46.853502128Z http://www.cisco.com/wwl/export/crypto/tool/stqrg.html
+mantle_serial_1  | 2024-03-12T14:23:46.853504758Z 
+mantle_serial_1  | 2024-03-12T14:23:46.853507340Z If you require further assistance please contact us by sending email to
+mantle_serial_1  | 2024-03-12T14:23:46.853521599Z export@cisco.com.
+mantle_serial_1  | 2024-03-12T14:23:46.853525948Z 
+mantle_serial_1  | 2024-03-12T14:23:46.853528823Z Cisco C5915 (MPC8300) processor (revision 1.0) with 472064K/52224K bytes of memory.Installed image archive
+mantle_serial_1  | 2024-03-12T14:23:46.853531414Z 
+mantle_serial_1  | 2024-03-12T14:23:46.853533910Z Processor board ID FOC20221KRV
+mantle_serial_1  | 2024-03-12T14:23:46.853536906Z 
+mantle_serial_1  | 2024-03-12T14:23:46.853539195Z 5 FastEthernet interfaces
+mantle_serial_1  | 2024-03-12T14:23:46.853541517Z 1 terminal line
+mantle_serial_1  | 2024-03-12T14:23:46.853544354Z 1 Virtual Private Network (VPN) Module
+mantle_serial_1  | 2024-03-12T14:23:46.853547396Z 256K bytes of non-volatile configuration memory.
+mantle_serial_1  | 2024-03-12T14:23:46.853549813Z 256MB of processor board system flash (NUMONYX M29EWH)
+mantle_serial_1  | 2024-03-12T14:23:46.853552023Z  
+mantle_serial_1  | 2024-03-12T14:23:46.853554624Z 
+mantle_serial_1  | 2024-03-12T14:23:46.853556802Z 
+mantle_serial_1  | 2024-03-12T14:23:46.853559047Z Press RETURN to get started!
+mantle_serial_1  | 2024-03-12T14:23:46.853564049Z 
+mantle_serial_1  | 2024-03-12T14:23:46.853567911Z 
+mantle_serial_1  | 2024-03-12T14:23:46.853570524Z 
+mantle_serial_1  | 2024-03-12T14:23:46.853574003Z User Access Verification
+mantle_serial_1  | 2024-03-12T14:23:46.853576976Z 
+mantle_serial_1  | 2024-03-12T14:23:46.853579463Z Username:
+mantle_serial_1  | 2024-03-12T14:23:46.853582048Z Found Username prompt. You must erase the device configuration using the Write.
+mantle_serial_1  | 2024-03-12T14:23:46.853584380Z Erase Utility or manually console into the device to issue the write erase command.
+mantle_serial_1  | 2024-03-12T14:23:46.914275115Z /dev/ttyUSB1: Applying line 301 of 333
+mantle_serial_1  | 2024-03-12T14:23:47.514490776Z /dev/ttyUSB1: Applying line 302 of 333
+mantle_serial_1  | 2024-03-12T14:23:48.115795125Z /dev/ttyUSB1: Applying line 303 of 333
+mantle_serial_1  | 2024-03-12T14:23:48.717250255Z /dev/ttyUSB1: Applying line 304 of 333
+mantle_serial_1  | 2024-03-12T14:23:49.318556280Z /dev/ttyUSB1: Applying banner...
+mantle_serial_1  | 2024-03-12T14:23:49.318622774Z /dev/ttyUSB1: Applying line 305 of 333
+mantle_serial_1  | 2024-03-12T14:23:49.919422788Z /dev/ttyUSB1: Applying line 306 of 333
+mantle_serial_1  | 2024-03-12T14:23:50.520760744Z /dev/ttyUSB1: Applying line 307 of 333
+mantle_serial_1  | 2024-03-12T14:23:51.121569861Z /dev/ttyUSB1: Applying line 308 of 333
+mantle_serial_1  | 2024-03-12T14:23:51.722884174Z /dev/ttyUSB1: Applying line 309 of 333
+mantle_serial_1  | 2024-03-12T14:23:52.323909437Z /dev/ttyUSB1: Applying line 310 of 333
+mantle_serial_1  | 2024-03-12T14:23:52.924803023Z /dev/ttyUSB1: Applying line 311 of 333
+mantle_serial_1  | 2024-03-12T14:23:53.514472549Z /dev/ttyUSB3: Applying line 288 of 292
+mantle_serial_1  | 2024-03-12T14:23:53.525828064Z /dev/ttyUSB1: Applying line 312 of 333
+mantle_serial_1  | 2024-03-12T14:23:54.115262090Z /dev/ttyUSB3: Applying line 289 of 292
+mantle_serial_1  | 2024-03-12T14:23:54.127241924Z /dev/ttyUSB1: Applying line 313 of 333
+mantle_serial_1  | 2024-03-12T14:23:54.716152137Z /dev/ttyUSB3: Applying line 290 of 292
+mantle_serial_1  | 2024-03-12T14:23:54.728464858Z /dev/ttyUSB1: Applying line 314 of 333
+mantle_serial_1  | 2024-03-12T14:23:55.317518387Z /dev/ttyUSB3: Applying line 291 of 292
+mantle_serial_1  | 2024-03-12T14:23:55.329458648Z /dev/ttyUSB1: Applying line 315 of 333
+mantle_serial_1  | 2024-03-12T14:23:55.918907775Z /dev/ttyUSB3: Applying line 292 of 292
+mantle_serial_1  | 2024-03-12T14:23:55.930250196Z /dev/ttyUSB1: Applying line 316 of 333
+mantle_serial_1  | 2024-03-12T14:23:56.531044608Z /dev/ttyUSB1: Applying line 317 of 333
+mantle_serial_1  | 2024-03-12T14:23:56.921348040Z /dev/ttyUSB3: Configuring Device Clock: clock set 14:23:56 Mar 12 2024
+mantle_serial_1  | 2024-03-12T14:23:56.921412515Z /dev/ttyUSB3: Saving configuration to flash: 12Mar2024_TACLANSW2..
+mantle_serial_1  | 2024-03-12T14:23:57.132303437Z /dev/ttyUSB1: Applying line 318 of 333
+mantle_serial_1  | 2024-03-12T14:23:57.733061255Z /dev/ttyUSB1: Applying line 319 of 333
+mantle_serial_1  | 2024-03-12T14:23:58.334039949Z /dev/ttyUSB1: Applying line 320 of 333
+mantle_serial_1  | 2024-03-12T14:23:58.935454485Z /dev/ttyUSB1: Applying line 321 of 333
+mantle_serial_1  | 2024-03-12T14:23:59.536469445Z /dev/ttyUSB1: Applying line 322 of 333
+mantle_serial_1  | 2024-03-12T14:24:00.137650412Z /dev/ttyUSB1: Applying line 323 of 333
+mantle_serial_1  | 2024-03-12T14:24:00.738446503Z /dev/ttyUSB1: Applying line 324 of 333
+mantle_serial_1  | 2024-03-12T14:24:01.339884444Z /dev/ttyUSB1: Applying line 325 of 333
+mantle_serial_1  | 2024-03-12T14:24:01.940999766Z /dev/ttyUSB1: Applying line 326 of 333
+mantle_serial_1  | 2024-03-12T14:24:02.541408608Z /dev/ttyUSB1: Applying line 327 of 333
+mantle_serial_1  | 2024-03-12T14:24:03.142941855Z /dev/ttyUSB1: Applying line 328 of 333
+mantle_serial_1  | 2024-03-12T14:24:03.142994121Z /dev/ttyUSB1: Sleeping to allow SSH key to generate..
+mantle_serial_1  | 2024-03-12T14:24:08.323425116Z /dev/ttyUSB3: Writing changes to startup configuration..
+mantle_serial_1  | 2024-03-12T14:24:14.332633178Z /dev/ttyUSB3: --- TACLANSW2 Configuration Successful ---
+mantle_serial_1  | 2024-03-12T14:24:14.332685817Z /dev/ttyUSB3: Capturing output of 'show running-config'...
+mantle_serial_1  | 2024-03-12T14:24:18.157387355Z /dev/ttyUSB1: Applying line 329 of 333
+mantle_serial_1  | 2024-03-12T14:24:18.758116367Z /dev/ttyUSB1: Applying line 330 of 333
+mantle_serial_1  | 2024-03-12T14:24:19.358869029Z /dev/ttyUSB1: Applying line 331 of 333
+mantle_serial_1  | 2024-03-12T14:24:19.959285158Z /dev/ttyUSB1: Applying line 332 of 333
+mantle_serial_1  | 2024-03-12T14:24:20.560015074Z /dev/ttyUSB1: Applying line 333 of 333
+mantle_serial_1  | 2024-03-12T14:24:21.561273530Z /dev/ttyUSB1: Configuring Device Clock: clock set 14:24:21 Mar 12 2024
+mantle_serial_1  | 2024-03-12T14:24:21.561315605Z /dev/ttyUSB1: Saving configuration to flash: 12Mar2024_TACLANSW1..
+mantle_serial_1  | 2024-03-12T14:24:23.777819286Z /dev/ttyUSB3: Capturing output of 'show version'...
+mantle_serial_1  | 2024-03-12T14:24:28.197063100Z /dev/ttyUSB3: Capturing output of 'show inventory'...
+mantle_serial_1  | 2024-03-12T14:24:29.546696178Z /dev/ttyUSB3: Exiting Device...
+mantle_serial_1  | 2024-03-12T14:24:32.941993397Z /dev/ttyUSB1: Writing changes to startup configuration..
+mantle_serial_1  | 2024-03-12T14:24:39.029288887Z /dev/ttyUSB1: --- TACLANSW1 Configuration Successful ---
+mantle_serial_1  | 2024-03-12T14:24:39.029357360Z /dev/ttyUSB1: Capturing output of 'show running-config'...
+mantle_serial_1  | 2024-03-12T14:24:50.407527433Z /dev/ttyUSB1: Capturing output of 'show version'...
+mantle_serial_1  | 2024-03-12T14:24:54.872145552Z /dev/ttyUSB1: Capturing output of 'show inventory'...
+mantle_serial_1  | 2024-03-12T14:24:56.220166067Z /dev/ttyUSB1: Exiting Device...
+mantle_serial_1  | 2024-03-12T14:24:56.261895631Z Oops! Deployment failed
+VM Logs:
+undefined
