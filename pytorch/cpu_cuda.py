@@ -1,6 +1,7 @@
 import torch
 if torch.cuda.is_available():
    device = torch.device('cuda')
+   print("using cuda\n")
 else:
   device = torch.device('cpu')
 x = torch.tensor([1,2,3]).to(device)
