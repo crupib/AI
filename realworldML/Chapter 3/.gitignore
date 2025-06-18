@@ -1,0 +1,4 @@
+keycloak.yaml
+*.tfstate
+*.tfstate.backup
+.terraform/*

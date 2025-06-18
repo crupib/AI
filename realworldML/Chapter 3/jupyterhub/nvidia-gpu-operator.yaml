@@ -1,0 +1,55 @@
+driver:
+  enabled: false
+  repository: nvcr.io/nvidia
+  version: "570.86.15" #525.125.06
+  manager:
+    env:
+      - name: ENABLE_AUTO_DRAIN
+        value: "false"
+      - name: ENABLE_NODE_READY
+        value: "false"
+      - name: DRIVER_TYPE
+        value: gpu
+
+mig:
+  strategy: mixed
+
+devicePlugin:
+  enabled: false
+  version: v0.13.0
+
+migManager:
+  enabled: true
+  default: all-balanced
+  WITH_REBOOT: true
+
+toolkit:
+  version: v1.13.1-centos7
+  enabled: false
+  env:
+    - name: NVIDIA_VISIBLE_DEVICE
+      value: all
+    - name: NVIDIA_DRIVER_CAPABILITIES
+      value: all
+
+operator:
+  defaultRuntime: containerd
+  runtimeClassName: nvidia
+
+gfd:
+  version: v0.15.0-ubi8 #v0.8.0
+
+containerRuntime: containerd
+
+dcgm:
+  enabled: true
+
+dcgmExporter:
+  enabled: true
+  serviceMonitor:
+    enabled: true
+    namespace: kube-system
+    interval: 30s
+    additionalLabels:
+      release: prometheus
+
