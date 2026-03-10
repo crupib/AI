@@ -1,11 +1,13 @@
 from transformers import AutoModelForSequenceClassification, AutoTokenizer
 
-model_name = 'distilbert-base-uncased-finetuned-sst-2-english'
-revision = 'af0f99b'
+model_name = "distilbert-base-uncased-finetuned-sst-2-english"
 
-model = AutoModelForSequenceClassification.from_pretrained(model_name, revision=revision)
-tokenizer = AutoTokenizer.from_pretrained(model_name, revision=revision)
+model = AutoModelForSequenceClassification.from_pretrained(
+    model_name,
+    use_safetensors=False
+)
 
-# Save locally with safetensors format
-model.save_pretrained('./sst2_model', safe_serialization=True)
-tokenizer.save_pretrained('./sst2_model')
+tokenizer = AutoTokenizer.from_pretrained(model_name)
+
+model.save_pretrained("./sst2_model", safe_serialization=True)
+tokenizer.save_pretrained("./sst2_model")
