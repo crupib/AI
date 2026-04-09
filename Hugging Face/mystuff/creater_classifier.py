@@ -24,6 +24,7 @@ classifier = pipeline(
     model="distilbert-base-uncased-finetuned-sst-2-english",
     token=token,
 )
-print(classifier("I hate evil and love good."))
+print(classifier("My balls are feeling aroused because of Scarlet Johanson."))
+#print(classifier("I hate evil and love good."))
 result = classifier(text)
 pd.DataFrame(result)
