@@ -15,8 +15,8 @@ class GPTDatasetV1(Dataset):
         self.target_ids = []
 
         # Tokenize the entire text
-        token_ids = tokenizer.encode(txt, allowed_special={"<|endoftext|>"})
-
+        #token_ids = tokenizer.encode(txt, allowed_special={"<|endoftext|>"})
+        token_ids = tokenizer.encode(txt)
         # Use a sliding window to chunk the book into overlapping sequences of max_length
         for i in range(0, len(token_ids) - max_length, stride):
             input_chunk = token_ids[i:i + max_length]
@@ -44,20 +44,25 @@ def create_dataloader_v1(txt, batch_size=4, max_length=256,
         dataset, batch_size=batch_size, shuffle=shuffle, drop_last=drop_last, num_workers=num_workers)
 
     return dataloader
+
+
 def main():
     filename = "/Users/williamcrupi/Documents/github/AI/LLMs-from-scratch/the-verdict.txt"
     tokens = []
 
     try:
         with open(filename, "r", encoding="utf-8") as f:
-            for i, line in enumerate(f):
-                raw_text = line.rstrip()
-        
+            raw_text = f.read()
+
     except FileNotFoundError:
         print(f"File '{filename}' not found.")
     except Exception as e:
         print(f"Unexpected error: {e}")
-
-
+    dataloader = create_dataloader_v1(raw_text,batch_size=1,max_length=8,stride=4,shuffle=False)
+    data_iter = iter(dataloader)
+    first_batch = next(data_iter)
+    print(first_batch)
+    second_batch = next(data_iter)
+    print(second_batch)
 if __name__ == "__main__":
     main()
