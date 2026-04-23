@@ -1,13 +1,6 @@
-# Copyright (c) Sebastian Raschka under Apache License 2.0 (see LICENSE.txt).
-# Source for "Build a Large Language Model From Scratch"
-#   - https://www.manning.com/books/build-a-large-language-model-from-scratch
-# Code: https://github.com/rasbt/LLMs-from-scratch
-
 import torch
-from torch import nn
 from torch.utils.data import Dataset, DataLoader
 import tiktoken
-
 
 class GPTDatasetV1(Dataset):
     def __init__(self, txt, tokenizer, max_length, stride):
@@ -35,8 +28,8 @@ class GPTDatasetV1(Dataset):
 def create_dataloader_v1(txt, batch_size=4, max_length=256,
                          stride=128, shuffle=True, drop_last=True, num_workers=0):
     # Initialize the tokenizer
-    tokenizer = tiktoken.get_encoding("gpt2")
-
+    tokenizer = tiktoken.get_encoding("p50k_base")
+    #tiktoken.get_encoding("text-davinci-003")
     # Create dataset
     dataset = GPTDatasetV1(txt, tokenizer, max_length, stride)
 
@@ -47,10 +40,9 @@ def create_dataloader_v1(txt, batch_size=4, max_length=256,
     return dataloader
 
 
+
 def main():
     filename = "/Users/williamcrupi/Documents/github/AI/LLMs-from-scratch/the-verdict.txt"
-    tokens = []
-
     try:
         with open(filename, "r", encoding="utf-8") as f:
             raw_text = f.read()
@@ -59,17 +51,29 @@ def main():
         print(f"File '{filename}' not found.")
     except Exception as e:
         print(f"Unexpected error: {e}")
-    vocab = 50257
+    vocab_size = 50257
     output_dim = 256
-    token_embedding = torch.nn.Embedding(vocab, output_dim)
-    dataloader = create_dataloader_v1(raw_text,batch_size=8,max_length=4,stride=4,shuffle=False)
+    max_length = 4
+    token_embedding_layer = torch.nn.Embedding(vocab_size, output_dim)
+    dataloader = create_dataloader_v1(
+                     raw_text,
+                      batch_size=8,
+                      max_length=max_length,
+                      stride=max_length,
+                      shuffle=False
+                    )
     data_iter = iter(dataloader)
     inputs, targets = next(data_iter)
-    print(f"inputs = {inputs}")
-    print(f"\nTargets = {targets}")
-    #first_batch = next(data_iter)
-    #print(first_batch)
-    #second_batch = next(data_iter)
-    #print(second_batch)
+    print(f"\nToken IDs: {inputs}")
+    print(f"\nInputs shape: {inputs.shape}")
+    token_embeddings = token_embedding_layer(inputs)
+    print(token_embeddings.shape)
+    context_length = max_length
+    pos_embedding_layer = torch.nn.Embedding(context_length, output_dim)
+    pos_embeddings = pos_embedding_layer(torch.arange(context_length))
+    print(f"\nPos embedding shape: {pos_embeddings.shape}")
+    input_embeddings = token_embeddings+pos_embeddings
+    print(f"\nPos embedding shape: {input_embeddings.shape}")
 if __name__ == "__main__":
     main()
+
