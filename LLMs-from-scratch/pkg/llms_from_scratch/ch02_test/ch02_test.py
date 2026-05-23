@@ -4,6 +4,7 @@
 # Code: https://github.com/rasbt/LLMs-from-scratch
 
 import torch
+from torch import nn
 from torch.utils.data import Dataset, DataLoader
 import tiktoken
 
@@ -15,8 +16,8 @@ class GPTDatasetV1(Dataset):
         self.target_ids = []
 
         # Tokenize the entire text
-        token_ids = tokenizer.encode(txt, allowed_special={"<|endoftext|>"})
-
+        #token_ids = tokenizer.encode(txt, allowed_special={"<|endoftext|>"})
+        token_ids = tokenizer.encode(txt)
         # Use a sliding window to chunk the book into overlapping sequences of max_length
         for i in range(0, len(token_ids) - max_length, stride):
             input_chunk = token_ids[i:i + max_length]
@@ -44,20 +45,31 @@ def create_dataloader_v1(txt, batch_size=4, max_length=256,
         dataset, batch_size=batch_size, shuffle=shuffle, drop_last=drop_last, num_workers=num_workers)
 
     return dataloader
+
+
 def main():
     filename = "/Users/williamcrupi/Documents/github/AI/LLMs-from-scratch/the-verdict.txt"
     tokens = []
 
     try:
         with open(filename, "r", encoding="utf-8") as f:
-            for i, line in enumerate(f):
-                raw_text = line.rstrip()
-        
+            raw_text = f.read()
+
     except FileNotFoundError:
         print(f"File '{filename}' not found.")
     except Exception as e:
         print(f"Unexpected error: {e}")
-
-
+    vocab = 50257
+    output_dim = 256
+    token_embedding = torch.nn.Embedding(vocab, output_dim)
+    dataloader = create_dataloader_v1(raw_text,batch_size=8,max_length=4,stride=4,shuffle=False)
+    data_iter = iter(dataloader)
+    inputs, targets = next(data_iter)
+    print(f"inputs = {inputs}")
+    print(f"\nTargets = {targets}")
+    #first_batch = next(data_iter)
+    #print(first_batch)
+    #second_batch = next(data_iter)
+    #print(second_batch)
 if __name__ == "__main__":
     main()

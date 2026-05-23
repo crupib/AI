@@ -1,12 +1,6 @@
-# Copyright (c) Sebastian Raschka under Apache License 2.0 (see LICENSE.txt).
-# Source for "Build a Large Language Model From Scratch"
-#   - https://www.manning.com/books/build-a-large-language-model-from-scratch
-# Code: https://github.com/rasbt/LLMs-from-scratch
-
 import torch
 from torch.utils.data import Dataset, DataLoader
 import tiktoken
-
 
 class GPTDatasetV1(Dataset):
     def __init__(self, txt, tokenizer, max_length, stride):
@@ -45,19 +39,14 @@ def create_dataloader_v1(txt, batch_size=4, max_length=256,
 
     return dataloader
 def main():
-    filename = "/Users/williamcrupi/Documents/github/AI/LLMs-from-scratch/the-verdict.txt"
-    tokens = []
-
-    try:
-        with open(filename, "r", encoding="utf-8") as f:
-            for i, line in enumerate(f):
-                raw_text = line.rstrip()
-        
-    except FileNotFoundError:
-        print(f"File '{filename}' not found.")
-    except Exception as e:
-        print(f"Unexpected error: {e}")
-
-
+    print("dataloader")
+    filename = "the-verdict.txt"
+    with open(filename, "r", encoding="utf-8") as f:
+       raw_text = f.read()
+    dataloader = create_dataloader_v1(
+        raw_text, batch_size=1, max_length=4, stride=1, shuffle=False)
+    data_iter = iter(dataloader)
+    first_batch = next(data_iter)
+    print(first_batch)
 if __name__ == "__main__":
     main()
