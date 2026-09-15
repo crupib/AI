@@ -73,7 +73,8 @@ def main():
         tokenizer = SimpleTokenizerV1(vocab)
 
 
-        text = "Hello, do you like tea Mr. Cellphone?"
+        text = """"It's the last he painted, you know,"
+               Mrs. Gisburn said with pardonable pride."""
         enc_text = tokenizer.encode(text)
         print(enc_text)
         dec_text = tokenizer.decode(enc_text)
