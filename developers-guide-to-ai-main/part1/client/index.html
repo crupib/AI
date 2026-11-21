@@ -1,12 +1,117 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>The Developer's Guide to AI</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
-  </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI for Devs</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 20px;
+        }
+
+        textarea {
+            width: 100%;
+            min-height: 200px;
+            padding: 12px;
+            font-size: 16px;
+            resize: vertical;
+            box-sizing: border-box;
+        }
+
+        button {
+            margin-top: 10px;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        button:disabled {
+            opacity: 0.6;
+            cursor: not-allowed;
+        }
+
+        #response {
+            margin-top: 30px;
+            padding: 20px;
+            background: #f5f5f5;
+            white-space: pre-wrap;
+            min-height: 150px;
+            max-height: 60vh;
+            overflow-y: auto;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>AI for Devs</h1>
+
+    <textarea
+        id="question"
+        placeholder="Enter your prompt here...
+
+You can now enter
+multiple lines
+of text."
+    ></textarea>
+
+    <br>
+
+    <button id="submit">Ask AI</button>
+
+    <div id="response"></div>
+
+    <script>
+        const questionEl = document.getElementById("question");
+        const submitBtn  = document.getElementById("submit");
+        const responseEl = document.getElementById("response");
+
+        submitBtn.addEventListener("click", async () => {
+            const question = questionEl.value.trim();
+            if (!question) return;
+
+            responseEl.textContent = "Thinking… (first request can take a while while the model loads)";
+            submitBtn.disabled = true;
+
+            try {
+                const res = await fetch("http://localhost:8000/", {
+                    method: "POST",
+                    headers: { "Content-Type": "application/json" },
+                    body: JSON.stringify({ question })
+                });
+
+                if (!res.ok) {
+                    const errText = await res.text();
+                    throw new Error(errText || `HTTP ${res.status}`);
+                }
+
+                responseEl.textContent = "";
+                const reader  = res.body.getReader();
+                const decoder = new TextDecoder();
+
+                while (true) {
+                    const { value, done } = await reader.read();
+                    if (done) break;
+
+                    responseEl.textContent += decoder.decode(value, { stream: true });
+
+                    // Keep the latest text visible
+                    responseEl.scrollTop = responseEl.scrollHeight;
+                    window.scrollTo(0, document.body.scrollHeight);
+                }
+            } catch (err) {
+                console.error(err);
+                responseEl.textContent =
+                    "Error: " + err.message +
+                    "\n\nCheck the server terminal and make sure Ollama is running and the model is pulled.";
+            } finally {
+                submitBtn.disabled = false;
+            }
+        });
+    </script>
+
+</body>
 </html>

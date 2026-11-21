@@ -1,6 +1,5 @@
 import tiktoken
 
-
 def count_tokens(text: str, model_name: str):
   # all OpenAI models are supported
   encoding = tiktoken.encoding_for_model(model_name)
@@ -14,5 +13,12 @@ def count_tokens(text: str, model_name: str):
 
 model_name = "gpt-5-mini"
 sample_text = "I'm having password issues. Can you help me log in?"
+sample2_text = "Supercalifragilisticexpialidocious"
+sample3_text = "Can you help me change my password"
 
+print(sample_text)
 count_tokens(sample_text, model_name)
+print(sample3_text)
+count_tokens(sample3_text, model_name)
+print(sample2_text)
+count_tokens(sample2_text, model_name)
